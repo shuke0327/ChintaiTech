@@ -1,0 +1,39 @@
+
+> auction-frontend-react@0.1.0 build /opt/auction-frontend/frontend-react
+> GENERATE_SOURCEMAP=false node scripts/build.js && rm -rf ../backend-express/public/* && cp -r -f build/* ../backend-express/public/
+
+Creating an optimized production build...
+Browserslist: caniuse-lite is outdated. Please run next command `npm update caniuse-lite browserslist`
+Compiled successfully.
+
+File sizes after gzip:
+
+  249.98 KB  build/static/js/1.2e8f0f78.chunk.js
+  111.74 KB  build/static/js/main.941a451c.chunk.js
+  2.79 KB    build/static/css/1.e6d98849.chunk.css
+  719 B      build/static/js/runtime~main.229c360f.js
+  192 B      build/static/css/main.b9b9c8dc.chunk.css
+
+The project was built assuming it is hosted at the server root.
+You can control this with the homepage field in your package.json.
+For example, add this to build it for GitHub Pages:
+
+  "homepage" : "http://myname.github.io/myapp",
+
+The build folder is ready to be deployed.
+You may serve it with a static server:
+
+  npm install -g serve
+  serve -s build
+
+Find out more about deployment here:
+
+  http://bit.ly/CRA-deploy
+
+
+┌───────────────────────────────────────────────────────────┐
+│                  npm update check failed                  │
+│            Try running with sudo or get access            │
+│           to the local update config store via            │
+│ sudo chown -R $USER:$(id -gn $USER) /home/hamnett/.config │
+└───────────────────────────────────────────────────────────┘

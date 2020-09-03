@@ -1,0 +1,1201 @@
+{
+  "zh": {
+    "langselector": {
+      "native": "简体中文"
+    },
+    "notifications": {
+      "app": {
+        "successfulLogin": "成功登录",
+        "goodbye": "已退出登录",
+        "scatterMissing": "未发现 Scatter 桌面版钱包。请启动 Scatter 桌面应用解锁后重试",
+        "invalidEmail": "Email 订阅失败 - 请提交有效 email 地址重试",
+        "subscribeSuccess": "订阅成功",
+        "readTos": "请先读完 \"条款 & 条件\"再点击接受",
+        "tosChecks": "请勾选所有选框，确保你阅读并理解 \"条款 & 条件\".",
+        "txCancelled": "交易已取消",
+        "clipboardContract": "已复制账号至粘贴板",
+        "clipboardMemo": "已复制 Memo 信息至粘贴板",
+        "bidSuccessful": "成功提交竞价交易",
+        "autoresDepositSuccessful": "充值请求提交成功",
+        "autoresWithdrawSuccessful": "转出请求提交成功",
+        "autoresBlacklistSuccessful": "黑名单操作已成功提交",
+        "autoresBlacklistRemove": "移除黑名单操作已成功提交",
+        "autoresConfigSuccessful": "配置修改已成功提交",
+        "autoresConfigRemove": "删除配置信息的请求已成功提交",
+        "insufficientFunds": "您钱包中可用资产不足。请确保您钱包中有足够的资金以完成您的交易请求",
+        "kycNotCompletedYet": "参与代币拍卖，请先完成 KYC 流程。请查看 KYC 状态的标签栏，了解更多信息",
+        "unsubscribeSuccess": "已成功退订邮件列表。",
+        "emergencyCpu": "需要 CPU 急救，如果提交后仍然遇到 100% 的情形，请再次提交请求",
+        "chexFeesNotify": "充值 CHEX， 立即获得抵扣 75%",
+        "convertSuccess": "交易成功提交，EOS 转换为 CHEX"
+      }
+    },
+    "teamMembers": [
+      {
+        "name": "David Packham",
+        "title": "CEO & 联合创始人",
+        "bio": [
+          "David 在金融与资产管理领域有超过 20 年的从业经验，曾在金融技术、商业战略和项目管理等领域曾为诸多全球性机构工作。",
+          "David所学专业为经济学和商业系统分析与设计，他是一个去中心化主义者，对区块链技术在增加个人自由和减少不平等来改变世界的潜力方面，他充满热情与信念。",
+          "作为 Chintai 的主导者，他致力于确保产品的各个方面都符合最高的行业标准。"
+        ],
+        "photo": "david-packham.jpg",
+        "social": [
+          {
+            "type": "linkedIn",
+            "url": "https://www.linkedin.com/in/davidpackham/"
+          },
+          {
+            "type": "telegram",
+            "url": "http://t.me/GunnisonCap"
+          },
+          {
+            "type": "twitter",
+            "url": "https://twitter.com/GunnisonCap"
+          }
+        ]
+      },
+      {
+        "name": "Phillip Hamnett",
+        "title": "CTO",
+        "bio": [
+          "Phillip 有着九年的软件开发经验，使用 C++ 和 嵌入式 C 语言编程。",
+          "他曾是复杂性理论领域的物理学家，开发蒙特卡罗模型来模拟城市的交通流量。",
+          "之后，他负责高能物理领域的数据分析工作，借助大型强子对撞机探寻新的粒子。",
+          "完成博士学位后，Phillip 进入航空领域，为空客(Airbus)开发软件。",
+          "如今， Phillip 加入 Chintai 团队，负责平台开发。"
+        ],
+        "photo": "phillip-hamnett.jpg",
+        "social": [
+          {
+            "type": "linkedIn",
+            "url": "https://www.linkedin.com/in/philliphamnett/"
+          },
+          {
+            "type": "telegram",
+            "url": "http://t.me/PhillipHamnett"
+          },
+          {
+            "type": "github",
+            "url": "https://github.com/PhillipHamnett"
+          },
+          {
+            "type": "twitter",
+            "url": "https://twitter.com/HamnettPhillip"
+          }
+        ]
+      },
+      {
+        "name": "Ryan Bethem",
+        "title": "COO",
+        "bio": [
+          "Ryan 拥有临床心理学博士学位，曾在心理学(偏重于行为经济学方向）获得了硕士学位。",
+          "2016年， Ryan 意识到区块链技术可能对全球金融系统产生潜在影响，他很快就成为了去中心化的热心支持者和倡导者。",
+          "最终，Ryan 在 2017 年决定进入区块链行业。他很快在 EOSIO 治理发展上起到了引领作用，并在 2019 年为 EOS 主网撰写了新版的治理合约，供出块节点所用。",
+          "Ryan 负责领导 Chintai 的品牌开发、传播、运营和商务拓展工作。"
+        ],
+        "photo": "ryan-bethem.jpg",
+        "social": [
+          {
+            "type": "linkedIn",
+            "url": "https://www.linkedin.com/in/ryanbethem/"
+          },
+          {
+            "type": "telegram",
+            "url": "http://t.me/ryanbethem"
+          },
+          {
+            "type": "twitter",
+            "url": "https://twitter.com/ryaneos42"
+          }
+        ]
+      },
+      {
+        "name": "Michael Fletcher",
+        "title": "资深开发者",
+        "bio": [
+          "Michael 曾在物流自动化行业从事后端开发，有着 5 年的软件开发经验。",
+          "他曾为一些全球性的大公司所使用的系统做出了开发贡献。Michael 专注于创建实时、涉及核心业务的分布式系统。"
+        ],
+        "photo": "michael-fletcher.jpg",
+        "social": [
+          {
+            "type": "telegram",
+            "url": "http://t.me/mikeFletcher"
+          },
+          {
+            "type": "twitter",
+            "url": "https://twitter.com/Michael32766593"
+          },
+          {
+            "type": "github",
+            "url": "https://github.com/Fletch153"
+          }
+        ]
+      },
+      {
+        "name": "Andrew Diedrich",
+        "title": "全栈开发者",
+        "bio": [
+          "Andrew 拥有明尼苏达大学经济学学士学位, 擅长基于数据驱动的规划和战略，熟练使用计量经济学方法进行零售销售和劳动力规划",
+          "Ansrew 在数据分析方面, 熟练使用 SQL、R和 SAS 统计软件，有超过五年的经验，有两年的 javascript 开发经验",
+          "对区块链技术所带来的社会影响，Andrew 充满热情，因此，他提升了作为全栈开发人员所需的技术技能。"
+        ],
+        "photo": "andrew.jpg",
+        "social": [
+          {
+            "type": "linkedIn",
+            "url": "https://www.linkedin.com/in/andrew-diedrich-a0a58893"
+          },
+          {
+            "type": "telegram",
+            "url": "https://telegram.me/AndrewDiedrich"
+          }
+        ]
+      },
+      {
+        "name": "Kai Jing",
+        "title": "中国区运营总监/全栈开发者",
+        "bio": [
+          "在进入区块链行业之前，荆凯是一名全栈开发者，熟悉使用 MySQL、Ruby on Rails、Javascript 进行 Web 开发，在最近的工作经历中，也将 React 加入到自己的技术栈之中。在电子商务领域先后负责开发、项目经理等工作，有着超过 5 年的从业经验。",
+          "荆凯在 2010 年首次了解到比特币。2017年，重新认识到区块链行业的重要性，也因此成为积极的传播者之一，撰写了超过两百篇文章，科普关于区块链特别是 EOSIO 项目的知识。",
+          "荆凯活跃于中国 EOS 社区，帮助了数千人了解 EOS。在中国领先的区块链内容平台币乎，荆凯有超过 7 万名关注者。",
+          "荆凯拥有华南理工大学轻化工程专业学士学位，在电子商务、Web 开发、产品设计和运营等领域均有所研究和经验。"
+        ],
+        "photo": "kai-jing.jpg",
+        "social": [
+          {
+            "type": "telegram",
+            "url": "http://t.me/shuke0327"
+          },
+          {
+            "type": "twitter",
+            "url": "https://twitter.com/shuke0327"
+          },
+          {
+            "type": "github",
+            "url": "https://github.com/shuke0327"
+          }
+        ]
+      },
+      {
+        "name": "Sean Kang",
+        "title": "商务拓展负责人",
+        "bio": [
+          "Sean 在银行，金融和城市工程等领域有超过十年的经验。他曾在加拿大最大的银行担任客户经理，在韩国和加拿大经营各种业务。",
+          "在攻读智慧城市发展城市规划博士学位时，Sean 发现了 EOS。他设想，借助于可扩展性的区块链技术，智能城市会为我们的生活带来深刻影响。",
+          "结合他作为城市规划师的聆听、理解和执行社区需求的能力，以及他多元的文化背景，Sean能够为 EOS 社区提供全面的解决方案。"
+        ],
+        "photo": "sean-kang.jpg",
+        "social": [
+          {
+            "type": "linkedIn",
+            "url": "https://www.linkedin.com/in/seankook/"
+          },
+          {
+            "type": "telegram",
+            "url": "http://t.me/seankook"
+          }
+        ]
+      },
+      {
+        "name": "Michael Nash",
+        "title": "开发者",
+        "bio": [
+          "在进入区块链行业之前，纳什从事生物医学科学研究。他在牛津大学工作了三年，与该领域的世界领先专家一起工作，他负责为高质量的研究成果做出贡献，以期治愈神经退行性疾病。",
+          "自从 2018 年了解了更多区块链技术和 EOS 生态系统后，纳什决定投入更多精力来了解这项技术，并为其发展做出贡献。",
+          "他对区块链技术在未来彻底改变普通人生活的潜力充满热情，认为区块链有机会让他们更自由地过自己选择的生活。",
+          "作为 Chintai 质量保证团队的一员，纳什负责确保我们的所有服务能够正常运行。"
+        ],
+        "photo": "nash.jpg",
+        "social": [
+          {
+            "type": "linkedIn",
+            "url": "https://linkedin.com/in/michael-nash-753277180"
+          },
+          {
+            "type": "telegram",
+            "url": "https://telegram.me/MichaelNash"
+          }
+        ]
+      }
+    ],
+    "advisors": [
+      {
+        "name": "Tom Bicknell",
+        "title": "顾问",
+        "bio": [
+          "Tom 是品诚梅森律师事务所(Pinsent Masons)合伙人，这是一家领先的金融科技法律事务所。Tom是中东地区经验丰富的金融服务和企业保险从业人员，积极为 Chintai 提供了咨询和协助。"
+        ],
+        "photo": "bicknell.jpg",
+        "social": [
+          {
+            "type": "linkedIn",
+            "url": "https://www.linkedin.com/in/tom-bicknell-25629b47"
+          }
+        ]
+      },
+      {
+        "name": "Keith Koo",
+        "title": "顾问",
+        "bio": [
+          "Keith Koo 是 Guardian Insight Group 的创始人和执行合伙人，也是“硅谷内幕”广播节目/播客的主持人",
+          "Guardian Insight Group 是一家战略咨询公司，客户包括财富500 强公司和初创公司。“硅谷内幕”(Silicon Valley Insider)是一档播客节目。除此之外，Keith Koo 还担任亚洲商业联盟(Asian Business League)和硅谷中国科技企业协会(Silicon Valley Chinese Technology Business Association)的董事。"
+        ],
+        "photo": "keith.png",
+        "social": [
+          {
+            "type": "linkedIn",
+            "url": "https://www.linkedin.com/in/keithkoo/"
+          },
+          {
+            "type": "twitter",
+            "url": "https://twitter.com/svi_keith"
+          }
+        ]
+      },
+      {
+        "name": "Mattew Mckibbin",
+        "title": "顾问",
+        "bio": [
+          "Matt 是 Decentranet 的联合创始人, Decentranet 是一家具有全球影响力的公司，专门从事区块链行业的投资和咨询工作。",
+          "他是 d10e 的前联合创始人和首席去中心化负责人（Chief Decentralization Officer)，d10e 是一个关于去中心化技术、哲学和社会组织的会议组织，具有全球领先地位。",
+          "自 2013 年协办 DC 区块链会议以来，Matt 一直是一名去中心化和变革性技术的布道者。他也是 BitAngels 的一名活跃的早期成员。",
+          "Matt 是一位去中心化和治理领域的专家，也是一位多产的、广受欢迎的演讲者，曾在世界范围内的多个主要会议上发表演讲。",
+          "他的作品曾出现在数十家媒体出版物上，包括彭博(Bloomberg)、纳斯达克(Nasdaq)、TechCrunch、CoinDesk、CoinTelegraph、《比特币杂志》(Bitcoin Magazine)等。Matt 在西弗吉尼亚大学获得了物理学学士学位。"
+        ],
+        "photo": "mattew.jpg",
+        "social": [
+          {
+            "type": "twitter",
+            "url": "https://twitter.com/Matt_McKibbin"
+          },
+          {
+            "type": "linkedIn",
+            "url": "https://www.linkedin.com/in/mattmckibbin/"
+          }
+        ]
+      },
+      {
+        "name": "Ted Moskovitz",
+        "title": "顾问",
+        "bio": [
+          "Ted 是 Decentranet 的创始合伙人和顾问。 Ted 曾是证券交易委员会（SEC)的律师，后来成为了连续企业家，他是区块链生态系统的积极投资者，尤其是在具有社会影响力的项目方面。",
+          "他也是虚拟孵化器特色实验室的联合创始人，该实验室为SaaS、基因医学、大麻和区块链技术的公司提供建议和投资。",
+          "作为一名广受欢迎的演讲者，Ted曾在数十个区块链行业活动中发表演讲，包括 Blockchain Cruise Asia, CryptoHQ, 及 Blockchain for Impact.",
+          "作为证券法专家，Ted为多家著名的出版物提供咨询服务，包括 Tim Pool Cast、BadCrypto、Investing.com 和 Coin Telegraph。",
+          "“他以优异成绩毕业于美利坚大学华盛顿法学院，获得了银行、公司、金融和证券法的法学博士学位。"
+        ],
+        "photo": "ted.jpg",
+        "social": [
+          {
+            "type": "linkedIn",
+            "url": "http://www.linkedin.com/in/tedmoskovitz"
+          }
+        ]
+      },
+      {
+        "name": "Tiffany Madison",
+        "title": "顾问",
+        "bio": [
+          "2015年，Tiffany 联合创立了 d10e，这是一个世界领先的去中心化技术、哲学和社会组织的会议组织。在 d10e 之前，她担任 Coin Congress 的副主席，由 Brock Pierce 创办， 是一个关注加密货币的活动组织。",
+          "2016年，她担任了MGT Capital 投资有限公司(一家领先的比特币开采公司)的公关和投资者关系总监。",
+          "Tiffany 曾是《华盛顿时报》记者，是一位颇有成就的作家和沟通专家。她还曾在约翰·麦卡菲(John McAfee) 2016年总统竞选期间担任他的竞选经理。",
+          "目前，Tiffany 还担任市府沙克实验室(Bunker Labs)的负责人，这是一个501(c)(3)的非营利组织，也是一个由领导者和志愿者组成的全国性网络，致力于帮助退伍军人、军人家属创业。"
+        ],
+        "photo": "tiffany.jpg",
+        "social": [
+          {
+            "type": "twitter",
+            "url": "http://twitter.com/tiffanymadison"
+          },
+          {
+            "type": "linkedIn",
+            "url": "http://www.linkedin.com/in/tiffanymadison1"
+          }
+        ]
+      },
+      {
+        "name": "Jami Mckibbin",
+        "title": "顾问",
+        "bio": [
+          "Jamie 曾是美国纺织公司的分析师。在匹兹堡大学读书期间，杰米开始了一项为期八年的社会变革使命",
+          "他一直活跃在匹兹堡的自由活动现场，建立和参加了多个地方组织。他对加密货币的兴趣可以追溯到 2012 年，他认为，加密货币有可能彻底改变许多行业，并改造现有的权力结构。",
+          "Jamie 借助于自己的经济学和数据分析背景，为 Decentranet 团队提供了独特的技能。Jamie 拥有匹兹堡大学经济学学士学位。"
+        ],
+        "photo": "jami.jpg",
+        "social": [
+          {
+            "type": "linkedIn",
+            "url": "https://www.linkedin.com/in/james-mckibbin-14b05094/"
+          }
+        ]
+      }
+    ],
+    "roadmap": {
+      "sectionTitle": "路线图",
+      "items": [
+        {
+          "date": "2018年10月",
+          "year": "2018",
+          "content": [
+            "Chintai 上线首个代币租赁市场"
+          ]
+        },
+        {
+          "date": "2018年12月",
+          "year": "2018",
+          "content": [
+            "周成交量创造峰值记录: 66,000 EOS"
+          ]
+        },
+        {
+          "date": "2019年3月",
+          "year": "2019",
+          "content": [
+            "CHEX 代币经济白皮书发布"
+          ]
+        },
+        {
+          "date": "2019年4月",
+          "year": "2019",
+          "content": [
+            "CHEX 代币拍卖活动开启"
+          ]
+        },
+        {
+          "date": "2019年5月",
+          "year": "2019",
+          "content": [
+            "部署了自动区块链资源服务"
+          ]
+        },
+        {
+          "date": "2019年6月",
+          "year": "2019",
+          "content": [
+            "与 Decentranet 咨询集团达成合作",
+            "Chintai 2.0 UI 部署"
+          ]
+        },
+        {
+          "date": "2019年8月",
+          "year": "2019",
+          "content": [
+            "Mynt (My Native Token) 平台部署"
+          ]
+        },
+        {
+          "date": "2019年10月",
+          "year": "2019",
+          "content": [
+            "BOID 租赁市场在测试网络部署"
+          ]
+        },
+        {
+          "date": "2019年12月",
+          "year": "2019",
+          "content": [
+            "CHEX 代币拍卖结束",
+            "Chintai 代币经济白皮书 2.0 发布"
+          ]
+        },
+        {
+          "date": "2020年1月",
+          "year": "2020",
+          "content": [
+            "Chinai 发布 BOID 代币租赁市场",
+            "商户网络上线"
+          ]
+        },
+        {
+          "date": "Q1 2020",
+          "year": "2020",
+          "content": [
+            "DAPP 代币租赁市场在测试网络部署",
+            "DEX 在测试网部署",
+            "自动资源管理系统 2.0 版上线"
+          ]
+        },
+        {
+          "date": "Q2 2020",
+          "year": "2020",
+          "content": [
+            "DAPP 代币租赁上线",
+            "Chintai DSP 上线",
+            "V.3 合规引擎测试"
+          ]
+        },
+        {
+          "date": "Q3 2020",
+          "year": "2020",
+          "content": [
+            "WAX 代币租赁上线",
+            "Chintai 赞助新加坡区块链周活动",
+            "部署 V.3 合规引擎至测试网"
+          ]
+        },
+        {
+          "date": "Q4 2020",
+          "year": "2020",
+          "content": [
+            "交易所 API",
+            "套利交易",
+            "接入 CHEX 智能撮合引擎"
+          ]
+        }
+      ]
+    },
+    "aboutChintai": {
+      "chintai": {
+        "title": "关于 Chintai",
+        "content": {
+          "p1": "Chintai 科技从一个成功的功能型代币租赁交易所开始起步。目前，我们已经发展成为一家白标技术服务商，为代币化证券提供发行、二级市场交易和管理的服务。",
+          "p2": "Shopify 等平台为任何人提供了便利的方式，帮助卖家轻松创建自定义的店铺销售产品。与此相似，Chintai 提供了智能合约和前端管理页面服务，方便客户快速发行合规数字资产，并提供二级市场流动性深度。"
+        }
+      },
+      "defi": {
+        "title": "合规 DeFi",
+        "content": {
+          "p1": "许多去中心化的金融工具不适合机构使用，因为公共区块链太慢，收费繁琐，或者在出现问题时没有追索权。因此，处理逻辑被放在链外，导致潜在的效率损失。",
+          "p2": "Chintai 科技提供的产品具有高性能、合规性、费用低等特点，在保持区块链优势的同时，还能在出现 bug 时拥有追索能力。"
+        }
+      }
+    },
+    "team": {
+      "chintaiCoreTeam": "团队",
+      "TeamSubtext": "Chintai 团队集金融、技术、产品开发、市场营销等专业知识于一体，为区块链行业提供最常用的去中心化应用",
+      "chintaiAdvisors": "Chintai 顾问",
+      "AdvisorSubtext": ""
+    },
+    "footer": {
+      "socialMedia": "社交媒体",
+      "contactUs": "联系我们",
+      "copyright": "© 2020 Chintai.io - 保留全部权利",
+      "terms": "条款 &  条件",
+      "subscribe": "订阅",
+      "optOut": "退订"
+    },
+    "header": {
+      "getUpdates": "获得最新信息",
+      "subscribe": "订阅",
+      "login": " 登录",
+      "scatterLogin": "使用 Scatter 登录",
+      "logout": "退出登录?",
+      "landingPageNavItems": [
+        {
+          "text": "交易平台",
+          "url": "https://exchange.chintai.io",
+          "type": "external"
+        },
+        {
+          "text": "Mynt",
+          "url": "https://mynteos.com",
+          "type": "external"
+        },
+        {
+          "text": "自动化资源管理",
+          "url": "https://arm.chintai.io/",
+          "type": "external"
+        },
+        {
+          "text": "新闻",
+          "url": "https://medium.com/@chintaieos",
+          "type": "external"
+        },
+        {
+          "text": "白皮书",
+          "url": "/chintai-tokenomic-model-cn.pdf",
+          "type": "external"
+        }
+      ],
+      "auctionPortalNavItems": [
+        {
+          "text": "Dashboard",
+          "url": "/auction",
+          "type": "internal"
+        },
+        {
+          "text": "获取 CHEX",
+          "url": "/auction/bid",
+          "type": "internal"
+        },
+        {
+          "text": "KYC 状态",
+          "url": "/auction/kyc",
+          "type": "internal"
+        },
+        {
+          "text": "我的参与情况",
+          "url": "/auction/contributions",
+          "type": "internal"
+        },
+        {
+          "text": "拍卖总览",
+          "url": "/auction/rounds",
+          "type": "internal"
+        },
+        {
+          "text": "推荐链接",
+          "url": "/auction/referral",
+          "type": "internal"
+        }
+      ]
+    },
+    "countdown": {
+      "seconds": "秒",
+      "minutes": "分",
+      "hours": "小时",
+      "days": "天",
+      "auctionEnded": "CHEX 代币发放已结束。感谢您的参与。"
+    },
+    "liveRoundOverview": {
+      "title": "当前周期倒计时",
+      "endingOn": "本轮结束时间",
+      "roundNum": "Round #",
+      "chexPriceEos": "CHEX 价格 (EOS)",
+      "chexPriceUsd": "CHEX 价格 (USD)",
+      "chexEos": "CHEX/EOS"
+    },
+    "errorPage": {
+      "returnHome": "回到主页",
+      "returnToDashboard": "回到 Dashboard",
+      "error404": "404 Page Not Found",
+      "errorContent": "抱歉，我们无法定位您所请求的页面",
+      "restrictedTitle": "抱歉，您所在地区无法参与",
+      "restrictedContent1": "抱歉，因您所在地区的限制，我们无法为您提供服务。具体请查看 CHEX",
+      "termsConditions": "条款 & 条件",
+      "restrictedContent2": "获得更多信息."
+    },
+    "priceHistory": {
+      "title": "拍卖周期历史",
+      "noRounds": "无周期可供显示",
+      "inProgress": "进行中",
+      "roundNum": "Round #",
+      "chexPrice": "CHEX/EOS 价格",
+      "date": "日期"
+    },
+    "terms": {
+      "title": "CHEX 条款 & 条件",
+      "note": "请注意: 点击接受之前，请务必阅读完成所有条款细则",
+      "accept": "接受",
+      "reject": "拒绝",
+      "certify1": "勾选此选项，确认您并非美国公民，居民或实体, 并且不代表美国人参与 CHEX 代币购买或签署交易",
+      "certify2": "勾选此选项，确认您并非中华人民共和国公民或居民，也并非依据中华人民共和国法律所创建的实体，并且不代表中国人参与 CHEX 代币购买或签署交易.",
+      "certify3a": "勾选此选项，确认您已阅读",
+      "certify3b": "CHEX 代币白皮书",
+      "certify4a": "勾选此选项，确认您阅读、理解并同意 CHEX 代币",
+      "certify4b": "."
+    },
+    "kycCheck": {
+      "completed": "您已成功完成 KYC 流程",
+      "notCompleted": "您仍未完成 KYC 流程",
+      "makeChanges": "您可以随时更新 KYC 资料,通过如下的 KYC 服务商修改.",
+      "pleaseComplete": "请访问我们的第三方 KYC 服务商并且确保提交了相应的 KYC 信息.",
+      "visitAltcoinomy": "前往 Altcoinonomy",
+      "verifying": "验证 KYC 状态",
+      "pleaseLogin": "请登录查看您的 KYC 状态。您也可以点击下方按钮，前往 KYC 服务商页面查看。"
+    },
+    "myContributions": {
+      "inProgress": "拍卖周期进行中",
+      "completed": "已完成",
+      "pending": "未来拍卖周期-待处理",
+      "totalContribution": "总共参与额",
+      "totalContributionTooltip": "参与拍卖的 EOS  总额",
+      "chexReceived": "预计接收的 CHEX 总额",
+      "chexReceivedTooltip": "从拍卖中接收到的 CHEX 代币总额",
+      "avgPrice": "加权平均价格",
+      "avgPriceTooltip": " 1CHEX 的加权平均成本",
+      "includeFuture": "包含当前/未来的拍卖周期",
+      "roundNum": "Round #",
+      "date": "日期 (UTC)",
+      "chex": "Chex 数量",
+      "chexPrice": "Chex 价格",
+      "status": "状态",
+      "noContributions": "无参与数额可供显示.",
+      "pleaseLogin": "请登录以查看参与数额."
+    },
+    "roundsSummary": {
+      "totalContributions": "总共参与额度",
+      "chexIssued": "CHEX 发行量",
+      "chexPrice": "CHEX 价格",
+      "inProgress": "进行中",
+      "completed": "完成",
+      "pending": "未开始",
+      "roundNum": "Round #",
+      "date": "日期 (UTC)",
+      "status": "状态",
+      "noRounds": "无拍卖周期可供显示。"
+    },
+    "bidOnChex": {
+      "kycWarning": "参与 CHEX 代币拍卖，请先完成 KYC 流程。完成后，您所填写的 EOS 账号会自动加入白名单中，即可参与 CHEX 代币拍卖",
+      "kycWarningLink": "访问 KYC 页面",
+      "configureBid": "竞价方式",
+      "configureBidDescription": "您可以只参与某一周期竞价，也可以参与多轮拍卖周期，平均分配您的参与额度。拍卖周期结束后，您将收到对应的 CHEX 代币",
+      "roundFrom": "从 #",
+      "roundTo": "至 #",
+      "singleRound": "参与单轮",
+      "rangeRounds": "参与多轮",
+      "summary": "概括",
+      "quantity": "数量",
+      "submitBidTo": "选择参与代币拍卖的方式",
+      "scatterDescription": "使用此方式，您可以用 Scatter 参与拍卖. Scatter 应用内将会弹窗显示您的参与状况，请核查后点击确认。",
+      "manualDescription": "使用此方式，您可以用自己喜欢的钱包手动填写信息提交交易，参与代币拍卖。",
+      "sendPaymentTo": "向该账户转账",
+      "assistedBid": "提交 (Scatter)",
+      "pleaseLogin": "请先用 Scatter 登录",
+      "manualBid": "提交 (手动方式)",
+      "memoInst": "Memo 信息",
+      "submitBid": "提交竞价信息",
+      "senderAccount": "您的账号",
+      "bidSummarySingleRound": "我会转账 {{quantity}} 个 EOS 参与第 #{{roundNum}} 期拍卖。",
+      "bidSummaryMultipleRound": "我会转账 {{quantity}} 个 EOS，数额平均分配，参与第 #{{roundNumStart}} 期至第 #{{roundNumEnd}} 期的代币拍卖.",
+      "memoTip": "请务必确保 Memo 信息按照如下格式填写. memo 中的最后一部分填写的是你自己参与代币拍卖的 EOS 账号名.",
+      "exchangeWarning": "请勿从交易所账号中转账 EOS 至 CHEX 代币拍卖合约，否则您将永久丢失这部分代币。"
+    },
+    "auctionNav": {
+      "dashboard": "Dashboard",
+      "getChex": "获取 CHEX",
+      "kycStatus": "KYC 状态",
+      "myContributions": "我的参与情况",
+      "auctionSummary": "拍卖总览",
+      "referralLink": "推荐链接"
+    },
+    "landingContent": {
+      "title": "为金融机构与企业提供合规区块链技术",
+      "subtitle": "Chintai 是一家 B2B 金融科技服务公司，为客户提供证券化资产和其他数字资产的托管、管理和二级市场交易服务。通过自动化合规、报告、预付款、担保品处理等方面，我们的高性能产品可以帮助金融实体大幅减少管理费用。",
+      "whitepaper": "白皮书",
+      "requestDemo": "获取 Demo",
+      "link1": "#",
+      "viewDemo": "查看 Demo",
+      "link2": "https://kylin.chintai.io",
+      "demoLink": "https://kylin.chintai.io",
+      "whitepaperLink": "/chintai-tokenomic-model-cn.pdf"
+    },
+    "keyPonts": {
+      "point1": "发行",
+      "detail1": "定制发行几乎任何资产-房地产，股票，债券，稳定币，功能性代币等。资产表管理。具有自动认证和投资者检查功能的KYC/AML服务。让企业操作自动化。",
+      "point2": "交易",
+      "detail2": "高性能的证券化资产交易引擎，100%链上运行。通过编码，实现合规自动化。",
+      "point3": "白标",
+      "detail3": "按需定制接入您的网站。Chintai 交易引擎实现合规，同时保护您的客户和内部操作的隐私。"
+    },
+    "products": {
+      "title": "Chintai DeFi 产品",
+      "CTA": "了解更多",
+      "productsData": [
+        {
+          "name": "白标服务",
+          "title": "资产发行，交易与定制",
+          "subtitle": "Chintai 技术开箱即用，立即提升金融效率",
+          "content": [
+            "众所周知，区块链技术在金融领域前景无限。但整合这项技术非常困难。 Chintai 的产品套餐，不依赖于特定区块链，为金融机构、企业和创业者们提供区块链技术支持，带来效率提升。人们可以集中在产品交付之上，在 Chintai 的帮助下，将商业级别的工具和多功能协议集成到既有的系统之中。",
+            "Shopify 这类平台，使得任何人都可以在自定义的店铺中轻松销售产品。Chintai 为金融机构提供了基础设施，支持他们在任何区块链平台上进行证券化资产的自定义发行和交易功能。Chintai 的操作完全与内部或外部使用混淆。",
+            "我们的发行、二级交易和标记证券管理产品都是合规的。这意味着可以自动执行和适用管辖法律。一旦发现欺诈行为，可以立即发现并做出反应从而制止。"
+          ],
+          "contactUs": "联系我们",
+          "image": "vex.png"
+        },
+        {
+          "name": "合规 DEX",
+          "title": "为代币化证券提供合规交易平台",
+          "subtitle": "Chintai DEX 将提供合规的去中心化 P2P 数字资产交易平台，用户享有完全控制权",
+          "content": [
+            "Chintai DEX 将用于功能型代币和证券型代币的交易。我们的 DEX 实现 100% 链上运行，并给予用户充分的所有权。所有的合规控制管理，都内嵌入帐户和代币层级，以实现完全符合司法管理规定。我们正在申请新加坡金融管理局(Monetary Authority of Singapore)的牌照，以便成为合规的去中心化交易所",
+            "Chintai 交易所的每个方面都将符合主要监管机构(包括FATF、FCA、FINCEN 等)的监管要求和指引。我们的目标是扩展服务，不依赖任何特定的区块链，并获得所有主要司法辖区的许可证，以便加密货币投资者可以对资产拥有完全的托管权，并在完全合规的 P2P 环境中进行交易。",
+            "我们目前为已经获得许可并希望进行证券代币化发行和二级交易的实体提供白标 DEX 引擎服务供其使用。"
+          ],
+          "contactUs": "",
+          "ctaLink": "https://kylin.chintai.io/",
+          "ctaText": "查看 Demo",
+          "image": "dex.png"
+        },
+        {
+          "name": "Mynt 发行",
+          "title": "自定义代币发行方式，符合监管要求",
+          "subtitle": "Mynt 服务开箱即用，为 EOSIO 代币发行活动提供了所需要的技术、法律和财务领域的支持。",
+          "content": [
+            "若想实现可靠的代币发行活动，值得信赖的技术和资源必不可少。Mynt, 将我们经过实践检验的技术和资源提供给创业者，帮助用户发布定制化代币。",
+            "我们的端到端服务包括可定制代币合约、代币拍卖页面、法律资源、KYC/AML等服务。",
+            "我们信誉良好的开发团队，会使用可靠技术，为您创建定制化的代币合约。最值得注意的是，我们会确保您的代币符合法律要求。",
+            "我们支持代币拍卖、STO和任何其他形式,为所有的代币发行方式构建相匹配的前端门户网站。并且，Mynt 平台集成了 KYC/AML 技术，支持所有的主流加密货币参与方式。",
+            "如需更多信息或问题，请联系 Chintai 团队或访问 Mynt 网站。"
+          ],
+          "contactUs": "联系我们",
+          "ctaLink": "https://mynteos.com",
+          "ctaText": "查看 Mynt",
+          "image": "mynt.png"
+        },
+        {
+          "name": "代币租赁",
+          "title": "让钱包中蒙尘的代币派上用场",
+          "subtitle": "Chintai 是唯一一个去中心化的功能性代币租赁平台，性能卓越",
+          "content": [
+            "Chintai 是去中心化的租赁平台，用于虚拟资产的租赁交易。",
+            "代币经济受到资产所有权的严重限制。为了使用代币的功能而去购买，成本可能过高，并使企业或用户面临不必要的价格波动。代币租赁，可以让用户无需持有即可使用，为代币持有者带来被动收入，而租赁者则可以降低使用成本，实现双赢。",
+            "Chintai 平台累积实现近 2.5 亿美元的交易量，证实了这一点：对功能性代币的租赁需求，真实而广泛存在。"
+          ],
+          "contactUs": "",
+          "ctaLink": "https://exchange.chintai.io",
+          "ctaText": "查看 Chintai 交易平台",
+          "image": "lease.png"
+        },
+        {
+          "name": "NFT 租赁",
+          "title": "为虚拟物品的所有者，激活收益潜力",
+          "subtitle": "Chintai 会成为首个 NFT 资产租赁平台 -- 虚拟资产，自由租赁",
+          "content": [
+            "在 NFT(定制虚拟物品)产品开发之中，投入了数百万美元的成本。从 Winklvoss 兄弟，到游戏公司育碧，一些最大牌的公司都参与了进来。",
+            "我们预计 NFT 市场将呈现爆炸式成长，因此，Chintai 参与其中。 Chintai 将创建首个 NFT 资产租赁平台，并为开发者提供 API 将租赁功能直接嵌入其产品之中。",
+            "游戏内的虚拟资产交易是一个价值 500 亿美元的行业，非常适合 NFT 租赁。 Chintai 目前的目标是游戏行业，并正积极与行业领袖合作，以实现首个 NFT 租赁协议。",
+            "想要了解更多 Chintai NFT 产品的信息，请联系我们。"
+          ],
+          "contactUs": "联系我们",
+          "ctaLink": "",
+          "ctaText": "",
+          "image": "nft.png"
+        },
+        {
+          "name": "Charm",
+          "title": "为 dApp 和用户自动管理资源",
+          "subtitle": "区块链交易，离不开资源的支持。资源管理，交给 Chintai 帮你自动搞定",
+          "content": [
+            "Chintai 为 dApp 及其用户消除了手动管理区块链资源带来的烦恼。自动管理资源，实现交易的自动化处理。",
+            "Chintai 通过即购即用的模式，在需要时自动购买少量的资源，满足需要",
+            "如需更多信息或问题，请联系 Chintai 团队或访问 Chintai 自动资源页面。"
+          ],
+          "contactUs": "联系我们",
+          "ctaLink": "https://arm.chintai.io/",
+          "ctaText": "自动化资源管理",
+          "image": "autores.png"
+        }
+      ]
+    },
+    "industry": {
+      "title": "概况 - 应用 - 示例",
+      "industryData": [
+        {
+          "name": "Chintai & CHEX",
+          "subtitle": "代币还在钱包吃灰？不如派上用场",
+          "image": "chintai.png",
+          "imageHover": "chintai-white.png",
+          "imageLarge": "chintai-large.png",
+          "position": "left",
+          "contactUs": "",
+          "ctaLink": "/chintai-tokenomic-model-cn.pdf",
+          "ctaText": "阅读白皮书",
+          "videoLink": "https://youtu.be/XTofaRg0px4",
+          "content": [
+            ""
+          ]
+        },
+        {
+          "name": "金融",
+          "subtitle": "释放数字资产的潜力",
+          "image": "finance.png",
+          "imageLarge": "finance-large.png",
+          "imageHover": "finance-white.png",
+          "position": "left",
+          "contactUs": "Contact Us",
+          "ctaLink": "https://medium.com/@ChintaiEOS/chintai-white-label-tech-for-institutional-finance-b48cfa4a6395",
+          "ctaText": "了解详情",
+          "content": [
+            "基于区块链技术带来的效率提升，可以深刻地改变全球金融体系。如果说区块链技术是智能手机，目前金融体系的基础设施则相当于一台传真机那么老旧。当今世界，金融资产数据库的存储和管理产生了大量不必要的开销。从金融实体之间的对账、执行高级支付、报告等，一切都需要人工干预。",
+            "Chintai 科技利用高性能的前沿协议，帮助金融机构轻松用上区块链技术。转型有助于大幅减少因人工处理证券而造成的开销，并为传统缺失流动性市场释放流动性。",
+            "在传统系统中需要人工处理的大部分事情，都可以由 Chintai 自动处理--包括抵押品处理、复杂类型支付、合规处理等。而且与其他区块链服务提供商不同的是，Chintai有一个回撤机制，可以在出现黑客或错误的情况下快速恢复系统。同时，Chintai 提供可定制的高性能产品，用于资产发行行管理和二级市场交易，几乎不会产生任何基础层费用。"
+          ]
+        },
+        {
+          "name": "房地产",
+          "subtitle": "全球合规 P2P 交易",
+          "image": "estate.png",
+          "imageHover": "estate-white.png",
+          "imageLarge": "estate-large.png",
+          "position": "left",
+          "contactUs": "联系我们",
+          "ctaLink": "",
+          "ctaText": "",
+          "content": [
+            "房地产是世界上最古老的资产之一，也是最可靠的财富积累方式。然而，房地产投资市场有两个关键问题，区块链技术可以解决：",
+            "1) 流动性极低，转让和出售困难。单次转让都是手工操作，成本高，通常需要几天时间。",
+            "2) 资金要求非常高，这让大多数散户无法承受这个资产类别的投资。",
+            "使用区块链技术，可以将资产的特征编码成数字价值单位（代币）。这使得代币化的房地产能够分解为数字部分和属性，从而实现自动化。传统情形下，这些都需要进行人工处理，耗时费力。",
+            "通过将不动产数字化分块，可以在二级交易平台上形成深层的流动性市场，从而大大降低了流转时间和成本。而且，投资者无需拥有足够的资金来购买整块房地产，而是可以买入小部分的分量，从而获得大多数人无法企及的投资组合优化。",
+            "我们已经签署了一份2700万美元的商业地产代币发行意向合作方案，并在芝加哥进行二次交易。如果您想看演示，请联系我们。"
+          ]
+        },
+        {
+          "name": "游戏",
+          "subtitle": "",
+          "image": "game.png",
+          "imageLarge": "game-large.png",
+          "imageHover": "game-white.png",
+          "position": "right",
+          "contactUs": "Contact Us",
+          "ctaLink": "https://techcrunch.com/2016/01/20/virtual-goods-real-fraud/",
+          "ctaText": "了解详情",
+          "content": [
+            "21世纪以来，游戏内的虚拟物品和货币已经变得极为流行。若干问题也相伴而生。对于虚拟物品的转让所产生的利润，游戏开发团队却无从分享，而游戏玩家在外部二级市场的交易中也容易受到诈骗、虚拟资产遭到中心化控制等问题。",
+            "通过将虚拟物品放在区块链技术上，可以嵌入收费机制，保证游戏开发商持续创收，完全杜绝假冒伪劣虚拟物品，玩家可以拥有资产的真正所有权--他们的账户永远不会被关闭，物品永远不会被中心化实体破坏。",
+            "Chintai API 可以将虚拟物品的交易和租赁功能直接嵌入到游戏中。不需要让游戏玩家暴露在外部市场平台或区块链技术中。如果您想了解如何接入到你的游戏之中，或者您有其他问题，请联系我们。"
+          ]
+        },
+        {
+          "name": "交易所 Demo",
+          "subtitle": "可定制的代币发行",
+          "image": "chintai.png",
+          "imageHover": "chintai-white.png",
+          "imageLarge": "chintai-large.png",
+          "position": "right",
+          "contactUs": "联系我们",
+          "ctaLink": "https://kylin.chintai.io/trade/7711702073241388809",
+          "ctaText": "查看 Demo",
+          "content": [
+            "我们的高性能交易所是开放的，供大家查看和使用。Chintai 订单管理和执行系统，设计了白标模式，可以为任何需要进行二次交易和租赁虚拟资产的人使用。并且，Chintai 白标产品的前端也可以进行适当的定制和品牌化，以满足特定用例或实体的用户体验和视觉需求。",
+            "Chintai DEX 也会基于这一 Demo 而创建。目前，我们正在向新加坡金融监管局( Monetary Authority of Singapore）申请合规许可牌照。促进功能性代币和证券化代币的非托管、点对点交易，是我们2020年路线图上的近期目标。",
+            "如果您想建立一个账户来试用我们的交易所 Demo，或希望了解我们的产品详情，请联系 Chintai 团队。"
+          ]
+        },
+        {
+          "name": "房地产项目 Demo",
+          "subtitle": "代币发行自定义",
+          "image": "chintai.png",
+          "imageHover": "chintai-white.png",
+          "imageLarge": "chintai-large.png",
+          "position": "right",
+          "contactUs": "联系我们",
+          "ctaLink": "",
+          "ctaText": "",
+          "content": [
+            " Chintai 的高性能交易所和发行引擎是为 CinderBlox 公司的房地产项目 Demo 提供了底层组件。两者都可以作为白标服务，用于不动产的代币化发行和二级市场交易。",
+            "作为区块链技术服务商，Chintai 已经为芝加哥 2700 万美元的房地产代币化发行构建和运营了底层基础设施。",
+            "我们可以快速构建和部署定制化的前端门户，只要建立了相关的法律和授权，我们就可以为任何人快速构建和部署合规化的前端门户网站。如果您有问题或想查看演示，请联系我们。您也可以查看现有的演示网站。欢迎联系我们的团队。"
+          ]
+        }
+      ]
+    },
+    "landingPagePentagon": {
+      "title": "新数字经济的开拓者",
+      "problem": "问题",
+      "problemText": "人们希望通过他们的加密资产获得可预测的被动收入，并以低成本使用数字资源",
+      "solution": "解决方案",
+      "solutionText": "Chintai 已经上线，通过高性能的资源交易平台为依托，可以为几乎任何区块链和和数字货币提供代币化数字资产的租赁功能，从而满足这些需求",
+      "chexToken": "CHEX 代币",
+      "chexTokenText": "CHEX代币是您使用 Chintai 租赁市场的钥匙。 CHEX 智能匹配功能将自动为出租者带来最大的被动收入回报，并帮助租借者以最合适的利率获得安全资源。"
+    },
+    "infinity": {
+      "title": "Chintai 市场 & CHEX 代币流通示意图"
+    },
+    "unsubscribe": {
+      "title": "从我们的邮件列表退订",
+      "unsubscribe": "退订",
+      "sorry": "很抱歉没能让您满意。请在下面的输入框中输入您的邮件地址，我们会将您从我们的邮件列表中删除。预计需要24小时的时间等待变更生效。"
+    },
+    "partners": {
+      "title": "战略合作伙伴"
+    },
+    "leasingLandingAdvantages": {
+      "title": "为何要自动管理资源? ",
+      "text1": "成功的应用程序会为用户提供流畅的体验",
+      "text2": "Chintai 消除了 EOS 资源管理给用户带来的困扰",
+      "text3": "让您的用户专心体验应用，让您专注创造产品"
+    },
+    "feeSection": {
+      "sectionTitle": "使用 CHEX 或 EOS 支付"
+    },
+    "feeScheduleHeaders": {
+      "symbol": "",
+      "token": "代币",
+      "rate": "手续费",
+      "buy": "购买"
+    },
+    "feeSchedule": [
+      {
+        "symbol": "lib/icon-blue-transparent-bg.png",
+        "title": "CHEX",
+        "fee": "0.01875%"
+      },
+      {
+        "symbol": "lib/eos_logo.svg",
+        "title": "EOS",
+        "fee": "0.075%"
+      }
+    ],
+    "leasingFAQ": {
+      "title": "FAQ",
+      "q1": "Chintai 是否会控制您的账号?",
+      "q2": "是否可以取消服务?",
+      "q3": "是否需要支付费用? ",
+      "q4": "EOSIO 1.8 升级之后，为何还需要 Chintai 服务? ",
+      "q5": "只有 Dapp才能够使用该服务么? ",
+      "q6": "该服务是否具有可扩展性？",
+      "q7": "资源从何处获得? ",
+      "q8": "有更多问题?",
+      "answer1": "不用担心。您的私钥一直都为您自己所有，Chintai 无法操纵您的账号。 ",
+      "answer2": "可以。您可以随时取消该服务。",
+      "answer31": "是的，所有的费率会按照交易量来计算。费率：若以 EOS 支付，费率为 0.075%; 若以 CHEX  代币支付，则服务费率只需 0.01875%。",
+      "answer32": "了解 CHEX",
+      "answer41": "使用Chintai，您可以获得更多功能。1.8 软件升级只能够为用户账号提供服务，您需要抵押自己的 EOS 完成操作，并且，无法自动管理 RAM 资源, 针对垃圾账号也无法过滤。",
+      "answer42": "了解更多内容",
+      "answer43": "https://bihu.com/article/1802457355",
+      "answer5": "不用，任何用户都可以使用该服务。",
+      "answer6": "是的，自动资源管理服务会根据您的业务需要自动扩展。",
+      "answer7": "所有的资源都通过租赁市场获得，以此确保您可以获得最低的价格。",
+      "answer81": "我们的全球团队全天候为您解答任何问题。请加入我们的",
+      "answer82": "电报群",
+      "answer83": "https://t.me/ChintaiEOS",
+      "answer84": ",或者发送邮件至 ",
+      "answer85": "hello@chintai.io"
+    },
+    "chexButton": "获得 CHEX",
+    "leaseButton": "现在设置",
+    "leasingLandingTitle": "Chintai 自动资源管理",
+    "leasingLandingSubTitle": "让您和用户在 EOS 区块链上流畅操作，不受阻碍",
+    "leasingLandingContent": {
+      "bullet1": "节省成本",
+      "bullet2": "提升用户体验",
+      "bullet3": "成就您的产品",
+      "title1": "使用 CHEX, 费率更低",
+      "description1": "初始阶段，使用 CHEX 代币支付，可以获得 50% 的折扣！CHEX 提供了通用交易对，使得 Chintai 平台可以进行代币转换，未来能够触达由成百上千个应用型代币所组成的世界，为这些代币提供租赁功能。",
+      "title2": "DApp 资源，触手可及",
+      "description2": " Chintai 的资源管理系统是 EOS 区块链与 dApp 之间的中台系统。任何应用程序都可以接入 Chintai 之中，自动租赁所需的资源，供合约和用户使用。设置之后，再也无需手动管理资源。"
+    },
+    "LeasinglandingPageAdvantages": {
+      "title": "Chintai 优势"
+    },
+    "leasingProcess": {
+      "Title1": "问题",
+      "Title2": "解决方案",
+      "Title3": "影响",
+      "Text1": "缺乏自动资源管理，DApp和用户需要自己管理资源。可能造成服务中断，带来糟糕的用户体验。",
+      "Text2": "使用 Chintai 的自动资源管理服务， Dapp 和用户无需管理 EOS 资源 - CPU, NET 还是 RAM资源，皆可自动管理。 ",
+      "Text3": "带给您的用户更愉悦的使用体验。 让您有更多的时间专注于创造。您的产品也可以获得关键的竞争优势。"
+    },
+    "GoToAutoresPortal": "现在设置",
+    "leasingPortalTitle": "资源管理",
+    "leasingPortalSubTitle": "自动化",
+    "leasingForms": {
+      "setup": "设置",
+      "configure": {
+        "title": "配置",
+        "submit": "提交",
+        "label1": "支付者账号 (Payer)",
+        "label2": "待监测账号 (Payee)",
+        "label3": "dApp 账户",
+        "label4": "RAM 缓冲值 (bytes)",
+        "description": {
+          "step1Bold": "支付者账号",
+          "step2Bold": "监控账号",
+          "step3Bold": "为用户付费",
+          "step4Bold": "RAM 缓冲值",
+          "step1": "将会为 CPU/NET 资源支付费用的账号(您的当前登陆账号)",
+          "step2": "需要资源的账号",
+          "step3": "Yes/No 您是否想为该账号的用户或者任何与监控账号交互的账号支付 CPU/NET 资源",
+          "step4": "您希望一直保持多少空闲RAM资源，单位为 byte"
+        }
+      },
+      "withdraw": {
+        "title": "转出",
+        "label1": "支付者账号 (Payer)",
+        "label2": "转出代币类型",
+        "label3": "转出代币数量",
+        "description": {
+          "step1Bold": "支付者",
+          "step2Bold": "代币类型",
+          "step3Bold": "数量",
+          "step1": "从合约中转出代币的账号",
+          "step2": "转出 CHEX 或 EOS",
+          "step3": "转出资金数量"
+        }
+      },
+      "blacklist": {
+        "title": "黑名单",
+        "submit": "提交",
+        "label1": "支付者账号 (Payer)",
+        "label2": "待加入黑名单账号",
+        "description": {
+          "step1Bold": "支付者账号",
+          "step2Bold": "黑名单账号",
+          "step1": "该账号可以进行设置操作，避免黑名单账号使用其资源",
+          "step2": "黑名单账号将被限制使用支付者的资源."
+        }
+      },
+      "deposit": {
+        "title": "充值",
+        "label1": "支付账号 (Payer)",
+        "label2": "数量/代币类型",
+        "label3": "待充值或取出的代币数量",
+        "description": {
+          "step1Bold": "支付账号",
+          "step2Bold": "代币数量",
+          "step1": "您需要使用哪个账号为 CPU/NET 资源支付费用 (填写您的账号名）。",
+          "step2": "可用于支付租赁费用的代币数量。"
+        }
+      }
+    },
+    "leasingTables": {
+      "payerTable": {
+        "title": "支付账号数据表",
+        "header1": "支付者(账号名)",
+        "cpu": "CPU (如果 > 100%, 请点击 CPU 急救功能)",
+        "cpuButton": "获得 CPU 供应急使用",
+        "emergencyCpu": "若想使用 CPU 急救功能，需要在 ARM 中有余额",
+        "convertChex": "存入 CHEX，可以获得 75% 的手续费折扣",
+        "header2": "已锁定",
+        "header3": "可用数量",
+        "description": {
+          "h1": "您需要使用哪个账号为 CPU/NET 资源支付费用 (填写您的账号名）",
+          "h2": "已转入合约中、可用于支付资源租赁费用的代币数量",
+          "h3": "当前账号的可用流通代币数量"
+        }
+      },
+      "configTable": {
+        "title": "当前配置",
+        "header1": "tx...",
+        "header2": "起始日期",
+        "header3": "支付者账号",
+        "header4": "待监控账号",
+        "header5": "为用户付费 (CPU/NET)",
+        "header6": "RAM 缓冲值 (bytes)",
+        "remove": "移除",
+        "noData": "前往设置菜单，充值至资源储备账号之中，创建配置后，您就可以开始使用服务了。"
+      },
+      "blacklistTable": {
+        "title": "黑名单账号",
+        "header1": "tx...",
+        "header2": "起始日期",
+        "header3": "支付者账号",
+        "header4": "黑名单账号",
+        "noData": "设置菜单中的黑名单帐户"
+      },
+      "delegationHistory": {
+        "title": "租赁历史",
+        "header1": "tx...",
+        "header2": "起始日期",
+        "header3": "账号",
+        "noData": "首先请将代币转入至资源储备账号",
+        "underDevelopment": "历史数据正在维护中"
+      },
+      "loginTips": "请先登陆"
+    },
+    "referral": "请先登录生成您的推荐码",
+    "referralShare": "分享推荐链接",
+    "mynt": {
+      "navItems": [
+        {
+          "text": "查看更多 Chintai 服务",
+          "url": "/",
+          "type": "internal"
+        }
+      ],
+      "what": "MYNT 是什么?",
+      "why": "为什么选择 MYNT?",
+      "packages": "MYNT 服务",
+      "banking": "服务 & 资源",
+      "learnMore": "了解详情",
+      "getStarted": "开始使用",
+      "landingContent": {
+        "title1": "创建您的原生代币",
+        "start": "*",
+        "title2": "自定义您的代币发行活动",
+        "button": "注册",
+        "terms": "*在 Mynt 条款之中所明确列出的司法辖区除外"
+      },
+      "whatContent": {
+        "title": "MYNT 是什么",
+        "subTitle": "Mynt 服务开箱即用，为 EOSIO 代币发行活动提供了所需要的技术、法律和财务领域的支持。",
+        "subTitleSmall": "使用可靠的技术和可信的资源，帮您创建自定义的原生代币。",
+        "boxes": {
+          "box1": {
+            "title": "定制化代币",
+            "text": "我们的开发团队信誉良好，可以根据您的需要，创建您的原生代币。助力您实现您的企业愿景。"
+          },
+          "box2": {
+            "title": "法务资源",
+            "text": "来自监管方面的不确定性，令人生畏。我们提供相应的法律资源，满足您的合规需求。"
+          },
+          "box3": {
+            "title": "KYC/AML & 银行服务",
+            "text": "了解你的客户(KYC)和反洗钱法律(AML)的目的是防止欺诈或非法转移资金。全球监管机构一直强调 KYC/AML是重要因素之一，建立法币银行服务也同样重要。"
+          },
+          "box4": {
+            "title": "定制化的前端网站",
+            "text": "我们创建了自定义的前端网站，可以供各类代币发行活动使用。完全集成了 KYC/AML 技术。可以提供 ETH, BTC, 和 EOS 作为支付方式。"
+          }
+        }
+      },
+      "whyContent": {
+        "title": "为什么选择 Mynt?",
+        "text1": "Mynt帮助忙碌的创业者们提供开箱即用的服务，帮助客户节省宝贵的开发时间、金钱资源和寻找法律服务的时间。",
+        "text2": "我们用心设计 MYNT，尽可能为您消除障碍、提升使用体验，帮助您专注于创新。"
+      },
+      "options": {
+        "title": "自定义选项",
+        "point1": "代币合约创建",
+        "point2": "空投/Airgrab 功能",
+        "point3": "代币发行模式",
+        "point4": "激活租赁功能",
+        "point5": "定制化的前端网站，集成了 KYC 服务",
+        "point6": "服务器维护服务可供选择",
+        "point7": "EOSIO 区块链自动资源管理服务"
+      },
+      "servicePackages": {
+        "title": "服务类型",
+        "subTitle": "Mynt 为成功的代币发行活动提供了所有的必备技术组件。我们开箱即用的解决方案，经过实战考验，具备可定制、安全可靠的特性。",
+        "perMonth": "月费",
+        "packages": {
+          "package1": {
+            "title": "白银",
+            "subTitle": "适合刚起步的团队使用",
+            "feature1": "定制化代币合约创建",
+            "feature2": "MYNT 代币发行智能合约",
+            "feature3": "推广功能, 持续改进/客户支持",
+            "feature4": "Chintai 提供的自动化区块链资源管理",
+            "feature5": "可选择： KYC/AML, 法币银行服务",
+            "price": "$12.50"
+          },
+          "package2": {
+            "title": "黄金",
+            "subTitle": "适合具备基础技能的用户",
+            "feature1": "创建定制化代币合约",
+            "feature2": "MYNT 代币发行智能合约",
+            "feature3": "代币拍卖/ICO 网站",
+            "feature4": "推广功能",
+            "feature5": "持续改进/客户支持",
+            "feature6": "自动化区块链资源管理",
+            "feature7": "可选择： KYC/AML, 法币银行服务",
+            "price": "$20.00"
+          },
+          "package3": {
+            "title": "白金",
+            "subTitle": "提供给高级用户所有功能",
+            "feature1": "创建定制化代币合约",
+            "feature2": "MYNT 代币发行智能合约",
+            "feature3": "代币拍卖/ICO 网站",
+            "feature4": "推广功能，持续改进/客户支持",
+            "feature5": "自动化区块链资源管理",
+            "feature6": "支持空投/Airgrab 功能",
+            "feature7": "可选择：服务器使用/运维服务",
+            "feature8": "可选择： KYC/AML, 法币银行服务",
+            "price": "$30.50"
+          }
+        }
+      },
+      "regulatory": {
+        "title": "监管与合规",
+        "subText1": "监管方面带来的不确定性让创业者们疲于应对。",
+        "subText2": "我们拥有充足的法务资源，处于区块链技术和全球合规法律的前沿。可以根据世界各地主要金融机构的最新建议，帮助您创建代币发行活动。",
+        "subText3": "Mynt 构建了定制化技术，满足您的法务要求。"
+      },
+      "kycBanking": {
+        "title": "法律, KYC/AML, 银行服务",
+        "point1": "提供 KYC (了解您的客户) 和 AML (反洗钱) 服务，与前端网站相集成。",
+        "point2": "为您的代币发行活动提供 BTC, ETH  和 EOS 的支付支持",
+        "point3": "提供法币银行服务，满足您的融资需求。",
+        "point4": "提供咨询服务，为您提供商业理念的建议",
+        "point5": "针对白皮书等相关文档的法务评估",
+        "point6": "起草国际法律意见 "
+      }
+    }
+  }
+}

@@ -1,0 +1,450 @@
+{
+  "de": {
+    "langselector": {
+      "native": "Deutsch"
+    },
+    "notifications": {
+      "app": {
+        "successfulLogin": "Anmeldung erfolgreich für",
+        "goodbye": "Erfolgreich abgemeldet aus",
+        "scatterMissing": "Scatter Desktop wurde nicht gefunden. Bitte stellen Sie sicher, dass Scatter Desktop geöffnet ist + aufgeschlossen und probieren Sie wieder",
+        "subscribeSuccess": "Erfolgreich angemeldet auf die E-Mail-Verteilerliste",
+        "readTos": "Bitte lesen Sie die allgemeine Geschäftsbedingungen (AGB) \"Terms and Conditions\" bevor Sie sie akzeptieren.",
+        "tosChecks": "Bitte markieren Sie alle Ankreuzfelder, dass Sie die allgemeine Geschäftsbedingungen (AGB) \"Terms and Conditions\" gelesen und akzeptiert haben.",
+        "txCancelled": "Transaktion erfolgreich abgebrochen.",
+        "clipboardContract": "Token Auktion Konto kopiert in die Zwischenablage.",
+        "clipboardMemo": "Memo kopiert in die Zwischenablage.",
+        "bidSuccessful": "Angebot erfolgreich eingereicht.",
+        "insufficientFunds": "Kein ausreichender Saldo auf Ihrem Konto. Bitte stellen Sie sicher, dass ausreichendes Guthaben zum Abschließen Ihres Angebotes verfügbar ist.",
+        "kycNotCompletedYet": "Sie müssen erstmal das KYC Process abschließen um an der Auktion teilnehmen zu können. Bitte prüfen Sie die KYC Status Seite für weitere Details.",
+        "unsubscribeSuccess": "Erfolgreiche Abmeldung von der E-Mail-Verteilerliste.",
+        "invalidEmail": "Bitte geben Sie eine gültige E-Mail Adresse an."
+      }
+    },
+    "teamMembers": [
+      {
+        "name": "David Packham",
+        "title": "CEO & Mitbegründer",
+        "bio": "David hat 20 Jahre Erfahrung in Finanzen und Asset Management in London, er hat für zahlreiche globale Institutionen in den Bereichen FinTech, Unternehmensstrategie und Programme Management gearbeitet. David hat Ökonomie, Planung und Analyse von Geschäftssystemen studiert, und er ist ein Befürworter für Dezentralisierung und hat ein leidenschaftliches Glauben an dem Potenzial des Bockchains für Erhöhung der personellen Freiheit und Reduzierung der Ungleichmäßigkeiten. Als Projektleiter von Chintai strebt er an, dass alle Aspekte des Produkts die höchste Industrienormen erreichen.",
+        "photo": "david-packham.jpg",
+        "social": [
+          {
+            "type": "linkedIn",
+            "url": "https://www.linkedin.com/in/davidpackham/"
+          },
+          {
+            "type": "telegram",
+            "url": "http://t.me/GunnisonCap"
+          },
+          {
+            "type": "twitter",
+            "url": "https://twitter.com/GunnisonCap"
+          }
+        ]
+      },
+      {
+        "name": "Phillip Hamnett",
+        "title": "Hauptentwickler, Backend",
+        "bio": "Phillip hat 9 Jahre Erfahrung in Software Entwicklung mit C++ und embedded C. Er hat seine Karriere als Physiker in Komplexitätstheorie gestartet, wo er Monte Carlo Simulationen der Verkehrsfluss in den Städten entwickelt hat. Dann hat er zu Daten Analyse von der Atlas Experiment beim Large Hadron Collider gewechselt, wo er neue Partikeln mit  extrem hoher Energie gesucht hat. Danach hat er seinen Ph.D beendet, er hat in die Luft- und Raumfahrt Industrie gewechselt und Software für Airbus entwickelt. Schließlich hat er uns angeschlossen und er arbeitet Vollzeit in der Entwicklung des Chintai Platformes.",
+        "photo": "phillip-hamnett.jpg",
+        "social": [
+          {
+            "type": "linkedIn",
+            "url": "https://www.linkedin.com/in/philliphamnett/"
+          },
+          {
+            "type": "telegram",
+            "url": "http://t.me/PhillipHamnett"
+          },
+          {
+            "type": "github",
+            "url": "https://github.com/PhillipHamnett"
+          },
+          {
+            "type": "twitter",
+            "url": "https://twitter.com/HamnettPhillip"
+          }
+        ]
+      },
+      {
+        "name": "Michael Fletcher",
+        "title": "Smart Contract Architect",
+        "bio": "Michael ist ein Back End Entwickler mit 5 Jahren Industrie Erfahrung in der Logistik Automatisierung Sektor. Er hat zu der Entwicklung von Systemen beigetragen, benutzt bei einigen der größten Firmen auf der Erde. Seine Spezialisierung ist die Erstellung von echtzeitlichen, betriebskritisch verteilten Systemen.",
+        "photo": "michael-fletcher.jpg",
+        "social": [
+          {
+            "type": "telegram",
+            "url": "http://t.me/mikeFletcher"
+          },
+          {
+            "type": "twitter",
+            "url": "https://twitter.com/Michael32766593"
+          },
+          {
+            "type": "github",
+            "url": "https://github.com/Fletch153"
+          }
+        ]
+      },
+      {
+        "name": "Kai Jing",
+        "title": "Einsatzleiter, China",
+        "bio": "Kai hat einen Hintergrund in Chemieingenieurwesen und Softwareentwicklung. Er hat als Softwareentwickler und Produktmanager in Guangzhou gearbeitet, Spezialisierung in E-Commerce Industrie. Als er EOS entdeckt hat, hat Kai entschieden, dass er seine Zeit für die Leute, die über EOS lernen möchten, widmen wird. Er hat mehrere Artikel über EOS geschrieben und übersetzt, einschließlich die Chinesische Version der EOS.io technische Beschreibung v2.0. Kai ist auch ein KOLs in BIHU mit mehr als 10,000 Followers.",
+        "photo": "kai-jing.jpg",
+        "social": [
+          {
+            "type": "telegram",
+            "url": "http://t.me/shuke0327"
+          },
+          {
+            "type": "twitter",
+            "url": "https://twitter.com/shuke0327"
+          },
+          {
+            "type": "github",
+            "url": "https://github.com/shuke0327"
+          }
+        ]
+      },
+      {
+        "name": "Ryan Bethem",
+        "title": "Produkt Manager",
+        "bio": "Ryan ist leidenschaftlicher Befürworter der Grassroots Kampagnen, im Zusammenhang mit sozialer Gerechtigkeit und finanzieller Gleichheit. Bevor er der Blockchain Industrie beigetreten ist, war er Psychologe in San Francisco, mit der Spezialisierung von psychoanalytischer Behandlung von komplexen Traumen und Gruppentherapie. Die Benutzung seines Hintergrundes in Psychologie der Gruppendynamik, Öffentlichkeitsarbeit, Politik und Philosophie lässt eine einzigartige Perspektive an der Entwicklung des EOS Ecosystems zu. Er hofft, dass EOS  ein Zentrum wird, in dem die Gruppen neudefiniert sich selbst steuern, ein Zentrum zur Erhöhung der personellen Autonomie, Erhöhung der Lebensqualitätserwartungen und Befreiung der Leute von ausbeuterischem Dritten.",
+        "photo": "ryan-bethem.jpg",
+        "social": [
+          {
+            "type": "linkedIn",
+            "url": "https://www.linkedin.com/in/ryanbethem/"
+          },
+          {
+            "type": "telegram",
+            "url": "http://t.me/ryanbethem"
+          },
+          {
+            "type": "twitter",
+            "url": "https://twitter.com/ryaneos42"
+          }
+        ]
+      },
+      {
+        "name": "Sean Kang",
+        "title": "Business Development",
+        "bio": "Sean hat mehr als zehn Jahre Erfahrung in Bankwesen, Finanzen und Städteplanung. Er hat seine Karriere als Kundenbetreuer in einer der größten Banken in Kanada gestartet, hat mehrere Firmen in Korea und Kanada betrieben und hat in den Vereinigten Staaten gelebt. Sean hat EOS bei seiner PHD Arbeit entdeckt, die sich mit der Städteplanung der Entwicklung von Smart -Städten beschäftigt hat. Er sieht voraus, dass unser tägliches Leben von smarte Städten fundamental beeinflusst wird, das sich auf eine skalierbare Blockchain Technologie  beruht. Er verbindet seine Fähigkeiten als Städteplaner mit Anhören, Verstehen und Umsetzen des Bedarfs der Gemeinschaft, so lässt Sean mit seinem diversen kulturellen Hintergrund die Verwirklichung von umfangreichen Lösungen für die EOS Gemeinde zu.",
+        "photo": "sean-kang.jpg",
+        "social": [
+          {
+            "type": "linkedIn",
+            "url": "https://www.linkedin.com/in/seankook/"
+          },
+          {
+            "type": "telegram",
+            "url": "http://t.me/seankook"
+          }
+        ]
+      }
+    ],
+    "advisors": [
+      {
+        "name": "NS James",
+        "title": "Scatter",
+        "bio": "Der originaler EOS cowboy.",
+        "photo": "n-s-james.jpg",
+        "social": [
+          {
+            "type": "telegram",
+            "url": "http://t.me/randomnobody"
+          },
+          {
+            "type": "twitter",
+            "url": "https://twitter.com/Scatter_EOS"
+          },
+          {
+            "type": "github",
+            "url": "https://github.com/nsjames"
+          }
+        ]
+      },
+      {
+        "name": "Ashe Oro",
+        "title": "Freedom Proxy",
+        "bio": "Ashe Oro (Whitener) ist der Moderator in dem Liberty Entrepreneurs Podcast und Gründer von Liberty Virtual Assistants. Durch seine Erfahrung in Computertechnik und als Leiter der Geschäftsentwicklung von Euro Pacific Bank Ashe war er 2013 in das Thema Kryptowährungen zur Erzielung personeller Freiheit durch die dezentralisierte Art und freies Marktwettbewerb der Währungen hineingezogen.",
+        "photo": "ashe-oro.jpg",
+        "social": [
+          {
+            "type": "linkedIn",
+            "url": "http://t.me/asheoro"
+          }
+        ]
+      }
+    ],
+    "roadmap": {
+      "sectionTitle": "Terminplan",
+      "items": [
+        {
+          "title": "Q1 2019",
+          "content": "CHEX Token Auktion beginnt am 8 April 2019."
+        },
+        {
+          "title": "Früh Q2 2019",
+          "content": "Chintai 2.0 + OTC Ausleihung Börse Einführung auf Test Netzwerk."
+        },
+        {
+          "title": "Spät Q2 2019",
+          "content": "Chintai 2.0 + OTC Einführung auf Hauptnetzwerk mit CHEX Integration. Einführung von DAPP Netzwerk Markt / Funktionalität für jegliche Utility Markten. P2P Token Ausleihe mit vollem Gewahrsam."
+        },
+        {
+          "title": "Q3 - Q4 2019",
+          "content": "P2P Token Ausleihe mit vollem Gewahrsam. Bereit für Einführung des Chintai Platformes auf beliebigen EOSIO Netzwerken. Einführung von CHINTAI DEX."
+        },
+        {
+          "title": "Q1 2020",
+          "content": "Einführung NFTs (non-fungible token) Ausleihung. Einführung von dApp Bonds (Bürgschaft) Börse"
+        },
+        {
+          "title": "Q2 2020",
+          "content": "Einführung von Emissionen und Handlung von EOS und CHEX Terminwaren."
+        },
+        {
+          "title": "Q3 - Q4 2020",
+          "content": "Token Handeln und Ausleihe durch verschiedene nicht EOSIO Blockchain Netzwerken. Einführung Währungspaaren von Fiatgelder auf dem CHINTAI DEX"
+        }
+      ]
+    },
+    "about": {
+      "sectionTitle": "Über Chintai",
+      "chintaiVision": {
+        "title": "Chintai Vision",
+        "content": "Chintai ist eine vollkommen funktionsfähige dezentralisierte Ressourcenbörse, wo die Fähigkeit der Ausleihe von digitalen Gütern schon nachgewiesen wurde. Der frühere Erfolg hat zu verbessertem Benutzererlebnis, niedrigeren Kostenbarrieren der Entwickler und einzigartigen passiven Einkommensflüssen geführt. CHEX ist der entscheidende Bestandteil für die Erweiterung dieser Vorteile über die Blockchain Industrie."
+      },
+      "leaseEverything": {	
+        "title": "Verleihe Alles",
+        "content": "Es wird erwartet, dass Utility-Tokens zu einem der wichtigsten Treiber der neuen digitalen Wirtschaft werden. Möglichkeiten für die Ausleihe von utility Tokens sind fast grenzenlos. Chintai wird die Fähigkeit bereitstellen für die Benutzer, jegliche digitale Güter von diversen Blockchains mit jeglicher Währung zu verleihen. CHEX ist der grundlegende Bestandteil, das die Benutzer mit den Chintai Markten verbindet. Mit dem Besitz von CHEX können Sie einen laufenden Fluss von passiven Einkommen automatisieren oder ohne nahtlose Ressourcen aufgrund spezieller Anforderungen managen."
+      },
+      "chexToken": {
+        "title": "CHEX Token",
+        "content1": "CHEX token Besitzer profitieren von",
+        "content2": "3 Haupt- Utility Eigenschaften",
+        "content3": "Anpassbare Stake- Termine als Gegenwirkung von Betrügen, 25% Rabatt in Handelsgebühren, und Benutzungsmöglichkeit der “CHEX Smart Matching”, die die verschiedene Netzwerke Übergreifende Auftragsausführung automatisiert um passives Einkommen zu optimalisieren. Handelsgebühren werden in CHEX gesammelt. Gebühren werden vernichtet, zu CHEX relay zur Marktstabilisierung gesendet oder für die Entwicklung des Chintai Platformes verwendet."
+      },
+      "provenUseCase": {
+        "title": "Bewährter Anwendunsfall",
+        "content": "Seit der Einführung im Oktober 2018, wurde Chintai die größte token Ausleiheplatform im EOS Hauptnetz und hat eine kritische Rolle in Nov/December 2018 für die reibungslose Hauptnetzökonomie Funktionalität gespielt, als der Bedarf für CPU scharf gestiegen ist. An der Spitze der Chintai Market ist die Größe auf eine Allzeithöhe von 20+ Millionen EOS gestiegen, mit mehr als 65.000 EOS in Zinsen generiert, alleine in der zweiten Dezemberwoche."
+      }
+    },
+    "team": {
+      "chintaiCoreTeam": "Chintai Kernteam",
+      "chintaiAdvisors": "Chintai Ratgeber"
+    },
+    "footer": {
+      "socialMedia": "Social Media",
+      "contactUs": "Wenden Sie sich an uns.",
+      "copyright": "© 2019 Chintai.io - All rights reserved",
+      "terms": "Terms & Conditions/allgemeine Geschäftsbedingungen",
+      "subscribe": "Sich selbst aufschreiben",
+      "optOut": "nicht Beteiligen"
+    },
+    "header": {
+      "getUpdates": "Aktualisierungen bekommen",
+      "subscribe": "Sich selbst aufschreiben",
+      "login": "Mit",
+      "scatterLogin": "Mit Scatter einloggen",
+      "logout": "Ausmelden?",
+      "landingPageNavItems": [
+        {
+          "text": "CHEX erhalten",
+          "url": "/auction",
+          "type": "internal"
+        },
+        {
+          "text": "Börse",
+          "url": "https://exchange.chintai.io",
+          "type": "external"
+        },
+        {
+          "text": "Automated Resourcing",
+          "url": "https://arm.chintai.io/",
+          "type": "external"
+        },
+        {
+          "text": "Blog",
+          "url": "https://medium.com/@chintaieos",
+          "type": "external"
+        },
+        {
+          "text": "Whitepaper",
+          "url": "/whitepaper",
+          "type": "external"
+        }
+      ],
+      "auctionPortalNavItems": [
+        {
+          "text": "Dashboard",
+          "url": "/auction",
+          "type": "internal"
+        },
+        {
+          "text": "CHEX erhalten",
+          "url": "/auction/bid",
+          "type": "internal"
+        },
+        {
+          "text": "KYC Status",
+          "url": "/auction/kyc",
+          "type": "internal"
+        },
+        {
+          "text": "Mein Beitrag",
+          "url": "/auction/contributions",
+          "type": "internal"
+        },
+        {
+          "text": "Auktion Überblick",
+          "url": "/auction/rounds",
+          "type": "internal"
+        }
+      ]
+    },
+    "countdown": {
+      "seconds": "Sekunden",
+      "minutes": "Minuten",
+      "hours": "Stunden",
+      "days": "Tage"
+    },
+    "liveRoundOverview": {
+      "title": "Aktuelle Runde Countdown",
+      "endingOn": "Endet:",
+      "roundNum": "Runde Nummer",
+      "chexPriceEos": "CHEX Preis (EOS)",
+      "chexPriceUsd": "CHEX Preis (USD)",
+      "chexEos": "CHEX/EOS"
+    },
+    "errorPage": {
+      "returnHome": "Zurück zur Startseite",
+      "returnToDashboard": "Zurück zum Überblick",
+      "error404": "404 Seite nicht gefunden",
+      "errorContent": "Sorry, wir können die abgefragte Resource nicht finden",
+      "restrictedTitle": "Ausgeschlossene Region",
+      "restrictedContent1": "Sorry, wir können die Leistung in Ihrer Region nicht anbieten. Bitte beziehen sie sich auf CHEX",
+      "termsConditions": "allgemeine Geschäftsbedingungen",
+      "restrictedContent2": "für weitere Informationen."
+    },
+    "priceHistory": {
+      "title": "Runde Darstellung",
+      "noRounds": "Keine frühere Runde zu zeigen",
+      "inProgress": "laufend",
+      "roundNum": "Runde Nummer",
+      "chexPrice": "CHEX/EOS Preis",
+      "date": "Zeitpunkt"
+    },
+    "terms": {
+      "title": "CHEX allgemeine Geschäftsbedingungen/TERMS & CONDITIONS",
+      "note": "Hinweis: allgemeine Geschäftsbedingungen  prüfen, bevor annehmen",
+      "accept": "Annehmen",
+      "reject": "Ablehnen",
+      "certify1": "Hier klicken zur Bestätigung, dass Sie kein U.S. Staatsbürger, Ansässiger, oder Rechtsperson (jegliche \"U.S. Person\") sind, weder noch erwerben Sie CHEX Token im Namen  einer \"U.S. Person\"",
+      "certify2": "Hier klicken zur Bestätigung dass Sie kein Staatsbürger der Volksrepublik China, Ansässiger, oder Rechtsperson unter Chinesischem Recht (jegliche \"Chinesische Person\") sind, weder noch erwerben Sie CHEX Token im Namen einer \"Chinesischen Person\"",
+      "certify3a": "Hier klicken zur Bestätigung, dass folgendes Dokument geprüft wurde:",
+      "certify3b": "CHEX Tokenomic Whitepaper.",
+      "certify4a": "Hier klicken zur Bestätigung, dass das folgende Dokument gelesen, verstanden und akzeptier wurde: CHEX Token ",
+      "certify4b": "."
+    },
+    "kycCheck": {
+      "completed": "Sie haben das KYC Prozess erfolgreich beendet",
+      "notCompleted": "Sie haben das KYC Prozess noch nicht beendet",
+      "makeChanges": "Sie können Ihre KYC Profile jeder Zeit durch die untere KYC Dienstleistung aktualisieren.",
+      "pleaseComplete": "Bitte besuchen Sie die untere KYC Dienstleistungsseite und stellen Sie sicher, dass der KYC Antrag eingereicht ist.",
+      "visitAltcoinomy": "Altcoinomy Besuchen",
+      "verifying": "KYC Status Prüfung",
+      "pleaseLogin": "Bitte einloggen, um Ihren KYC Status zu prüfen. Sie können jetzt auch unseren KYC Dienstleister unten besuchen um zu starten."
+    },
+    "myContributions": {
+      "inProgress": "Runde läuft",
+      "completed": "Abgeschlossen",
+      "pending": "Bevorstehende Runde",
+      "totalContribution": "Gesamtbeitrag",
+      "totalContributionTooltip": "Zur Auktion beigetragene EOS Summe",
+      "chexReceived": "Gesamt CHEX erhalten",
+      "chexReceivedTooltip": "Summe der CHEX Tokens von der Auktion erhalten",
+      "avgPrice": "Gewichteter Mittelwert Preis",
+      "avgPriceTooltip": "Gewichteter Mittelwert Kosten bezahlt per CHEX",
+      "includeFuture": "Beinhaltet laufende/bevorstehende Runden",
+      "roundNum": "Runde Nummer",
+      "date": "Datum (UTC)",
+      "chex": "Chex Erhalten",
+      "chexPrice": "Chex Preis",
+      "status": "Status",
+      "noContributions": "Kein Beitrag kann gezeigt werden.",
+      "pleaseLogin": "Bitte einloggen um Ihren Beitrag zu Zeigen."
+    },
+    "roundsSummary": {
+      "totalContributions": "Gesamt Beitrag",
+      "chexIssued": "CHEX ausgegeben",
+      "chexPrice": "CHEX Preis",
+      "inProgress": "Laufende Runde",
+      "completed": "Abgeschlossen",
+      "pending": "Bevorstehende Runde",
+      "roundNum": "Runde Nummer",
+      "date": "Datum (UTC)",
+      "status": "Status",
+      "noRounds": "Keine Runde kann gezeigt werden."
+    },
+    "bidOnChex": {
+      "kycWarning": "Bevor Sie zur CHEX Auktion beitragen können, müssen Sie KYC absolvieren. Wenn Sie das KYC Prozess beendet haben, wird Ihr EOS Konto automatisch genehmigt, um zur CHEX Auktion beitragen zu können.",
+      "kycWarningLink": "Besuchen Sie die KYC Seite",
+      "configureBid": "Angebot unterbreiten",
+      "configureBidDescription": "Angebote können so unterbreitet werden, dass Sie in eine einzige Runde oder in mehreren Runden mit gleichem Beitrag teilnehmen. Sie werden CHEX am Ende der Runden erhalten.",
+      "roundFrom": "Von #",
+      "roundTo": "Bis #",
+      "singleRound": "Eine einzige Runde",
+      "rangeRounds": "Mehrere Runden",
+      "summary": "Zusammenfassung",
+      "quantity": "Anzahl",
+      "submitBidTo": "Ich will mein Angebot einreichen zu",
+      "scatterDescription": "Benutzen Sie diese Auswahlmöglichkeit zur Einreichung eines Angebotes mit Scatter. Ein anderes Fenster wird im Scatter zur Bestätigung Ihres Angebotes geöffnet.",
+      "manualDescription": "Benutzen Sie diese Auswahlmöglichkeit zur manuellen Einreichung eines Angebotes mit ihrem bevorzugtem Wallet.",
+      "sendPaymentTo": "Senden Sie die Zahlung auf das Konto",
+      "assistedBid": "Einreichen (Scatter)",
+      "pleaseLogin": "Bitte ins Scatter einloggen",
+      "manualBid": "Einreichen (manuell)",
+      "memoInst": " einschließlich  Memo",
+      "submitBid": "Angebot einreichen",
+      "senderAccount": "Absender Konto",
+      "bidSummarySingleRound": "Ich möchte ein Angebot {{quantity}} EOS in der Runde #{{roundNum}} einreichen.",
+      "bidSummaryMultipleRound": "Ich möchte ein Angebot {{quantity}} EOS gleich verteilt von Runde #{{roundNumStart}} bis Runde #{{roundNumEnd}} einreichen.",
+      "memoTip": "Stellen Sie sicher. dass das Memo genau so formatier ist wie unten gezeigt. Ihr Konto Name muss der letze Bestandteil im Memo sein.",
+      "exchangeWarning": "Senden Sie KEIN EOS von einem Börsenkonto zum CHEX Auktion Konto. Alle EOS werden permanent verloren, die von einem Börsenkonto auf das CHEX Aktionskonto gesendet wurden."
+    },
+    "auctionNav": {
+      "dashboard": "Überblick",
+      "getChex": "CHEX erhalten",
+      "kycStatus": "KYC Status",
+      "myContributions": "Meine Beiträge",
+      "auctionSummary": "Auktion Zusammenfassung"
+    },
+    "landingContent": {
+      "title": "Die erste 100% on-chain Token Ausleihung Börse",
+      "point1": "Erzeuge passive Einkünfte",
+      "point2": "Stell Kosten effektiver Zugang zu digitalen Ressourcen sicher",
+      "point3": "Unterstützt praktisch beliebige Blockchain und Währungen",
+      "point4": "CHEX ist der Schlüssel zur Verleihung aller Dinge",
+      "whitepaper": "Whitepaper"
+    },
+    "landingPagePentagon": {
+      "title": "Antreiben der Pioniere der neuen digitalen Wirtschaft",
+      "problem": "das Problem",
+      "problemText": "Leute wollen vorhersehbares passives Einkommen auf ihrem Kripto Besitz realisieren und kostengünstigen Zugang zu digitalen Ressourcen haben.",
+      "solution": "die Lösung",
+      "solutionText": "Chintai is ein funktionierender Marktplatz, der den Wunsch erfüllt, durch seine Hochleistungs- Ressourcen-Börse, praktisch auf alle Blockchain Kriptowährungen und tokenisierten-Anlagen zu verleihen.",
+      "chexToken": "CHEX Token",
+      "chexTokenText": "CHEX gibt Ihnen den Zugang zu Chintai Marktplätze. CHEX schlaue Paarung wird maximales Einkommen für Verleiher automatisieren und Ressourcen für den bestmöglichen Preisen für Entleiher sicherstellen."
+    },
+    "infinity": {
+      "title": "Chintai Maktenplätze & CHEX Token Fluss"
+    },
+    "unsubscribe": {
+      "title": "Abmeldung von unserer E-Mail-Verteilerliste",
+      "unsubscribe": "Abmeldung",
+      "sorry": "Es tut uns Leid, dass Sie uns verlassen. Bitte geben Sie ihre E-Mail Adresse an und wir werden Sie von der Verteilerliste entfernen. Bitte erlauben Sie uns 24 Stunden für die Änderung, bis zum in Kraft treten."
+    }
+  }
+}

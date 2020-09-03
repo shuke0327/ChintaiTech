@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="113.414" height="13.414" viewBox="0 0 113.414 13.414">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-4 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #0d78ca;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Forward_Connector_2" data-name="Forward Connector 2" transform="translate(-590 -93.291)">
+    <line id="Line_132" data-name="Line 132" class="cls-1" x2="100" transform="translate(596 100)"/>
+    <g id="Ellipse_233" data-name="Ellipse 233" class="cls-1" transform="translate(590 96)">
+      <circle class="cls-3" cx="4" cy="4" r="4"/>
+      <circle class="cls-4" cx="4" cy="4" r="3"/>
+    </g>
+    <path id="Path_187" data-name="Path 187" class="cls-2" d="M7.7.8l-6,6,6,6" transform="translate(703.7 106.799) rotate(180)"/>
+  </g>
+</svg>

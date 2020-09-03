@@ -1,0 +1,1048 @@
+{
+  "ko": {
+    "langselector": {
+      "native": "한국어"
+    },
+    "notifications": {
+      "app": {
+        "successfulLogin": "로그인 성공",
+        "goodbye": "로그아웃 성공",
+        "scatterMissing": "Scatter Desktop 을 찾을 수 없습니다. Scatter Desktop 에 로그인되어 있는지 확인 후 다시 시도해 주세요",
+        "invalidEmail": "Email 구독 실패 - 유효한 이메일 주소를 넣고 다시 시도해 주세요",
+        "subscribeSuccess": "구독 성공",
+        "readTos": "동의하기 전에 \"이용 약관\" 전체를 읽으십시오.",
+        "tosChecks": "\"이용 약관\" 을 읽고 이해했음을 증명하는 모든 체크상자를 선택하십시오.",
+        "txCancelled": "거래가 성공적으로 취소되었습니다",
+        "clipboardContract": "토큰세일 참여 계정이 클립 보드에 복사되었습니다.",
+        "clipboardMemo": "메모가 클립 보드에 성공적으로 복사되었습니다.",
+        "bidSuccessful": "토큰세일에 성공적으로 참여하였습니다.",
+        "autoresDepositSuccessful": "입금 요청 성공",
+        "autoresWithdrawSuccessful": "출금 요청 성공",
+        "autoresBlacklistSuccessful": "블랙리스트 요청 성공",
+        "autoresBlacklistRemove": "블랙리스트에서 제거 요청 성공",
+        "autoresConfigSuccessful": "설정이 성공적으로 저장되었습니다",
+        "autoresConfigRemove": "설정이 성공적으로 제거되었습니다",
+        "insufficientFunds": "지갑에 충분한 금액이 없습니다. 지갑에 충분한 금액이 있어야만 토큰세일에 참여 할 수 있습니다.",
+        "kycNotCompletedYet": "토큰세일에 참여하려면 먼저 KYC를 완료해야합니다. 자세한 내용은 KYC 상태 페이지를 확인하십시오.",
+        "unsubscribeSuccess": "메일링 리스트에서 성공적으로 수신 거부되었습니다.",
+        "emergencyCpu": "비상 CPU 요청, CPU 사용량이 여전히 100% 를 초과하면 다시 신청해 주세요."
+      }
+    },
+    "roadmap": {
+      "sectionTitle": "로드맵",
+      "items": [
+        {
+          "date": "2018 년 10 월",
+          "year": "2018",
+          "content": [
+            "Chintai, 최초의 토큰 임대 시장 출시"
+          ]
+        },
+        {
+          "date": "2018 년 12 월",
+          "year": "2018",
+          "content": [
+            "주간 거래량 신기록 : 66,000 EOS"
+          ]
+        },
+        {
+          "date": "2019 년 3 월",
+          "year": "2019",
+          "content": [
+            "CHEX Tokenomics 백서 출시"
+          ]
+        },
+        {
+          "date": "2019 년 4 월",
+          "year": "2019",
+          "content": [
+            "CHEX 토큰 판매 시작"
+          ]
+        },
+        {
+          "date": "2019 년 5 월",
+          "year": "2019",
+          "content": [
+            "자동화된 블록체인 자원관리 서비스 구축"
+          ]
+        },
+        {
+          "date": "2019 년 6 월",
+          "year": "2019",
+          "content": [
+            "Decentranet Consultancy Group 채용",
+            "Chintai 2.0 UI 출시"
+          ]
+        },
+        {
+          "date": "2019 년 8 월",
+          "year": "2019",
+          "content": [
+            "Mynt (마이 네이티브 토큰) 출시"
+          ]
+        },
+        {
+          "date": "2019 년 10 월",
+          "year": "2019",
+          "content": [
+            "테스트넷에 BOID 임대 시장 배포"
+          ]
+        },
+        {
+          "date": "2019 년 12 월",
+          "year": "2019",
+          "content": [
+            "CHEX 판매 종료",
+            "새로운 dApp 채권 시장을 위한 규제 샌드 박스 설정"
+          ]
+        },
+        {
+          "date": "2020 년 1 월",
+          "year": "2020",
+          "content": [
+            "CHEX Tokenomics 2.0 출시"
+          ]
+        },
+        {
+          "date": "2020 년 1 분기",
+          "year": "2020",
+          "content": [
+            "테스트넷에 DAPP 임대 시장 배포",
+            "WAX & WORBLI 블록체인에 Chintai 2.0 출시"
+          ]
+        },
+        {
+          "date": "2020 년 2 분기",
+          "year": "2020",
+          "content": [
+            "NFT 임대 시장",
+            "DAPP 네트워크를 위한 Chintai DSP 및 자동 자원관리",
+            "CHEX 스마트 매칭 통합"
+          ]
+        },
+        {
+          "date": "2020 년 3 분기 - 4 분기",
+          "year": "2020",
+          "content": [
+            "IQ 임대 시장",
+            "VEX - 투표 거래소",
+            "WORBLI 를 통한 규제를 준수하는 DEX"
+          ]
+        },
+        {
+          "date": "2021 년 1 분기",
+          "year": "2021",
+          "content": [
+            "dApp 채권 시장"
+          ]
+        }
+      ]
+    },
+    "aboutChintai": {
+      "chintai": {
+        "title": "친타이 소개",
+        "content": "Chintai 는 2018년 이오스 네트워크에서 첫번째 토큰 임대 플랫폼을 시작했습니다. 전 세계적으로 총 33,000 명의 순 사용자가 2억 5천만 달러 이상의 거래량을 생성했습니다. Chintai는 2020년에 규제를 준수하는 탈중앙거래소 및 dApp 채권 시장을 포함하여 추가 Defi 상품을 배포 할 계획입니다."
+      },
+      "defi": {
+        "title": "DeFi 란?",
+        "content": "DeFi는 탈중앙 기술이 금융을 만나 지금까지 소개 되지 않은 금융 기회를 가능하게 하는 동시에 가치 희석을 제거하고 새로운 가치 창출을 지원하는 것 입니다."
+      }
+    },
+    "team": {
+      "chintaiCoreTeam": "팀 소개",
+      "TeamSubtext": "Chintai 팀은 금융, 기술, 제품 개발, 마케팅 등의 전문 지식을 결합하여 블록체인 업계에서 가장 많이 사용되는 탈중앙 응용 프로그램을 개발합니다.",
+      "chintaiAdvisors": "Chintai 어드바이저",
+      "AdvisorSubtext": ""
+    },
+    "teamMembers": [
+      {
+        "name": "David Packham",
+        "title": "CEO & Co-Founder",
+        "bio": [
+          "David는 런던에서 금융 및 자산 관리 분야에서 20 년 동안 경력을 쌓았으며 FinTech, 비즈니스 전략 및 프로그램 관리 분야의 다양한 글로벌 기관에서 근무했습니다.",
+          "David는 경제 및 비즈니스 시스템 분석 및 디자인을 연구했으며 개인의 자유를 높이고 불평등을 줄임으로써 세계를 변화시킬 블록 체인의 잠재력에 대한 열정을 가진 탈중앙 지지자입니다.",
+          "현재 Chintai의 총괄 프로젝트 관리자로서, 제품의 모든 측면이 업계 최고의 표준을 충족 시키도록 노력하고 있습니다."
+        ],
+        "photo": "david-packham.jpg",
+        "social": [
+          {
+            "type": "linkedIn",
+            "url": "https://www.linkedin.com/in/davidpackham/"
+          },
+          {
+            "type": "telegram",
+            "url": "http://t.me/GunnisonCap"
+          },
+          {
+            "type": "twitter",
+            "url": "https://twitter.com/GunnisonCap"
+          }
+        ]
+      },
+      {
+        "name": "Phillip Hamnett",
+        "title": "CTO",
+        "bio": [
+          "Phillip은 C ++ 및 임베디드 C 를 이용하여 9년간 소프트웨어를 개발하여 왔습니다.",
+          "그는 복잡성 이론에서 물리학자로 경력을 시작했으며, 도시의 교통 흐름을 모델링하기 위해 Monte Carlo 시뮬레이션을 개발했습니다.",
+          "그 후, Large Hadron Collider에서 ATLAS 실험을 위한 데이터 분석을 하였으며, 실험을 통해 매우 높은 에너지에서 새로운 입자를 발견하였습니다.",
+          "Phillip 은 박사 학위를 마친 후, 항공 우주 산업으로 이동하여 에어버스를 위한 소프트웨어를 개발하였습니다.",
+          "현재 저희와 합류하여 Chintai 플랫폼의 개발에 풀타임으로 일하고 있습니다."
+        ],
+        "photo": "phillip-hamnett.jpg",
+        "social": [
+          {
+            "type": "linkedIn",
+            "url": "https://www.linkedin.com/in/philliphamnett/"
+          },
+          {
+            "type": "telegram",
+            "url": "http://t.me/PhillipHamnett"
+          },
+          {
+            "type": "github",
+            "url": "https://github.com/PhillipHamnett"
+          },
+          {
+            "type": "twitter",
+            "url": "https://twitter.com/HamnettPhillip"
+          }
+        ]
+      },
+      {
+        "name": "Ryan Bethem",
+        "title": "COO",
+        "bio": [
+          "Ryan은 행동 경제학을 연구하였으며, 임상 심리학 석사 및 심리학 학사 학위를 취득했습니다.",
+          "그는 2016 년에 블록체인 기술이 글로벌 금융 시스템에 미칠 수있는 잠재력을 발견 한 후 탈중앙 기술에 대한 애호가이자 옹호자가 되었습니다.",
+          "Ryan은 2017 년에 경력을 이전하였으며, EOSIO 기반 거버넌스 개발의 리더가 되었고 2019 년 EOS 메인넷에서 블록프로듀서에 대한 거버넌스 컨트랙트를 작성했습니다.",
+          "현재 그는 Chintai의 브랜드 개발, 커뮤니케이션, 운영 및 비즈니스 개발을 이끌고 있습니다."
+        ],
+        "photo": "ryan-bethem.jpg",
+        "social": [
+          {
+            "type": "linkedIn",
+            "url": "https://www.linkedin.com/in/ryanbethem/"
+          },
+          {
+            "type": "telegram",
+            "url": "http://t.me/ryanbethem"
+          },
+          {
+            "type": "twitter",
+            "url": "https://twitter.com/ryaneos42"
+          }
+        ]
+      },
+      {
+        "name": "Michael Fletcher",
+        "title": "Principal Developer",
+        "bio": [
+          "Michael은 원자력, 기술 및 물류 자동화 분야에서 7 년의 경험을 가진 핵심 백엔드 개발자입니다.",
+          "그는 물류 및 유통 시스템 생성을 전문으로 하는 주요 회사에서 사용하는 시스템 개발을 이끌었습니다."
+        ],
+        "photo": "michael-fletcher.jpg",
+        "social": [
+          {
+            "type": "telegram",
+            "url": "http://t.me/mikeFletcher"
+          },
+          {
+            "type": "twitter",
+            "url": "https://twitter.com/Michael32766593"
+          },
+          {
+            "type": "github",
+            "url": "https://github.com/Fletch153"
+          }
+        ]
+      },
+      {
+        "name": "Andrew Diedrich",
+        "title": "Full Stack Developer",
+        "bio": [
+          "앤드류는 미네소타 대학에서 경제학 학사 학위를 가지고있다.",
+          "Andrew의 기술적 배경의 기초는 소매 판매 및 노동 계획을 위한 계량분석 방법을 사용하는 데이터 중심 계획 및 전략을 기반으로합니다.",
+          "그는 데이터 분석을 위해 SQL, R 및 SAS 통계 소프트웨어를 사용한 5 년의 경력을 가지고 있으며 자바 스크립트를 이용한 2 년의 개발 경력을 가지고 있습니다.",
+          "Andrew는 블록체인 기술을 통한 사회적 변화에 대한 열정과 함께 풀스택 개발자로서의 기술 능력을 향상 시키고 있습니다."
+        ],
+        "photo": "andrew.jpg",
+        "social": [
+          {
+            "type": "linkedIn",
+            "url": "https://www.linkedin.com/in/andrew-diedrich-a0a58893"
+          },
+          {
+            "type": "telegram",
+            "url": "https://telegram.me/AndrewDiedrich"
+          }
+        ]
+      },
+      {
+        "name": "Kai Jing",
+        "title": "Head of Operations, China / Full Stack Developer",
+        "bio": [
+          "Kai는 화학 공학 및 소프트웨어 공학을 전공했습니다. 그는 광저우에서 전자 상거래 산업을 전문으로하는 소프트웨어 개발자 및 제품 관리자로 일했습니다.",
+          "2017 년 7 월 EOS를 처음 접한 이 후 Kai는 사람들이 EOS에 대해 배울 수 있도록 시간을 쏟기로 결정했습니다.",
+          "그는 EOSIO Technical Whitepaper v2.0의 중국어 버전을 포함하여 EOS에 관한 여러 기사를 작성하고 번역했습니다. Kai 는 BIHU 에서 70,000 명의 팔로워를 가지고 있는 KOLs 이기도 합니다."
+        ],
+        "photo": "kai-jing.jpg",
+        "social": [
+          {
+            "type": "telegram",
+            "url": "http://t.me/shuke0327"
+          },
+          {
+            "type": "twitter",
+            "url": "https://twitter.com/shuke0327"
+          },
+          {
+            "type": "github",
+            "url": "https://github.com/shuke0327"
+          }
+        ]
+      },
+      {
+        "name": "Sean Kang",
+        "title": "Business Development",
+        "bio": [
+          "Sean은 은행, 금융 및 도시 공학 분야에서 10 년 이상의 경험을 가지고 있습니다.",
+          "그는 캐나다에서 가장 큰 은행에서 어카운트 매니저로 경력을 쌓았으며, 한국과 캐나다에서 다양한 사업을 운영하고 미국에서 경제학을 공부하였습니다. Sean은 박사과정 중에 있으며 블록체인 기술을 활용한 스마트 시티 개발과 도시 계획을 연구하고 있습니다.",
+          "Sean은 확장 가능한 블록체인 기술을 활용하는 스마트 도시와 이를 통한 더 나은 삶을 구상합니다.",
+          "또한 Sean은 자신의 다양한 문화적 배경을 통해 커뮤니티가 원하는 것을 듣고 이해하고 구현하는 도시 계획가로서의 능력을 결합하여 DeFi 커뮤니티를 위한 포괄적인 솔루션을 제공하고자 합니다."
+        ],
+        "photo": "sean-kang.jpg",
+        "social": [
+          {
+            "type": "linkedIn",
+            "url": "https://www.linkedin.com/in/seankook/"
+          },
+          {
+            "type": "telegram",
+            "url": "http://t.me/seankook"
+          }
+        ]
+      },
+      {
+        "name": "Michael Nash",
+        "title": "Developer",
+        "bio": [
+          "Michael은 블록체인 비지니스에 들어서기 전에 생명 과학 연구원으로 일했습니다.",
+          "세계 최고의 전문가들과 함께 3 년 동안 옥스포드 대학교에서 근무하면서 신경 퇴행성 질환을 치료할 목적으로 고품질의 연구에 기여했습니다.",
+          "Michael은 2018 년 블록체인 기술과 EOS 생태계에 대해 더 많이 알게 된 이후, 이 기술에 대해 더 많이 배우고 성장에 기여하기로 결정했습니다.",
+          "그는 미래의 일반 사람들의 삶을 근본적으로 바꿀 수있는 블록체인 기술의 잠재력에 열정을 가지고 있으며, 그들이 선택한 삶을 더 자유롭게 살 수있는 기회를 제공하고자 합니다.",
+          "Nash는 품질 보증팀의 일원으로서 모든 서비스가 출시 시점 및 그 이후에 올바르게 작동하는지 확인하고 있습니다."
+        ],
+        "photo": "nash.jpg",
+        "social": [
+          {
+            "type": "linkedIn",
+            "url": "https://linkedin.com/in/michael-nash-753277180"
+          },
+          {
+            "type": "telegram",
+            "url": "https://telegram.me/MichaelNash"
+          }
+        ]
+      }
+    ],
+    "advisors": [
+      {
+        "name": "Mattew Mckibbin",
+        "title": "Advisor",
+        "bio": [
+          "Matt는 전 세계에 영향을 미치는 혁신적 신기술과 블록체인 기술에 투자하고 자문하는 회사인 Decentranet의 공동 설립자입니다.",
+          "그는 탈중앙 기술, 철학 및 사회 조직에 관한 세계 최고의 컨퍼런스인 d10e의 전 공동 창립자이자 최고 탈중앙 책임자로 활동하였습니다.",
+          "Matt는 DC 블록 체인 Meetup을 개최하면서 2013 년부터 탈중앙화 및 혁신 기술 전도사로 활동했으며 BitAngels의 초기멤버였습니다.",
+          "Matt는 전 세계 주요 컨퍼런스에서 탈중앙 및 거버넌스 전문가로서 주요 연사로 발표 하고 있습니다.",
+          "그는 Bloomberg, Nasdaq, TechCrunch, CoinDesk, CoinTelegraph, Bitcoin Magazine 등 수십 가지 매체 출판물에 실렸습니다. Matt는 웨스트 버지니아 대학교에서 물리학 학사 학위를 받았습니다."
+        ],
+        "photo": "mattew.jpg",
+        "social": [
+          {
+            "type": "twitter",
+            "url": "https://twitter.com/Matt_McKibbin"
+          },
+          {
+            "type": "linkedIn",
+            "url": "https://www.linkedin.com/in/mattmckibbin/"
+          }
+        ]
+      },
+      {
+        "name": "Ted Moskovitz",
+        "title": "Advisor",
+        "bio": [
+          "Ted는 Decentranet의 창립 파트너이자 고문입니다. 전 증권 거래위원회 변호사로 일했으며, 현재는 블록체인 생태계, 특히 사회적 영향 프로젝트의 적극적인 투자자이자 사업가 입니다.",
+          "또한 가상 인큐베이터 Featured Labs의 공동 창립자로서 SaaS, 게놈 기반 의학, 대마초 및 블록 체인 기술 분야의 회사에 조언하고 투자합니다.",
+          "인기있는 발표자인 Ted는 Blockchain Cruise Asia, CryptoHQ 및 Blockchain for Impact를 포함하여 수십 개의 블록체인 업계 이벤트에서 발표했습니다.",
+          "유가 증권법 전문가 인 Ted는 Tim Pool Cast, BadCrypto, Investing.com 및 Coin Telegraph를 포함한 몇 가지 주목할 만한 간행물을 컨설팅했습니다.",
+          "그는 Washington Law of College의 American University에서 은행, 기업, 재무 및 증권법의 법학 박사 학위 최우수 졸업 하였습니다."
+        ],
+        "photo": "ted.jpg",
+        "social": [
+          {
+            "type": "linkedIn",
+            "url": "https://www.linkedin.com/in/tedmoskovitz/"
+          }
+        ]
+      },
+      {
+        "name": "Tiffany",
+        "title": "Advisor",
+        "bio": [
+          "2015 년 Tiffany는 탈중앙 기술, 철학 및 사회 단체에 관한 세계 최고의 컨퍼런스 인 d10e를 공동 창립했습니다. d10e 이전에, 그녀는 Brock Pierce가 설립 한 cryptocurrency 중심의 행사인 Coin Congress의 부사장으로 재직했습니다.",
+          "2016 년에는 최고의 비트 코인 채굴 회사 인 MGT Capital Investments, Inc.에서 커뮤니케이션 및 IR 담당 이사로도 근무했습니다.",
+          "워싱턴 타임즈 (Washington Times)의 전 기자였던 Tiffany는 저술가이자 커뮤니케이션 전문가입니다. 또한 Tiffany는 2016 년 대통령 선거 기간 동안 John McAfee의 캠페인 관리자로도 활동했습니다.",
+          "현재 Tiffany는 501 (c) (3) 비영리 단체이자 재향 군인, 배우자 및 기업가가 자신의 사업을 시작할 수 있도록 돕는 국가 리더 및 자원 봉사자 네트워크 인 Bunker Labs의 도시 리더로도 활동하고 있습니다."
+        ],
+        "photo": "tiffany.jpg",
+        "social": [
+          {
+            "type": "twitter",
+            "url": "http://twitter.com/tiffanymadison"
+          },
+          {
+            "type": "linkedIn",
+            "url": "http://www.linkedin.com/in/tiffanymadison1"
+          }
+        ]
+      },
+      {
+        "name": "Jami Mckibbin",
+        "title": "Advisor",
+        "bio": [
+          "Jamie는 American Textile Company의 분석가로 일한 경력을 가지고 있습니다. Jamie는 피츠버그 대학에 다니면서 8년 동안 사회 변화를 위한 사명을 시작했습니다.",
+          "그는 피츠버그 자유 현장에서 활발하게 활동하면서 여러 지역 단체를 설립하고 참여했습니다. 그는 2012 년에 많은 산업에 혁명을 일으키고 기존의 불합리한 구조를 분산시킬 수있는 잠재력을 가진 탈중앙 기술에 관심을 보였습니다..",
+          "현재 그는 DecentraNet과 함께 경제 및 데이터 분석에 대한 배경 지식을 활용한 기술을 제공합니다. Jamie는 피츠버그 대학에서 경제학 학사 학위를 취득했습니다."
+        ],
+        "photo": "jami.jpg",
+        "social": [
+          {
+            "type": "linkedIn",
+            "url": "https://www.linkedin.com/in/james-mckibbin-14b05094/"
+          }
+        ]
+      },
+      {
+        "name": "Tom Bicknell",
+        "title": "Advisor",
+        "bio": [
+          "Partner at Pinsent Masons, a leading Financial Technology law firm. Tom is a highly experienced financial service and corporate insurance practitioner based in the Middle East and is actively advising and assisting Chintai with regulatory engagement."
+        ],
+        "photo": "bicknell.jpg",
+        "social": [
+          {
+            "type": "linkedIn",
+            "url": "https://www.linkedin.com/in/tom-bicknell-25629b47"
+          }
+        ]
+      },
+      {
+        "name": "Verlin Gradney",
+        "title": "Advisor",
+        "bio": [
+          "13 year career in the securities and wealth management with American Express & GE Capital. Founder of private finance firms which specialized in venture capital, corporate debt and structured finance."
+        ],
+        "photo": "verlin.jpg",
+        "social": [
+          {
+            "type": "linkedIn",
+            "url": "https://www.linkedin.com/in/verlingradney"
+          }
+        ]
+      }
+    ],
+    "footer": {
+      "socialMedia": "소셜 미디어",
+      "contactUs": "문의",
+      "copyright": "ⓒ 2019 Chintai.io - All rights reserved",
+      "terms": "이용 약관",
+      "subscribe": "구독",
+      "optOut": "수신거부"
+    },
+    "header": {
+      "getUpdates": "새소식 받기",
+      "subscribe": "구독",
+      "login": "로그인",
+      "scatterLogin": "Scatter로 로그인",
+      "logout": "로그아웃",
+      "landingPageNavItems": [
+        {
+          "text": "CHEX 구매",
+          "url": "/auction",
+          "type": "internal"
+        },
+        {
+          "text": "거래소",
+          "url": "https://exchange.chintai.io",
+          "type": "external"
+        },
+        {
+          "text": "Mynt",
+          "url": "https://mynteos.com",
+          "type": "external"
+        },
+        {
+          "text": "자동 자원관리",
+          "url": "https://arm.chintai.io/",
+          "type": "external"
+        },
+        {
+          "text": "블로그",
+          "url": "https://medium.com/@chintaieos",
+          "type": "external"
+        },
+        {
+          "text": "백서",
+          "url": "/chintai-tokenomic-model-kr.pdf",
+          "type": "external"
+        }
+      ],
+      "auctionPortalNavItems": [
+        {
+          "text": "대시보드",
+          "url": "/auction",
+          "type": "internal"
+        },
+        {
+          "text": "CHEX 구매",
+          "url": "/auction/bid",
+          "type": "internal"
+        },
+        {
+          "text": "KYC 상태",
+          "url": "/auction/kyc",
+          "type": "internal"
+        },
+        {
+          "text": "나의 구매내역",
+          "url": "/auction/contributions",
+          "type": "internal"
+        },
+        {
+          "text": "라운드 집계",
+          "url": "/auction/rounds",
+          "type": "internal"
+        },
+        {
+          "text": "추천인 링크",
+          "url": "/auction/referral",
+          "type": "internal"
+        }
+      ]
+    },
+    "countdown": {
+      "seconds": "초",
+      "minutes": "분",
+      "hours": "시간",
+      "days": "일",
+      "auctionEnded": "CHEX 토큰 배포가 완료되었습니다. 참여해 주셔서 감사합니다."
+    },
+    "liveRoundOverview": {
+      "title": "현재 라운드 카운트다운",
+      "endingOn": "종료시간",
+      "roundNum": "라운드 #",
+      "chexPriceEos": "CHEX 가격 (EOS)",
+      "chexPriceUsd": "CHEX 가격 (USD)",
+      "chexEos": "CHEX/EOS"
+    },
+    "errorPage": {
+      "returnHome": "Return Home",
+      "returnToDashboard": "Return to Dashboard",
+      "error404": "404 Page Not Found",
+      "errorContent": "죄송합니다. 요청한 리소스를 찾을 수 없습니다.",
+      "restrictedTitle": "지역 제한됨",
+      "restrictedContent1": "죄송합니다. 귀하의 지역에는 서비스를 제공 할 수 없습니다.",
+      "termsConditions": "이용 약관",
+      "restrictedContent2": "을 참조하십시오."
+    },
+    "priceHistory": {
+      "title": "라운드 히스토리",
+      "noRounds": "표시할 이전 라운드가 없습니다",
+      "inProgress": "진행중",
+      "roundNum": "라운드 #",
+      "chexPrice": "CHEX/EOS 가격",
+      "date": "날짜"
+    },
+    "terms": {
+      "title": "CHEX 이용 약관",
+      "note": "참고: 동의하기 전에 모든 내용을 읽으셔야 합니다.",
+      "accept": "동의",
+      "reject": "거절",
+      "certify1": "미국 시민권자, 거주자 또는 법인 (각 \"미국인\")이 아니며, 미국인을 대신하여 CHEX 토큰을 구입하거나 서명하는 것이 아님을 확인해 주세요.",
+      "certify2": "중화 인민 공화국의 시민권자, 거주자 또는 법인 (각 \"중국인\")이 아니며, 또한 중국인을 대신하여 CHEX 토큰을 구입하거나 서명하는 것이 아님을 확인해 주세요.",
+      "certify3a": "다음 문서를 읽었음을 확인해 주세요:",
+      "certify3b": "CHEX 토큰이코노미 백서",
+      "certify4a": "CHEX 이용 약관을 읽고, 이해했으며, 동의할 경우 확인해 주세요",
+      "certify4b": "."
+    },
+    "kycCheck": {
+      "completed": "KYC를 성공적으로 완료했습니다.",
+      "notCompleted": "아직 KYC 절차를 완료하지 않았습니다.",
+      "makeChanges": "아래 KYC 제공업체를 통해 언제든지 KYC 프로필을 업데이트 할 수 있습니다.",
+      "pleaseComplete": "아래 KYC 제공업체로 이동하여 KYC 신청서가 제출되었는지 확인하십시오.",
+      "visitAltcoinomy": "Altcoinonomy로 이동",
+      "verifying": "KYC 확인중",
+      "pleaseLogin": "KYC 상태를 보려면 로그인하십시오. 아래의 KYC 제공업체로 이동하여 확인할 수도 있습니다."
+    },
+    "myContributions": {
+      "inProgress": "라운드 진행중",
+      "completed": "완료",
+      "pending": "대기중",
+      "totalContribution": "총 지불액",
+      "totalContributionTooltip": "토큰세일에 지불한 총 EOS 토큰 수",
+      "chexReceived": "수령한 CHEX",
+      "chexReceivedTooltip": "토큰세일을 통해 수령한 총 CHEX 토큰 수",
+      "avgPrice": "가중 평균 가격",
+      "avgPriceTooltip": "1 CHEX 당 지불된 가중 평균 비용",
+      "includeFuture": "현재/미래 라운드 포함",
+      "roundNum": "라운드 #",
+      "date": "날짜 (UTC)",
+      "chex": "Chex 수령",
+      "chexPrice": "Chex 가격",
+      "status": "상태",
+      "noContributions": "표시 내역 없음",
+      "pleaseLogin": "나의 구매내역을 보시려면 로그인하십시오."
+    },
+    "roundsSummary": {
+      "totalContributions": "총 모금액",
+      "chexIssued": "CHEX 발행",
+      "chexPrice": "CHEX 가격",
+      "inProgress": "진행중",
+      "completed": "완료",
+      "pending": "대기중",
+      "roundNum": "라운드 #",
+      "date": "날짜 (UTC)",
+      "status": "상태",
+      "noRounds": "표시 내역 없음"
+    },
+    "bidOnChex": {
+      "kycWarning": "CHEX 토큰세일에 참여하기 전에 KYC를 완료해야 합니다. KYC 절차를 완료하면 EOS 계정이 CHEX 토큰세일에 참여할 수 있도록 허용 목록에 자동으로 등록됩니다.",
+      "kycWarningLink": "KYC 페이지로 이동",
+      "configureBid": "토큰세일 참여",
+      "configureBidDescription": "원하는 라운드를 선택 또는 멀티 라운드에 걸쳐 동등하게 분할하여 구매를 하도록 주문서를 작성 할 수 있습니다. CHEX는 각 라운드가 끝나고, 해당 라운드 본인의 참여금액 대비 총 모금금액 비율에 따라 분배됩니다.",
+      "roundFrom": "부터 #",
+      "roundTo": "까지 #",
+      "singleRound": "단일 라운드",
+      "rangeRounds": "멀티 라운드",
+      "summary": "요약",
+      "quantity": "수량",
+      "submitBidTo": "나는 다음과 같이 토큰세일에 참여하고 싶습니다.",
+      "scatterDescription": "Scatter를 사용하여 위 주문서 내용대로 토큰세일에 참여합니다. Scatter 창에 주문을 확인하는 별도의 대화 상자가 표시됩니다.",
+      "manualDescription": "원하는 지갑을 통해 수동으로 토큰세일에 참여하려면 이 옵션을 사용하십시오.。",
+      "sendPaymentTo": "받는 계정",
+      "assistedBid": "참여 (Scatter)",
+      "pleaseLogin": "먼저 Scatter로 로그인하십시오.",
+      "manualBid": "참여 (수동)",
+      "memoInst": "Memo 작성",
+      "submitBid": "주문서 제출",
+      "senderAccount": "본인의계정명",
+      "bidSummarySingleRound": "{{quantity}} EOS 를 라운드 #{{roundNum}} 에 참여하고 싶습니다.",
+      "bidSummaryMultipleRound": "{{quantity}} EOS 를 라운드 #{{roundNumStart}} 부터 라운드 #{{roundNumEnd}} 까지 균등하게 나누어 참여하고 싶습니다.",
+      "memoTip": "메모가 아래 표시된 예시처럼 정확하게 입력되었는지 확인하십시오. 본인의 계정 이름이 메모의 마지막 구성 요소 여야합니다.",
+      "exchangeWarning": "거래소 계정에서 CHEX 토큰세일 계정으로 EOS를 보내지 마십시오. 거래소 계정에서 보내진 모든 EOS는 영구적으로 손실됩니다."
+    },
+    "auctionNav": {
+      "dashboard": "대시보드",
+      "getChex": "CHEX 구매",
+      "kycStatus": "KYC 상태",
+      "myContributions": "나의 구매내역",
+      "auctionSummary": "라운드 집계",
+      "referralLink": "추천인 링크"
+    },
+    "landingContent": {
+      "title": "임대. 출시. 거래.",
+      "subtitle": "사람들의 사용 및 가치 교환 방식을 바꿀 수있는 상호 연결된 DeFi 제품",
+      "point1": "패시브 인컴의 창출",
+      "point2": "디지털 리소스에 대한 비용 효율적인 접근 허용",
+      "point3": "다양한 블록체인 및 통화 지원",
+      "point4": "CHEX는 모든 것을 임대가능하게 하는 열쇠입니다",
+      "whitepaper": "백서",
+      "getChex": "CHEX 구매",
+      "whitepaperLink": "/chintai-tokenomic-model-kr.pdf"
+    },
+    "keyPonts": {
+      "point1": "임대",
+      "detail1": "유틸리티 토큰 임대를위한 최초의 탈중앙 프로토콜",
+      "point2": "출시",
+      "detail2": "탈중앙 채권 및 맞춤형 토큰 배포",
+      "point3": "거래",
+      "detail3": "토큰화 된 증권에 대한 규제 준수 및 P2P 거래"
+    },
+    "products": {
+      "title": "Chintai DeFi 제품",
+      "CTA": "더 알아보기",
+      "productsData": [
+                {
+          "name": "White Label",
+          "title": "Issuance, Secondary Trading & Custom Build",
+          "subtitle": "Use our plug-and-play technology to unlock instant efficiency gains in finance.",
+          "content": [
+            "The promise of blockchain technology for finance is known, but integrating the technology is very difficult. Our blockchain agnostic product suite easily connects institutional finance, enterprise, and entrepreneurs to the efficiency gains that can be achieved with blockchain technology. We help people focus on product delivery and integration into legacy systems by combining ready to use commercial grade tools and multiple protocols.",
+            "Similar to how a platform like Shopify offers the means for anyone to easily sell products in a custom storefront, Chintai provides infrastructure for financial institutions to support custom issuance and trading of securitized assets on ANY blockchain. Chintai operates completely obfuscated from internal or external usage.",
+            "Our products for issuance, secondary trading, and management of tokenized securities are compliance enabled. This means jurisdictional law can be automatically enforced and applied. Breaches can be instantaneously detected and responded to in order to stop fraud."
+          ],
+          "contactUs": "Contact Us",
+          "image": "vex.png"
+        },
+        {
+          "name": "규제 준수 DEX",
+          "title": "토큰화 된 증권에 대한 규제 준수 거래",
+          "subtitle": "Chintai DEX는 토큰화 된 유가 증권을 포함한 다양한 디지털 자산 거래를 위해 완전한 규제 준수 거래소로 개발되고 있습니다.",
+          "content": [
+            "기존의 중앙집중식 거래소는 사용자 자금 손실로 악명이 높아 사용자의 자율성을 금지하고 단일 장애 지점에서 작동하기 때문에 문제가 발생합니다. 탈중앙 (DEX)은 이러한 문제를 해결합니다. 그러나 규제 당국의 승인이 없는 DEX는 범죄자에게 온상으로 판명되었습니다.",
+            "기관 투자지 및 기타 금융 기관은 자본을 배치하기 위해 규제를 준수하는 탈중앙 거래소가 필요합니다. Chintai DEX는 소비자 보호 및 사용자가 지역별 규제 요구 사항에 따라 토큰화 된 증권에 액세스 할 수 있는 탈중앙 거래 프로토콜을 제공합니다.",
+            "Chintai는 현재 WORBLI 블록체인에 첫 샌드박스 DEX를 설정하기 위해 규제 기관과 협력하고 있습니다.",
+            "자세한 내용이나 질문은 Chintai 팀에 문의하십시오."
+          ],
+          "contactUs": "문의하기",
+          "image": "dex.png"
+        },
+        {
+          "name": "Mynt",
+          "title": "규정을 준수하는 맞춤형 토큰 배포",
+          "subtitle": "Mynt는 토큰 판매와 배포의 기술적, 법적 및 재무적 요소를 조화시키는 턴키 서비스입니다.",
+          "content": [
+            "새로운 토큰을 런칭 하려면 신뢰할 수 있는 기술과 리소스가 필요합니다. My Native (마이 네이티브 토큰)는 기업가를 검증된 기술 및 리소스에 연결하여 사용자 맞춤 토큰을 런칭합니다. 저희의 엔드 투 엔드 서비스에는 맞춤형 토큰 계약, 맞춤형 유통 홈페이지, 법률 지원, KYC / AML 등이 포함됩니다.",
+            "저희의 평판이 좋은 개발팀은 검증되고 신뢰할 수 있는 기술로 맞춤형 토큰을 만듭니다. 가장 중요한 것은 당신의 토큰이 당신의 기술적 요구와 법적 요구가 조화를 이루도록 하는 것입니다. 저희는 경매, STO 및 기타 형식을 포함한 모든 배포 유형에 대한 맞춤형 프런트 엔드 포털을 구축합니다. KYC / AML 기술이 완전히 통합되어 있으며 모든 주요 암호화 기술을 사용할 수 있습니다.",
+            "자세한 정보 또는 질문은 Chintai 팀에 문의하거나 Mynt 페이지를 방문하십시오.."
+          ],
+          "contactUs": "문의하기",
+          "ctaLink": "https://mynteos.com",
+          "ctaText": "Mynt 방문하기",
+          "image": "mynt.png"
+        },
+        {
+          "name": "토큰 임대",
+          "title": "디지털 자산을 통한 패시브 인컴을 가능하게 합니다.",
+          "subtitle": "Chintai는 유틸리티 토큰의 임대를 위한 유일한 탈중앙거래소 입니다.",
+          "content": [
+            "대출과 대출이 불가능했던 세상을 상상할 수 있습니까? Chintai는 디지털 자산 임대를 위한 최초이자 유일한 고성능 거래소입니다.",
+            "기존의 토큰경제는 토큰의 유틸리티 사용을 위해 토큰에 대한 소유권이 필요하므로 심각하게 제한되어 왔습니다. 토큰 소유권은 비용이 많이 들고 비즈니스 또는 사용자가 불필요한 토큰 가격 변동에 노출 될 수 있습니다. 임대는 토큰 유틸리티 사용과 소유권을 분리하여 임대인이 패시브 인컴을 창출하고 임차인이 저렴한 가격으로 토큰 유틸리티에 액세스 할 수 있도록 합니다.",
+            "Chintai의 약 2 억 5 천만 달러 규모의 거래량에서 알 수 있듯이, 토큰 유틸리티를 빌려주거나, 빌릴 수 있는 능력에 대해 전 세계적인 수요가 있습니다."
+          ],
+          "contactUs": "",
+          "ctaLink": "https://exchange.chintai.io",
+          "ctaText": "Visit Chintai Exchange",
+          "image": "lease.png"
+        },
+        {
+          "name": "NFT 임대",
+          "title": "가상 아이템 소유의 모든 잠재력을 활성화",
+          "subtitle": "Chintai는 맞춤형 가상 자산인 NFT 임대를 가능하게하는 최초의 플랫폼이 될 것입니다.",
+          "content": [
+            "수많의 사람들의 NFT (가상 제품) 제품 개발이 쏟아지고 있습니다. Winklvoss 쌍둥이부터 Ubisoft까지, 메이져 회사 중 일부가 참여하고 있습니다. NFT 에 대한 폭발적인 시장 성장의 기대에 Chintai는 NFT 임대에 대한 첫 번째 거래소 인터페이스와 다양한 제품에 대해 임대을 가능하게 하는 개발자를 위한 API를 제공합니다.",
+            "게임 내에서 가상 자산 거래는 5 천만 달러 규모의 산업으로 NFT 임대 시장의 잠재력은 엄청납니다. Chintai는 기존 게임 산업에 대한 진출을 목표로 하고 있으며 업계 선두 업체와 제휴하여 NFT 임대를 위한 최초의 프로토콜을 활성화하기 위해 적극적으로 노력하고 있습니다.",
+            "Chintai NFT 제품에 대한 자세한 내용은 당사 팀에 문의하십시오."
+          ],
+          "contactUs": "문의하기",
+          "ctaLink": "",
+          "ctaText": "",
+          "image": "nft.png"
+        },
+        {
+          "name": "자동 자원관리",
+          "title": "dApp 및 사용자를 위한 자동화된 자원관리",
+          "subtitle": "블록체인에 따라 블록체인 자원은 거래에 필수적입니다. 따라서 관리가 필요합니다. Chintai는 이 프로세스를 자동화 시킵니다.",
+          "content": [
+            "Chintai는 dApp 및 해당 사용자의 블록체인 자원을 수동으로 관리하면 발생할 수 있는 마찰을 제거합니다.",
+            "이 시스템은 pay as you go 모델과 유사하게 필요에 따라 소량의 블록체인 자원을 자동으로 위임합니다.",
+            "Chintai는 dApp과 사용자를 위한 수많은 거래를 자동화 했습니다.",
+            "자세한 정보 또는 질문은 Chintai 팀에 문의하거나 Chintai 자동 자원관리 페이지를 방문하십시오. "
+          ],
+          "contactUs": "문의하기",
+          "ctaLink": "https://arm.chintai.io/",
+          "ctaText": "자동 자원관리",
+          "image": "autores.png"
+        }
+      ]
+    },
+    "industry": {
+      "title": "응용 프로그램 및 사용자",
+      "industryData": [
+        {
+          "name": "금융",
+          "subtitle": "디지털 자산을 통한 패시브 인컴을 가능하게 합니다.",
+          "image": "1.png",
+          "imageHover": "1-white.png",
+          "imageLarge": "1-large.png",
+          "position": "left",
+          "content": [
+            "고성능 블록체인을 활용하면 현재 금융 산업에 비해 상당한 효율성 향상이 가능합니다. 데이터에 대한 신뢰할 수 있는 골든 소스를 보유하는 것 외에도 Chintai는 금융 업계에서 비싸고 불필요한 중개인을 우회 할 수있는 서비스를 지원할 것입니다.",
+            "Chintai는 오래된 시장 구조를 더 이상 사용하지 않으면서 자산 거래를 위해 판매자와 구매자를 훨씬 더 저렴한 비용으로 직접 신속하게 연결할 수 있습니다. 또한 당신의 토큰 경제를 위해 효과적인 규제 준수를 제공하여 사기 및 시스템 위험의 위험을 줄입니다.",
+            "Chintai는 자금 조달, 2차 시장 거래, 채권 발행 / 거래 등을 위한 증권 발행을 포함하여 규제 준수 금융 서비스를 제공하기 위해 고성능 매칭 엔진과 입증된 스마트 컨트랙트 기술을 사용할 계획입니다."
+          ]
+        },
+        {
+          "name": "블록체인",
+          "subtitle": "가상 아이템 소유권의 모든 잠재력을 활성화",
+          "image": "2.png",
+          "imageLarge": "2-large.png",
+          "imageHover": "2-white.png",
+          "position": "left",
+          "content": [
+            "Chintai는 성장 가능성이 풍부한 제품들을 블록체인에 출시합니다. Chintai가 최초의 디지털 자산 임대 프로토콜을 개발하기 전에 유틸리티에 액세스 하려면 토큰 소유권이 필요했습니다. Chintai는 사람들이 가격 변동에 노출되지 않고 저렴한 가격으로 토큰 유틸리티에 액세스 할 수 있도록 하며, 필요에 따라 토큰 유틸리티 사용을 자동화합니다.",
+            "Chintai는 2018 년 이래 거래 규모가 2 억 5 천만 달러를 넘어 섰으며 전 세계적으로 33,000 명의 고유 사용자를 보유하고 있으며 토큰화 된 유가 증권에 대한 최초의 탈중앙 채권 시장 및 규제 준수 DEX를 도입하여 서비스 제공을 확대 할 야심찬 계획을 가지고 있습니다."
+          ]
+        },
+        {
+          "name": "게임산업",
+          "subtitle": "전 세계적으로 호환되는 P2P 거래",
+          "image": "3.png",
+          "imageHover": "3-white.png",
+          "imageLarge": "3-large.png",
+          "position": "left",
+          "content": [
+            "게임 내 가상 아이템과 통화는 21 세기 초부터 인기가 높아졌으며 현재 매년 500 억 달러로 추정됩니다. 그러나 이 곳에도 문제나 제한이 존재합니다. 원 작가인 게임 개발자는 종종 가상 아이템의 양도로 인해 발생하는 이익을 차단하는 반면, 게이머는 사기, 가상 자산의 중앙 집중식 제어 및 기타 외부 보조 시장 거래와 관련된 문제에 취약합니다.",
+            "Chintai는 이러한 문제를 해결하는 가상 아이템에 대한 최초이자 유일한 임대 프로토콜을 구축하고 있습니다. 당사의 솔루션은 사기 및 위조로 부터 사용자를 보호하면서 게임 유저 및 개발자에게 수익을 돌려줍니다. 디지털 자산의 공정한 교환을 보장하는 스마트 컨트랙트로 전송이 투명하게 보장됩니다."
+          ]
+        },
+        {
+          "name": "부동산",
+          "subtitle": "부동산 거래의 투명성 및 거래 활성화",
+          "image": "4.png",
+          "imageLarge": "4-large.png",
+          "imageHover": "4-white.png",
+          "position": "right",
+          "content": [
+            "미국의 부동산 산업은 33.3 조 달러에 육박하고 있습니다. 현재 업계는 느린 프로세스와 수많은 중개인이 운영하고 있습니다. 블록 체인 기술과 Chintai는 이러한 문제를 완화하면서 투자 기회에 대한 액세스를 평등화 할 수 있습니다.",
+            "자산의 복잡한 정보 및 속성은 ID, 토지 등록 기관, 인증, 재산세 등 Mynt가 생성 한 NFT에 저장할 수 있습니다. 부실한 거래 비용을 제거하면서도 손상 될 수없는 정보의 “골든 소스” 를 확보함으로써 부동산 산업을 변화시킬 수 있는 몇 가지 주요 방법이 있습니다.",
+            "NFT를 사용하면 부동산에서 데이터를 정확하게 전송하고 공유 할 수 있으므로 주택 소유자와 구매자에게 불필요한 비용을 추가하는 수동적이고 복잡한 검증 프로세스가 필요하지 않습니다. 또한 자산 관리, 소유권 관리 및 일반 실사 등의 모든 정보를 하나의 정확한 정보 소스로 쉽게 피어 투 피어로 수행 할 수 있습니다.",
+            "또한 부동산의 부분 소유권을 통해 일반 투자자 또는 많은 자금이 부족한 사람들이 인류 존재 역사상 가장 신뢰할 수 있고 유리한 자산 클래스 중 하나에 쉽게 투자 할 수 있습니다."
+          ]
+        },
+        {
+          "name": "예술",
+          "subtitle": "투명한 거래 및 소유권 보존",
+          "image": "8.png",
+          "imageLarge": "8-large.png",
+          "imageHover": "8-white.png",
+          "position": "right",
+          "content": [
+            "Chintai는 미래의 미술 거래, 임대 및 구매 시장이 될 수 있습니다. 예술 산업은 2017 년 한 해 동안 미국 내에서 약 650 억 달러 성장하여 연간 총 750 억 달러를 기록했습니다. 업계 내 금융 기회는 풍부하지만 보통 일반인이 즐기기가 어렵습니다. 사람들은 일반적으로 자본에 대한 접근과 부족에 대한 장벽 때문에 예술에 투자하지 않습니다. 예술은 종종 사적인 행사나 일상적인 사람이 참석하지 않는 경매에서 판매됩니다.",
+            "예술품의 토큰화는 예술가, 소비자 및 장소에 대한 여러 기회를 열어줍니다. 투자에 대한 부분적인 소유권과 국경없는 접근을 허용합니다. 이를 통해 전세계 예술품 애호가들이 그들의 통화를 사용하여 투자 기회에 액세스 할 수 있으며 전체 자산을 소유하는 데 필요한 자본이 필요하지 않습니다.",
+            "부분 소유권은 또한 예술 공연장이 기존 예술의 자본을 조달하는 데 도움이 되며, 이는 고가의 대출이 덜 필요하고 기존 컬렉션을 성장시키기 위해 더 많은 자본이 필요함을 의미합니다."
+          ]
+        },
+        {
+          "name": "숫자로 보는 Chintai",
+          "subtitle": "입증된 기술력",
+          "image": "5.png",
+          "imageHover": "5-white.png",
+          "imageLarge": "5-large.png",
+          "position": "right",
+          "content": [
+            "Chintai는 입증된 사용 사례가 있는 라이브 블록체인 프로젝트입니다. 저희의 프로젝트는 33,000 명 이상의 고유 사용자를 전세계에 가지고 있으며 2 억 5 천만 달러 이상의 거래량을 창출했습니다.",
+            "Chintai 엔진을 이용하여 5 만 건 이상의 매칭된 임대 거래가 이루어졌으며, 2 만 달러 이상의 이자가 토큰 유틸리티의 거래로 인해 창출되었습니다."
+          ]
+        }
+      ]
+    },
+    "landingPagePentagon": {
+      "title": "새로운 디지털 경제를 만들어 나갑니다",
+      "problem": "문제점",
+      "problemText": "사람들은 암호화폐 소유를 통해 지속적인 수입을 창출하고, 디지털 자원을 낮은 비용으로 이용하길 원합니다.",
+      "solution": "솔루션",
+      "solutionText": "Chintai 는 사실상 모든 블록체인의 토큰화된 자산을 임대 가능하게 하는 고성능 자원 거래 플랫폼으로써 이러한 요구를 충족시키는 살아있는 시장입니다.",
+      "chexToken": "CHEX 토큰",
+      "chexTokenText": "CHEX는 Chintai 마켓에 대한 액세스를 제공합니다. CHEX Smart Matching은 임대인이 지속적으로 시장내 최고의 임대 수익을 자동으로 받을 수 있게 하며, 임차인에게는 최저의 임대료로 원하는 자원을 확보 할 수 있게 합니다."
+    },
+    "infinity": {
+      "title": "Chintai 마켓 및 CHEX 토큰의 흐름"
+    },
+    "unsubscribe": {
+      "title": "메일링 리스트에서 탈퇴",
+      "unsubscribe": "구독취소",
+      "sorry": "불편을 끼쳐 드려 죄송합니다. 아래에 이메일 주소를 입력해 주시면 메일링 리스트에서 귀하 주소를 삭제하겠습니다. 변경 사항을 적용하려면 24시간 기다려주십시오."
+    },
+    "partners": {
+      "title": "전략적 파트너"
+    },
+    "leasingLandingAdvantages": {
+      "title": "자동 자원관리가 필요한 이유",
+      "text1": "성공적인 앱들은 사용자들에게 끊김 없는 실행환경을 제공합니다.",
+      "text2": "친타이는 EOS 자원 관리에서 발생할수 있는 불편을 해결해 드립니다.",
+      "text3": "사용자들은 앱들을 즐기는 데 집중할 수 있으며, 개발자들은 개발에 집중할 수 있습니다."
+    },
+    "feeSection": {
+      "sectionTitle": "CHEX 또는 EOS 사용"
+    },
+    "feeScheduleHeaders": {
+      "symbol": "",
+      "token": "토큰",
+      "rate": "임대 수수료",
+      "buy": "구매"
+    },
+    "feeSchedule": [
+      {
+        "symbol": "./icon-blue-transparent-bg.png",
+        "title": "CHEX",
+        "fee": "0.01875%"
+      },
+      {
+        "symbol": "./eos_logo.svg",
+        "title": "EOS",
+        "fee": "0.075%"
+      }
+    ],
+    "leasingFAQ": {
+      "title": "자주하는 질문",
+      "q1": "친타이가 귀하의 계정에 엑세스 할 수 있습니까?",
+      "q2": "서비스를 취소할 수 있습니까?",
+      "q3": "비용이 있습니까?",
+      "q4": "EOSIO 1.8 버젼 업데이트가 되어도 친타이 자동관리 서비스가 필요합니까?",
+      "q5": "앱 회사들만 이 서비스를 이용할 수 있나요?",
+      "q6": "이 서비스는 확장 가능합니까?",
+      "q7": "자원은 어디서 조달되나요?",
+      "q8": "추가 질문이 있나요?",
+      "answer1": "아니요. 계정 주인만이 개인키를 컨트롤 하며 소유합니다.",
+      "answer2": "네. 서비스는 언제든지 취소 가능합니다.",
+      "answer31": "Yes.네. 모든 수수료는 볼륨에 따라 계산됩니다. 수수료:  0.075% - EOS 사용시,",
+      "answer32": "0.01875% - CHEX 사용시 ",
+      "answer41": "친타이는 더 많은 서비스를 제공합니다. 1.8 버젼 업데이트는 1. 사용자 계정만 서포트하며 2. EOS를 소유하고 있어야 하고 3. RAM 관리는 자동화하지 않으며 4. 스팸 필터가 없습니다.",
+      "answer42": "자세한 정보를 알아보세요.",
+      "answer43": "https://medium.com/@ChintaiEOS/why-chintai-automated-resource-management-when-eosio-1-8-4aabacfeaddb",
+      "answer5": "아니요. 누구나 이 서비스를 사용할 수 있습니다.",
+      "answer6": "네. 이 서비스는 비지니스 요구에 맞춰 자동으로 확장가능합니다.",
+      "answer7": "모든 자원은 임대 시장에서 조달되며, 시장 최저 가격을 보장합니다.",
+      "answer81": "저희 글로벌 팀은 24시간 연중 무휴로 질문에 답변 드릴 수 있습니다.",
+      "answer82": "텔레그램 채널",
+      "answer83": "https://t.me/ChintaiEOS",
+      "answer84": "또는",
+      "answer85": "hello@chintai.io"
+    },
+    "chexButton": "CHEX 구매",
+    "leaseButton": "지금 설치하세요",
+    "leasingLandingTitle": "친타이 자동 자원관리 시스템",
+    "leasingLandingSubTitle": "귀하와 귀하의 사용자가 EOS 블록체인을 편안하게 이용할 수 있도록 만드세요.",
+    "leasingLandingContent": {
+      "bullet1": "자동화된 운영",
+      "bullet2": "뛰어난 UX",
+      "bullet3": "성공적인 개발",
+      "title1": "CHEX 를 사용한 저렴한 수수료",
+      "description1": "CHEX 를 사용하면 50% 할인된 수수료로 서비스를 이용가능합니다! CHEX 는 친타이가 앞으로 임대차 하게될 수많은 유틸리티 토큰들의 세계에 엑세스 할 수 있도록 네이티브 토큰으로써 거래 쌍을 제공합니다.",
+      "title2": "디앱 자원관리를 손쉽게",
+      "description2": "친타이 자원관리 시스템은 EOS 블록체인과 디앱 사이의 미들웨어입니다. 모든 디앱들은 친타이에 플러그인 할 수 있으며 컨트랙트 및 사용자에게 필요한 자원을 자동으로 임대하여 관리해 줍니다. 가입 후 수동관리가 필요하지 않습니다."
+    },
+    "LeasinglandingPageAdvantages": {
+      "title": "친타이의 장점"
+    },
+    "leasingProcess": {
+      "Title1": "문제",
+      "Title2": "솔루션",
+      "Title3": "결과",
+      "Text1": "자동 자원관리가 없으면 디앱과 사용자는 자신의 자원을 스스로 관리해야 합니다. 이로인해 서비스가 중단될 수 있으며, 사용자 경험이 저하됩니다.",
+      "Text2": "친타이 서비스는 CPU, NET 및 RAM 의 자동관리를 포함하며, 디앱 및 사용자는 EOS 리소스를 스스로 관리할 필요가 없어집니다.",
+      "Text3": "사용자들과 디앱들은 편해집니다. 개발에 집중할 시간이 많아집니다. 그리고 당신의 비지니스는 경쟁에서 우위에 있게 됩니다."
+    },
+    "GoToAutoresPortal": "지금 설치하세요",
+    "leasingPortalTitle": "자원 관리",
+    "leasingPortalSubTitle": "자동관리",
+    "leasingForms": {
+      "setup": "설치",
+      "configure": {
+        "title": "설정",
+        "submit": "제출",
+        "label1": "지불하는 계정 (지급인)",
+        "label2": "관리하는 계정 (수취인)",
+        "label3": "dApp 계정",
+        "label4": "RAM 버퍼 (bytes)",
+        "description": {
+          "step1Bold": "지급인",
+          "step2Bold": "수취인",
+          "step3Bold": "유저를 위해 지불",
+          "step4Bold": "RAM 버퍼",
+          "step1": "CPU/NET 비용에 대해 지불 할 계정 (로그인 한 계정)",
+          "step2": "관리가 필요한 계정",
+          "step3": "유저 계정들 및 관리하는 계정들과 거래하는 모든 계정에 대해 CPU/NET의 비용을 지불합니다. Yes(예)/No(아니오)를 선택하세요.",
+          "step4": "항상 유지하고 싶은 여유 RAM 용량 - 바이트(bytes) 단위"
+        }
+      },
+      "withdraw": {
+        "title": "출금",
+        "label1": "지불하는 계정 (지급인)",
+        "label2": "토큰 종류",
+        "label3": "출금 수량",
+        "description": {
+          "step1Bold": "지급인",
+          "step2Bold": "토큰",
+          "step3Bold": "수량",
+          "step1": "컨트랙트에서 자원을 출금하는 계정",
+          "step2": "CHEX 또는 EOS 출금",
+          "step3": "출금을 위해 선택된 자산의 수량"
+        }
+      },
+      "blacklist": {
+        "title": "블랙리스트",
+        "submit": "제출",
+        "label1": "지불하는 계정 (지급인)",
+        "label2": "블랙리스트 추가하는 계정",
+        "description": {
+          "step1Bold": "지급인",
+          "step2Bold": "블랙리스트에 추가된 계정",
+          "step1": "블랙리스트에 올라있는 계정은 이 계정의 자원 사용이 제한됩니다.",
+          "step2": "지급인 계정의 자원 사용이 제한될 계정입니다."
+        }
+      },
+      "deposit": {
+        "title": "입금",
+        "label1": "계정 (지급인)",
+        "label2": "수량",
+        "label3": "입금/출금할 토큰",
+        "description": {
+          "step1Bold": "지급인",
+          "step2Bold": "토큰의 수량",
+          "step1": "자동 자원관리를 위한 비용을 지불할 계정 (귀하 소유의 계정)",
+          "step2": "비용을 지불하기 위해 사용할 토큰의 수량"
+        }
+      }
+    },
+    "leasingTables": {
+      "payerTable": {
+        "title": "지급인 테이블",
+        "header1": "지급인(계정)",
+        "cpu": "CPU (100% 를 초과할 시 비상버튼 클릭)",
+        "cpuButton": "비상 CPU 를 받으세요.",
+        "emergencyCpu": "비상 CPU 를 위해선 ARM 에 잔금이 있어야 합니다.",
+        "convertChex": "CHEX 를 사용하면 수수료가 75% 감소합니다.",
+        "header2": "리저브",
+        "header3": "사용가능",
+        "description": {
+          "h1": "자동 자원관리를 위한 비용을 지불할 계정 (귀하 소유의 계정)",
+          "h2": "비용을 지불하기 위해 사용가능한 토큰의 수량 (컨트랙트에 입금된 수량)",
+          "h3": "로그인된 계정에서 사용가능한 토큰의 수량"
+        }
+      },
+      "configTable": {
+        "title": "현재 설정",
+        "header1": "tx...",
+        "header2": "시작 날짜",
+        "header3": "지급인 계정",
+        "header4": "관리중인 계정",
+        "header5": "자원에 대한 지불 (CPU/NET)",
+        "header6": "RAM 버퍼 (bytes)",
+        "remove": "제거",
+        "noData": "자원관리 예비금을 입금하여 시작하십시오"
+      },
+      "blacklistTable": {
+        "title": "블랙리스트 계정",
+        "header1": "tx...",
+        "header2": "시작 날짜",
+        "header3": "지급인 계정",
+        "header4": "블랙리스트 계정",
+        "noData": "설정 패널의 블랙리스트 계정"
+      },
+      "delegationHistory": {
+        "title": "임대 기록",
+        "header1": "tx...",
+        "header2": "시작 날짜",
+        "header3": "계정",
+        "noData": "자원관리 예비금을 입금하시고 구성 항목을 작성하여 설정패널에서 시작하십시오"
+      },
+      "loginTips": "잔액 확인을 위해 로그인"
+    },
+    "referral": "당신의 추천인 코드 링크를 생성하려면 로그인 하십시오",
+    "referralShare": "공유가능한 추천인 링크"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "[Express] Debug server.ts",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceRoot}/chintai-2.0-express/node_modules/.bin/ts-node",
+      "args": [
+        "src/server.ts"
+      ],
+      "cwd": "${workspaceRoot}/chintai-2.0-express",
+      "protocol": "inspector",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "[React] Debug Chrome",
+      "url": "http://localhost:3000",
+      "webRoot": "${workspaceFolder}/chintai-2.0-react/src"
+    },
+    // {
+    //   "type": "node",
+    //   "request": "launch",
+    //   "name": "[Frontend] Test everything w/ mocha",
+    //   "program": "${workspaceRoot}/chintai-next/node_modules/mocha/bin/_mocha",
+    //   "env": {
+    //     "TS_NODE_PROJECT": "${workspaceRoot}/chintai-next/tsconfig.json"
+    //   },
+    //   "args": [
+    //     "--timeout",
+    //     "400000",
+    //     "--colors",
+    //     "-r",
+    //     "ts-node/register",
+    //     "-r",
+    //     "tsconfig-paths/register",
+    //     "${relativeFile}",
+    //     "${workspaceRoot}/chintai-next/test/**/*.test.ts"
+    //   ],
+    //   "cwd": "${workspaceRoot}",
+    //   "internalConsoleOptions": "openOnSessionStart"
+    // },
+    // {
+    //   "type": "node",
+    //   "request": "launch",
+    //   "name": "[Frontend] Mocha Current File",
+    //   "cwd": "${workspaceRoot}",
+    //   "program": "${workspaceRoot}/chintai-next/node_modules/.bin/_mocha",
+    //   "env": {
+    //     "TS_NODE_PROJECT": "${workspaceRoot}/chintai-next/tsconfig.json"
+    //   },
+    //   "args": [
+    //     "--timeout",
+    //     "400000",
+    //     "--colors",
+    //     "-r",
+    //     "ts-node/register",
+    //     "-r",
+    //     "tsconfig-paths/register",
+    //     "${relativeFile}"
+    //   ],
+    //   "internalConsoleOptions": "openOnSessionStart"
+    // }
+  ],
+}

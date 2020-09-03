@@ -1,0 +1,3 @@
+[submodule "frontend-react/public/whitepapers"]
+	path = frontend-react/public/whitepapers
+	url = git@github.com:chintai-platform/whitepapers.git
