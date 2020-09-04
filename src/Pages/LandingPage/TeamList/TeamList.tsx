@@ -30,7 +30,7 @@ const TeamListContainer = styled(FlexRow)`
 
   @media (max-width: 660px) {
     width: inherit;
-    margin-top: ${(props: { advisors: boolean }) => props.advisors ? "50px" : "200px"};
+    margin-top: 50px;
     margin-left: 10%;
 
   }

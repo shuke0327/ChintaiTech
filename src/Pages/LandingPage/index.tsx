@@ -39,6 +39,10 @@ const LandingContentRow = styled(PageRow)`
   margin: 50px 10px;
   justify-content: flex-start;
   padding: 20px 20vw;
+  @media screen and (max-width: 1024px) {
+    padding: 10px 10px;
+    justify-content: center;
+  }
 `
 
 const BubbleImageCointainer = styled.div`
@@ -144,6 +148,9 @@ const SectionText = styled(TitleText)`
 const RoadmapRow = styled(PageRowWhite)`
   position: relative;
   padding-top: 100px;
+  @media screen and (max-width: 830px) {
+    margin-top: 30px;
+  }
 `
 
 const TeamRow = styled(PageRowWhite)`

@@ -226,14 +226,14 @@ export const PageRow = styled(FlexRow)`
 `
 
 export const PageRowWhite = styled(PageRow)`
-  padding-top: 20px;
+  padding-top: 30px;
 
   &:last-of-type {
-    padding-bottom: 100px;
+    padding-bottom: 50px;
   }
 
   @media (max-width: 830px) {
-   padding-top: 50px;
+   padding-top: 20px;
   }
 `
 
