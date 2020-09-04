@@ -1,4 +1,2 @@
-# chintai-technology-app
-chintai technology node app
-
-chintaitechnology.io
+## Chintai Technology
+https://chintaitech.com

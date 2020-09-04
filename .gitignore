@@ -1,7 +1,9 @@
+build/
+node_modules/
+package-lock.json
 .env
 *.pid
 logs/
-node_modules/
 dist/
 .DS_Store
 yarn.lock

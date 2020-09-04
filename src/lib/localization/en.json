@@ -1,0 +1,730 @@
+{
+  "en": {
+    "langselector": {
+      "native": "English"
+    },
+    "notifications": {
+      "app": {
+        "successfulLogin": "Login successful for",
+        "goodbye": "Successfully logged out",
+        "scatterMissing": "Scatter Desktop could not be found. Please ensure Scatter Desktop is opened + unlocked and try again",
+        "subscribeSuccess": "Successfully subscribed to mailing list",
+        "readTos": "Please read the entire \"Terms and Conditions\" before accepting.",
+        "tosChecks": "Please check all boxes to certify you have read and understand the \"Terms and Conditions\".",
+        "txCancelled": "Transaction cancelled successfully",
+        "clipboardContract": "Token auction account copied to clipboard.",
+        "clipboardMemo": "Memo successfully copied to clipboard.",
+        "bidSuccessful": "Bid submitted successfully.",
+        "autoresDepositSuccessful": "Deposit submitted successfully",
+        "autoresWithdrawSuccessful": "Withdrawal submitted successfully",
+        "autoresBlacklistSuccessful": "Blacklist submitted successfully",
+        "autoresBlacklistRemove": "Remove from blacklist submitted successfully",
+        "autoresConfigSuccessful": "Configuration submitted successfully",
+        "autoresConfigRemove": "Configuration deletion submitted successfully",
+        "insufficientFunds": "Insufficient liquid balance available in your wallet. Plese ensure you have enough funds in your wallet to complete your bid.",
+        "kycNotCompletedYet": "You must first complete KYC before you can bid in the auction. Please check the KYC Status page for additional details.",
+        "unsubscribeSuccess": "Successfully unsubscribed from mailing list.",
+        "invalidEmail": "Please enter a valid email address",
+        "emergencyCpu": "Emergency CPU Requested, submit again if balance is still more the 100% after",
+        "chexFeesNotify": "75% reduction in Fees by depositing CHEX",
+        "convertSuccess": "EOS to CHEX conversion submitted"
+      }
+    },
+    "teamMembers": [
+      {
+        "name": "David Packham",
+        "title": "CEO & Co-Founder",
+        "bio": [
+          "David has a 20yr career in finance and asset management in London, working for a range of global institutions in areas covering FinTech, business strategy and programme management.",
+          " David studied economics and business systems analysis and design, and is a decentralist with a passionate belief in the potential of blockchain to change the world by increasing personal freedoms and reducing inequality.",
+          "As general project manager of Chintai, he seeks to ensure all facets of the product meet the highest industry standards."
+        ],
+        "photo": "david-packham.jpg",
+        "social": [
+          {
+            "type": "linkedIn",
+            "url": "https://www.linkedin.com/in/davidpackham/"
+          },
+          {
+            "type": "telegram",
+            "url": "http://t.me/GunnisonCap"
+          },
+          {
+            "type": "twitter",
+            "url": "https://twitter.com/GunnisonCap"
+          }
+        ]
+      },
+      {
+        "name": "Phillip Hamnett",
+        "title": "CTO",
+        "bio": [
+          "Phillip has 9 years of experience developing software in C++ and embedded C.",
+          "He started his career as a physicist working in complexity theory, where he developed Monte Carlo simulations to model traffic flow in cities.",
+          "Then he moved on to data analysis for the ATLAS experiment at the Large Hadron Collider, where he searched for new particles at extremely high energies.",
+          "After he finished his Ph.D, he moved into the aerospace industry, developing software for Airbus.",
+          "Finally, he has joined us and is working full time on the development of the Chintai platform."
+        ],
+        "photo": "phillip-hamnett.jpg",
+        "social": [
+          {
+            "type": "linkedIn",
+            "url": "https://www.linkedin.com/in/philliphamnett/"
+          },
+          {
+            "type": "telegram",
+            "url": "http://t.me/PhillipHamnett"
+          },
+          {
+            "type": "github",
+            "url": "https://github.com/PhillipHamnett"
+          },
+          {
+            "type": "twitter",
+            "url": "https://twitter.com/HamnettPhillip"
+          }
+        ]
+      },
+      {
+        "name": "Ryan Bethem",
+        "title": "COO",
+        "bio": [
+          "Ryan has a M.A in clinical psychology and a B.S in psychology with an emphasis in behavioral economics.",
+          "After discovering the potential impact that blockchain technology could have on global financial systems in 2016, Ryan quickly became an enthusiast and advocate for decentralized technologies.",
+          "Ryan eventually transitioned careers in 2017. He quickly became a leader in the development of EOSIO based governance and authored the governing contract for block producers on the EOS mainnet in 2019.",
+          "He leads brand development, communications, operations and business development for Chintai."
+        ],
+        "photo": "ryan-bethem.jpg",
+        "social": [
+          {
+            "type": "linkedIn",
+            "url": "https://www.linkedin.com/in/ryanbethem/"
+          },
+          {
+            "type": "telegram",
+            "url": "http://t.me/ryanbethem"
+          },
+          {
+            "type": "twitter",
+            "url": "https://twitter.com/ryaneos42"
+          }
+        ]
+      },
+      {
+        "name": "Michael Fletcher",
+        "title": "Principal Developer",
+        "bio": [
+          "Michael is a core back-end developer with 7 years of experience in the nuclear energy, technology and logistical automation sectors.",
+          "He has led the development of systems used by major companies specialising in creating real time, business critical, distributed systems."
+        ],
+        "photo": "michael-fletcher.jpg",
+        "social": [
+          {
+            "type": "telegram",
+            "url": "http://t.me/mikeFletcher"
+          },
+          {
+            "type": "twitter",
+            "url": "https://twitter.com/Mikefletcher42"
+          },
+          {
+            "type": "github",
+            "url": "https://github.com/Fletch153"
+          }
+        ]
+      },
+      {
+        "name": "Andrew Diedrich",
+        "title": "Full Stack Developer",
+        "bio": [
+          "Andrew has a Bachelors degree in Economics from the University of Minnesota.",
+          "The foundation of Andrew’s technical background is based on data driven planning and strategy using econometric methods for retail sales and labor planning.",
+          "Five year experience using SQL, R and SAS statistical software for data analysis. Two years of experience with javascript.",
+          "Andrew is driven by a passion for the social impact through blockchain technology, which ultimately led him to sharpen his technical skills as a full-stack developer."
+        ],
+        "photo": "andrew.jpg",
+        "social": [
+          {
+            "type": "linkedIn",
+            "url": "https://www.linkedin.com/in/andrew-diedrich-a0a58893"
+          },
+          {
+            "type": "telegram",
+            "url": "https://telegram.me/AndrewDiedrich"
+          }
+        ]
+      },
+      {
+        "name": "Kai Jing",
+        "title": "Head of Operations, China / Full Stack Developer",
+        "bio": [
+          "Kai has a bachelors degree in Light Chemical Industry Engineering from the South China University of Technology, he has extensive experience in manufacturing, e-commerce, Web development, product design and operations.",
+          "Kai started his software developer career as a full stack developer 5 years ago, and he is familiar with using MySQL, Ruby on Rails and Javascript for Web development, React is added to his technical stack lately. Kai has also worked as product manager in e-commerce industry.",
+          "Kai first learned about bitcoin in 2010. In 2017, he re-recognized the importance of the blockchain industry and became one active communicators.",
+          "Kai is good at presenting complex technical information in a clear and concise manner, he wrote more than 200 posts in Chinese on blockchain, especially on the EOSIO project.",
+          "Kai is one of the opinion leaders in EOSIO community in China, he has more than 70,000 followers on Chinese most important content website in crypto space - Bihu."
+        ],
+        "photo": "kai-jing.jpg",
+        "social": [
+          {
+            "type": "telegram",
+            "url": "http://t.me/shuke0327"
+          },
+          {
+            "type": "twitter",
+            "url": "https://twitter.com/shuke0327"
+          },
+          {
+            "type": "github",
+            "url": "https://github.com/shuke0327"
+          }
+        ]
+      },
+      {
+        "name": "Sean Kang",
+        "title": "Business Development",
+        "bio": [
+          "Sean has more than ten years of experiences in banking, finance, and urban engineering. ",
+          "He began his career as an account manager with the largest bank in Canada, operated various businesses in Korea and Canada, and lived in the United States. Sean discovered EOS while pursuing his Ph.D. degree in urban planning for the development of smart cities.",
+          "He envisions our daily lives being fundamentally influenced by smart cities that leverage scalable blockchain technology.",
+          "Combining his abilities as an urban planner to listen, understand, and implement what the community wants with his diverse cultural background enables Sean to deliver comprehensive solutions for the EOS community."
+        ],
+        "photo": "sean-kang.jpg",
+        "social": [
+          {
+            "type": "linkedIn",
+            "url": "https://www.linkedin.com/in/seankook/"
+          },
+          {
+            "type": "telegram",
+            "url": "http://t.me/seankook"
+          }
+        ]
+      },
+      {
+        "name": "Michael Nash",
+        "title": "Developer",
+        "bio": [
+          "Prior to entering the crypto space, Nash worked in biomedical science research.",
+          " Working for the University of Oxford for three years alongside world leading experts in their field, he was responsible for contributing to the production of high quality research with a view to curing neurodegenerative diseases.",
+          "Since learning more about Blockchain technology and the EOS ecosystem in 2018, Nash has decided to put his efforts into learning more about this technology, and contribute to it's growth.",
+          "He is passionate about the potential for Blockchain technology to radically alter the lives of regular people in the future, giving them the opportunity to be more free to live the life they choose.",
+          "As a member of our quality assurance team, Nash is responsible for making sure all our services are functioning correctly - at launch, and beyond."
+        ],
+        "photo": "nash.jpg",
+        "social": [
+          {
+            "type": "linkedIn",
+            "url": "https://linkedin.com/in/michael-nash-753277180"
+          },
+          {
+            "type": "telegram",
+            "url": "https://telegram.me/MichaelNash"
+          }
+        ]
+      }
+    ],
+    "advisors": [
+      {
+        "name": "Tom Bicknell",
+        "title": "Advisor",
+        "bio": [
+          "Partner at Pinsent Masons, a leading Financial Technology law firm. Tom is a highly experienced financial service and corporate insurance practitioner based in the Middle East and is actively advising and assisting Chintai with regulatory engagement."
+        ],
+        "photo": "bicknell.jpg",
+        "social": [
+          {
+            "type": "linkedIn",
+            "url": "https://www.linkedin.com/in/tom-bicknell-25629b47"
+          }
+        ]
+      },
+      {
+        "name": "Keith Koo",
+        "title": "Advisor",
+        "bio": [
+          "Managing Partner, Guardian Insight Group  /  Host “Silicon Valley Insider” Radio Show and Podcast",
+          "Keith is a Founder and Managing Partner of Guardian Insight Group, a Strategic a advisory firm whose clients include Fortune 500 companies and startups. He is also the creator and host of the Silicon Valley Insider Radio Show and Podcast and on the boards of the Asian Business League and Silicon Valley Chinese Technology Business Association."
+        ],
+        "photo": "keith.png",
+        "social": [
+          {
+            "type": "linkedIn",
+            "url": "https://www.linkedin.com/in/keithkoo/"
+          },
+          {
+            "type": "twitter",
+            "url": "https://twitter.com/svi_keith"
+          }
+        ]
+      }
+    ],
+    "roadmap": {
+      "sectionTitle": "Roadmap",
+      "items": [
+        {
+          "date": "Q1 2020",
+          "year": "2020",
+          "content": [
+            "AI Internal Analytics Tracking MVP Complete"
+          ]
+        },
+        {
+          "date": "Q2 2020",
+          "year": "2020",
+          "content": [
+            "Advanced Chintai Technology Portal Complete",
+            "API For Analytics Tracking & Advanced Portal"
+          ]
+        },
+        {
+          "date": "Q3 2020",
+          "year": "2020",
+          "content": [
+            "Singapore Entity Established For Regional Corporate Solutions"
+          ]
+        },
+        {
+          "date": "Q4 2020",
+          "year": "2020",
+          "content": [
+            "Market Delivery Pipeline Strategy Execution",
+            "AI Analytics Alpha Complete"
+          ]
+        }
+      ]
+    },
+    "aboutChintai": {
+      "chintai": {
+        "title": "About Chintai",
+        "content": {
+          "p1": "Chintai is a Singapore based company with a team of skilled technologists and business development experts that are building next generation tools for businesses to thrive. ",
+          "p2": "Singapore is a center of innovation and entrepreneurial spirit. We align with these values and have a mission to continue helping the region with rapid growth, success and business excellence."
+        }
+      },
+      "defi": {
+        "title": "Regulated DeFi",
+        "content": {
+          "p1": "Many decentralized finance instruments are unsuitable for institutional use because public blockchains are too slow, have burdensome fees, or offer no recourse in the event of bugs or exploits. Consequently, logic is put off-chain, resulting in loss of potential efficiency gains. ",
+          "p2": "Chintai products are high-performance, compliance enabled, low fee, and enable recourse in the event of bugs or exploits, while maintaining the advantages of blockchain."
+        }
+      }
+    },
+    "team": {
+      "chintaiCoreTeam": "Team",
+      "TeamSubtext": "The Chintai team combines expertise in finance, technology, product development, marketing and more to deliver some of the most used decentralized applications in the blockchain industry.",
+      "chintaiAdvisors": "Chintai Advisors",
+      "AdvisorSubtext": ""
+    },
+    "footer": {
+      "socialMedia": "Social Media",
+      "contactUs": "Contact Us",
+      "copyright": "© 2020 Chintai.io - All rights reserved",
+      "terms": "Terms & Conditions",
+      "subscribe": "Subscribe",
+      "optOut": "Opt-Out"
+    },
+    "header": {
+      "getUpdates": "Get Updates",
+      "subscribe": "Subscribe",
+      "login": "Login",
+      "scatterLogin": "Login with Scatter",
+      "logout": "Logout?",
+      "landingPageNavItems": [
+        {
+          "text": "Exchange",
+          "url": "https://exchange.chintai.io",
+          "type": "external"
+        },
+        {
+          "text": "Mynt",
+          "url": "https://mynteos.com",
+          "type": "external"
+        },
+        {
+          "text": "Charm",
+          "url": "https://arm.chintai.io/",
+          "type": "external"
+        },
+        {
+          "text": "News",
+          "url": "https://medium.com/@chintaieos",
+          "type": "external"
+        },
+        {
+          "text": "Whitepaper",
+          "url": "/chintai-tokenomic-model.pdf",
+          "type": "external"
+        }
+      ],
+      "auctionPortalNavItems": [
+        {
+          "text": "Dashboard",
+          "url": "/auction",
+          "type": "internal"
+        },
+        {
+          "text": "Get CHEX",
+          "url": "/auction/bid",
+          "type": "internal"
+        },
+        {
+          "text": "KYC Status",
+          "url": "/auction/kyc",
+          "type": "internal"
+        },
+        {
+          "text": "My Contributions",
+          "url": "/auction/contributions",
+          "type": "internal"
+        },
+        {
+          "text": "Auction Summary",
+          "url": "/auction/rounds",
+          "type": "internal"
+        },
+        {
+          "text": "Referral Link",
+          "url": "/auction/referral",
+          "type": "internal"
+        }
+      ]
+    },
+    "countdown": {
+      "seconds": "Seconds",
+      "minutes": "Minutes",
+      "hours": "Hours",
+      "days": "Days",
+      "auctionEnded": "The CHEX token distribution has concluded. Thank you for participating."
+    },
+    "liveRoundOverview": {
+      "title": "Current Round Countdown",
+      "endingOn": "Ending on",
+      "roundNum": "Round #",
+      "chexPriceEos": "CHEX Price (EOS)",
+      "chexPriceUsd": "CHEX Price (USD)",
+      "chexEos": "CHEX/EOS"
+    },
+    "errorPage": {
+      "returnHome": "Return Home",
+      "returnToDashboard": "Return to Dashboard",
+      "error404": "404 Page Not Found",
+      "errorContent": "Sorry, we were unable to locate the requested resource",
+      "restrictedTitle": "Region Restricted",
+      "restrictedContent1": "Sorry, we are unable to offer service for your region. Please refer to the CHEX",
+      "termsConditions": "Terms & Conditions",
+      "restrictedContent2": "for additional information."
+    },
+    "priceHistory": {
+      "title": "Round History",
+      "noRounds": "No previous rounds to display",
+      "inProgress": "in-progress",
+      "roundNum": "Round #",
+      "chexPrice": "CHEX/EOS Price",
+      "date": "Date"
+    },
+    "terms": {
+      "title": "CHEX TERMS & CONDITIONS",
+      "note": "Note: you must review all of the terms before accepting",
+      "accept": "Accept",
+      "reject": "Reject",
+      "certify1": "Check here to confirm that you are NOT a U.S. citizen, resident or entity (each a “U.S. Person”), nor are you purchasing WBI Tokens or signing on behalf of a U.S Person.",
+      "certify2": "Check here to confirm that you are NOT a citizen of or resident of the People’s Republic of China or an entity formed under the laws of the People’s Republic of China (each a “Chinese Person”) nor are you purchasing WBI Tokens or signing on behalf of a Chinese Person.",
+      "certify3a": "Check here to confirm that you have read the",
+      "certify3b": "WBI Tokenomic Whitepaper.",
+      "certify4a": "Check here to confirm that you have read, understand, and agree to the WBI Token",
+      "certify4b": "."
+    },
+    "kycCheck": {
+      "completed": "You have successfully completed KYC",
+      "notCompleted": "You have not yet completed the KYC process",
+      "makeChanges": "You may update your KYC profile at any time through the external KYC provider below.",
+      "pleaseComplete": "Please visit our external KYC provider below and ensure your KYC application has been submitted.",
+      "visitAltcoinomy": "Visit Amazix CAAS",
+      "verifying": "Verifying KYC Status",
+      "pleaseLogin": "Please log in to view your KYC status. You may also visit our KYC provider below to get started now."
+    },
+    "myContributions": {
+      "inProgress": "Round In-Progress",
+      "completed": "Completed",
+      "pending": "Pending Future Round",
+      "totalContribution": "Total Contribution",
+      "totalContributionTooltip": "Total amount of EOS contributed to the auction",
+      "chexReceived": "Total CHEX Received",
+      "chexReceivedTooltip": "Sum total number of CHEX tokens received from the auction",
+      "avgPrice": "Weighted Avg Price",
+      "avgPriceTooltip": "Weighted average cost paid per CHEX",
+      "includeFuture": "Include Current/Future Rounds",
+      "roundNum": "Round #",
+      "date": "Date (UTC)",
+      "chex": "Chex Received",
+      "chexPrice": "Chex Price",
+      "status": "Status",
+      "noContributions": "No contributions to display.",
+      "pleaseLogin": "Please log in to view your contributions."
+    },
+    "roundsSummary": {
+      "totalContributions": "Total Contributions",
+      "chexIssued": "CHEX Issued",
+      "chexPrice": "CHEX Price",
+      "inProgress": "Round In-Progress",
+      "completed": "Completed",
+      "pending": "Future Round",
+      "roundNum": "Round #",
+      "date": "Date (UTC)",
+      "status": "Status",
+      "noRounds": "No rounds to display."
+    },
+    "bidOnChex": {
+      "kycWarning": "Before you can make contributions to the WBI auction you must complete KYC. After completing the KYC process, your EOS account will be automatically whitelisted to allow contributions to the WBI auction.",
+      "kycWarningLink": "Visit KYC Page",
+      "configureBid": "Configure Bid",
+      "configureBidDescription": "Bids can be configured to make a  contribution for one isolated round, or in equally divided installments over several rounds. You will receive your WBI at the end of the round(s).",
+      "roundFrom": "From #",
+      "roundTo": "To #",
+      "singleRound": "A single round",
+      "rangeRounds": "A range of rounds",
+      "summary": "Summary",
+      "quantity": "Quantity",
+      "submitBidTo": "I want to submit my bid to",
+      "scatterDescription": "Use this option to submit your bid using Scatter. A separate dialog will be displayed within Scatter to confirm your bid.",
+      "manualDescription": "Use this option to submit your bid manually via your preferred wallet.",
+      "sendPaymentTo": "Send Payment To Account",
+      "assistedBid": "Submit (Scatter)",
+      "pleaseLogin": "Please log in to Scatter first",
+      "manualBid": "Submit (Manually)",
+      "memoInst": "Include Memo",
+      "submitBid": "Submit Bid",
+      "senderAccount": "SENDER_ACCOUNT",
+      "bidSummarySingleRound": "I would like to bid {{quantity}} EOS on round #{{roundNum}}.",
+      "bidSummaryMultipleRound": "I would like to bid {{quantity}} EOS spread evenly from round #{{roundNumStart}} to round #{{roundNumEnd}}.",
+      "memoTip": "Ensure the memo is formatted exactly as seen below. Your account name must be the last component in the memo.",
+      "exchangeWarning": "DO NOT send EOS from an exchange account to the WBI auction account. All EOS sent from exchange accounts to the WBI auction account will be permanently lost."
+    },
+    "auctionNav": {
+      "dashboard": "Dashboard",
+      "getChex": "Get CHEX",
+      "kycStatus": "KYC Status",
+      "myContributions": "My Contributions",
+      "auctionSummary": "Auction Summary",
+      "referralLink": "Referral Link"
+    },
+    "landingContent": {
+      "title": "Software To Elevate Your Business Potential",
+      "subtitle": "Chintai is a software provider that brings your business to the next level by building custom tools to address inefficient data storage and sharing. ",
+      "whitepaper": "Whitepaper",
+      "requestDemo": "Contact Us",
+      "link1": "#",
+      "viewDemo": "View Demo",
+      "link2": "https://kylin.chintai.io",
+      "demoLink": "https://kylin.chintai.io",
+      "getChex": "Get CHEX",
+      "whitepaperLink": "/chintai-tokenomic-model.pdf"
+    },
+    "keyPonts": {
+      "point1": "Customized",
+      "detail1": "We customize solutions for your specific business needs. Speak with our team to get solutions dialed in to optimize your data flow.",
+      "point2": "Increase Margins",
+      "detail2": "Inefficient data storage and sharing can slow company progress and project efficiency. We help you identify and solve problems to increase productivity and revenue.",
+      "point3": "White Label",
+      "detail3": "After we customize software to meet your needs, you will be able to embed the solution directly into your existing management systems."
+    },
+    "products": {
+      "title": "Chintai DeFi Products",
+      "CTA": "learn more",
+      "productsData": [
+        {
+          "name": "White Label",
+          "title": "Issuance, Secondary Trading & Custom Build",
+          "subtitle": "Use our plug-and-play technology to unlock instant efficiency gains in finance.",
+          "content": [
+            "The promise of blockchain technology for finance is known, but integrating the technology is very difficult. Our blockchain agnostic product suite easily connects institutional finance, enterprise, and entrepreneurs to the efficiency gains that can be achieved with blockchain technology. We help people focus on product delivery and integration into legacy systems by combining ready to use commercial grade tools and multiple protocols.",
+            "Similar to how a platform like Shopify offers the means for anyone to easily sell products in a custom storefront, Chintai provides infrastructure for financial institutions to support custom issuance and trading of securitized assets on ANY blockchain. Chintai operates completely obfuscated from internal or external usage.",
+            "Our products for issuance, secondary trading, and management of tokenized securities are compliance enabled. This means jurisdictional law can be automatically enforced and applied. Breaches can be instantaneously detected and responded to in order to stop fraud."
+          ],
+          "contactUs": "Contact Us",
+          "image": "vex.png"
+        },
+        {
+          "name": "Regulated DEX",
+          "title": "Regulatory compliant trading for tokenized securities",
+          "subtitle": "The Chintai DEX will be a compliant, full custody, peer-to-peer exchange for trading digital assets, including tokenized securities.",
+          "content": [
+            "The Chintai DEX will serve two purposes - trading utility tokens and security tokens. Our DEX is 100% on-chain and gives users full custody. All compliance controls are baked into the account and token level for full jurisdictional compliance. We are applying for licensure in Singapore (MAS) to be a fully regulated decentralized exchange.",
+            "Every aspect of the exchange will meet the regulatory requirements of major regulators and guidelines including, FATF, FCA, FINCEN, etc. Our goal is to expand our services to be chain agnostic and retain licensure across all major jurisdictions so that cryptocurrency investors can have full custody of their assets and trade in a fully compliant peer-to-peer environment.",
+            "We are currently offering whitelabel usage of our DEX engine for entities that have already attained licensing and want to conduct issuance and secondary trading of tokenized securities."
+          ],
+          "contactUs": "",
+          "ctaLink": "https://kylin.chintai.io/",
+          "ctaText": "View Demo",
+          "image": "dex.png"
+        },
+        {
+          "name": "Mynt Issuance",
+          "title": "Regulatory compliant custom token distributions",
+          "subtitle": "Mynt is a turn-key service that harmonizes the technical, legal and financial elements of token distributions.",
+          "content": [
+            "Responsibly launching a token requires trusted technology and resources. My Native Token (Mynt) connects entrepreneurs to our proven technology and resources to launch custom tokens. Our end-to-end service includes custom token contracts, custom distribution portal, legal resources, KYC/AML and more.",
+            "Our reputable development team builds your custom token with our proven and reliable technology. Most notably, we make sure your token is harmonized with your legal needs. We build custom front end portals for all distribution types, including auctions, STO’s and any other form. Technology for KYC/AML fully integrated and all major crypto can be accepted.",
+            "For more information or questions please contact the Chintai team or visit the Mynt landing page."
+          ],
+          "contactUs": "Contact Us",
+          "ctaLink": "https://mynteos.com",
+          "ctaText": "Visit Mynt",
+          "image": "mynt.png"
+        },
+        {
+          "name": "Token Leasing",
+          "title": "Putting tokens collecting virtual dust to work.",
+          "subtitle": "Chintai is the only decentralized high-performance exchange for leasing token utility.",
+          "content": [
+            "Chintai started a token leasing platform. By decoupling token utility from token ownership, robust leasing markets can form that help businesses reduce overhead and activate reward opportunities for token holders. For example, the DAPP token gives owners staking rights to access precious developer tools in the DAPP network. But not everyone who holds DAPP tokens needs to use them.",
+            "Chintai allows DAPP token holders to lend their tokens that would otherwise be collecting virtual dust. This allows lenders to generate rewards. While borrowers can access utility at low costs, and avoid locking precious capital that could be used to run and expand their businesses.",
+            "We’ve built four token leasing markets and have flexible technology to add more markets as demand for token utility increases. So far we’ve transacted more than $250 million in total volume."
+          ],
+          "contactUs": "",
+          "ctaLink": "https://exchange.chintai.io",
+          "ctaText": "Visit Chintai Exchange",
+          "image": "lease.png"
+        },
+        {
+          "name": "NFTs Leasing",
+          "title": "Activating the full potential of virtual item ownership",
+          "subtitle": "Chintai will be the first platform that enables leasing of NFTs - bespoke virtual assets.",
+          "content": [
+            "Millions are being poured into NFT (bespoke virtual items) product development. From the Winklvoss twins to Ubisoft, some of the biggest names are getting involved. In anticipation of explosive market growth for NFTs, Chintai will offer the first exchange interface for leasing NFTs and an API for developers to embed leasing directly into their products.",
+            "Trading virtual assets within games is estimated to be a $50 billion dollar industry alone and perfectly suited for NFT leasing. Chintai is currently targeting the gaming industry and is actively working in partnership with industry leaders to enable the first protocol for leasing NFTs.",
+            "To learn more about the Chintai NFT products please contact our team."
+          ],
+          "contactUs": "Contact Us",
+          "ctaLink": "",
+          "ctaText": "",
+          "image": "nft.png"
+        },
+        {
+          "name": "Charm",
+          "title": "Automated resource allocation for dApps and users",
+          "subtitle": "Blockchain resources power transactions. Management is required. Chintai automates the process.",
+          "content": [
+            "Charm automatically allocates EOSIO resources to dApp contract and user accounts. By having automatic allocation of resources you gain immunity to network congestion — you will never be locked out of an account, or suffer down time. By ensuring up time and resource surplus, you avoid unnecessary risk of losing users and revenue, while giving yourself an important tool to automatically allocate resources to end users. Charm also makes sure you pay the lowest fees possible over time, and uses CHEX to reduce fees on our platform. CHEX reduces fees by 50%"
+          ],
+          "contactUs": "Contact Us",
+          "ctaLink": "https://arm.chintai.io/",
+          "ctaText": "Use Charm",
+          "image": "autores.png"
+        }
+      ]
+    },
+    "industry": {
+      "title": "Overview - Applications - Demos",
+      "industryData": [
+        {
+          "name": "Chintai & CHEX",
+          "subtitle": "Putting tokens collecting virtual dust to work.",
+          "image": "chintai.png",
+          "imageHover": "chintai-white.png",
+          "imageLarge": "chintai-large.png",
+          "position": "left",
+          "contactUs": "",
+          "ctaLink": "/chintai-tokenomic-model.pdf",
+          "ctaText": "Tokenomic Whitepaper",
+          "videoLink": "https://youtu.be/XTofaRg0px4",
+          "content": [
+            ""
+          ]
+        },
+        {
+          "name": "Finance",
+          "subtitle": "Activating the full potential of virtual item ownership",
+          "image": "finance.png",
+          "imageLarge": "finance-large.png",
+          "imageHover": "finance-white.png",
+          "position": "left",
+          "contactUs": "Contact Us",
+          "ctaLink": "https://medium.com/@ChintaiEOS/chintai-white-label-tech-for-institutional-finance-b48cfa4a6395",
+          "ctaText": "Learn More",
+          "content": [
+            "Blockchain based efficiency gains can profoundly change global financial systems. The current infrastructure is the equivalent of a fax machine when compared to the “smart phone” that is blockchain technology. The databases on which the world’s financial assets are stored and managed cause massive unnecessary overhead. Manual intervention is needed for everything from reconciliation between financial entities, execution of advanced payments, reporting, and much more.",
+            "Chintai technology uses a combination of high-performance cutting edge protocols to help institutional finance easily port their assets to blockchain technology. Making the transition helps significantly decrease overhead that is caused by manual handling of securities and unlocks liquidity in traditionally illiquid markets.",
+            "Most everything that requires manual handling in legacy systems can be automated by Chintai - including collateral handling, advanced payments, compliance, and more. And unlike other blockchain service providers, Chintai has a “clawback” mechanism in the case of a hack or mistake, while offering customizable high-performance products for secondary trading, issuance, and management that have virtually no underlying fees."
+          ]
+        },
+        {
+          "name": "Real Estate",
+          "subtitle": "Globally compliant peer-to-peer trading",
+          "image": "estate.png",
+          "imageHover": "estate-white.png",
+          "imageLarge": "estate-large.png",
+          "position": "left",
+          "contactUs": "Contact Us",
+          "ctaLink": "",
+          "ctaText": "",
+          "content": [
+            "Real estate is one of the world’s oldest assets and the most reliable method of building wealth. However, the real estate investment market is characterized by two key issues that blockchain technology can solve:",
+            "1) Very low liquidity, making it difficult to transfer and sell. Single transfers are manual, costly, and usually takes days.",
+            "2) Very high capital requirements, which puts the asset class out of reach for most retail investors.",
+            "Blockchain technology can be used to encode the characteristics of an asset into a unit of digital value (token). This allows tokenized real estate to be broken up into many digital parts and attributes that traditionally require manual handling to be automated.",
+            "By digitally fractionalizing real estate, deep liquid markets can form on secondary trading platforms, resulting in significant reductions of both time and costs to transfer. And rather than having to own enough capital to buy an entire piece of real estate, investors can buy small fractions to gain portfolio exposure that is otherwise unattainable for most people.",
+            "We have signed a LOI for a $27M issuance for tokenized commercial real estate and secondary trading in Chicago. If you would like to view a demo please contact us."
+          ]
+        },
+        {
+          "name": "Gaming",
+          "subtitle": "",
+          "image": "game.png",
+          "imageLarge": "game-large.png",
+          "imageHover": "game-white.png",
+          "position": "right",
+          "contactUs": "Contact Us",
+          "ctaLink": "https://techcrunch.com/2016/01/20/virtual-goods-real-fraud/",
+          "ctaText": "Learn More",
+          "content": [
+            "Virtual items and currencies within games have become extremely popular since the turn of the 21st century. But not without problems or limitations. Game developers, the original artists, are often cut out of the profits generated by the transfer of virtual items, while gamers are vulnerable to scams, centralized control of virtual assets, and other problems with trading on external secondary markets.",
+            "By putting virtual items on blockchain technology, fees can be embedded to guarantee ongoing revenue generation for game developers, counterfeits can be eliminated entirely, and gamers can have true ownership of assets - their accounts can never be closed and items never withdrawn.",
+            "The Chintai API can be used to embed trading and lending of virtual items directly into games. No need to expose gamers to external marketplaces or blockchain technology. Please contact us if you would like to discuss integration or have questions. "
+          ]
+        },
+        {
+          "name": "Demo Exchange",
+          "subtitle": "Custom Token Distributions",
+          "image": "chintai.png",
+          "imageHover": "chintai-white.png",
+          "imageLarge": "chintai-large.png",
+          "position": "right",
+          "contactUs": "Contact Us",
+          "ctaLink": "https://kylin.chintai.io/trade/7711702073241388809",
+          "ctaText": "View Demo",
+          "content": [
+            "Our high-performance exchange is open for viewing and usage. The Chintai order management and execution system can be white labeled by anyone who needs secondary trading and leasing of virtual assets. The front end can also be customized and branded appropriately to meet the UX and visual needs of a given use case or entity.",
+            "Our DEX will be based on this demo model. We’re currently in the process of applying for licensure from the Monetary Authority of Singapore. Facilitating non-custodial, peer-to-peer trading of utility tokens and tokenized securities is on our near term 2020 roadmap.",
+            "If you would like to set up an account to demo our exchange or learn more about our products please reach out to our team. "
+          ]
+        },
+        {
+          "name": "Demo Real Estate",
+          "subtitle": "Custom Token Distributions",
+          "image": "chintai.png",
+          "imageHover": "chintai-white.png",
+          "imageLarge": "chintai-large.png",
+          "position": "right",
+          "contactUs": "Contact Us",
+          "ctaLink": "",
+          "ctaText": "",
+          "content": [
+            "Our high-performance exchange and issuance engine are the underlying components for the “CinderBlox” real estate demo. Both can be white labeled for issuance and secondary trading of tokenized real estate.",
+            "As blockchain technology service providers, Chintai has built and will operate the underlying infrastructure for a $27M issuance of tokenized real estate in Chicago.",
+            "We can rapidly build and deploy custom front-end portals that are compliance enabled for anyone that has relevant legal and licensing established. Please contact us if you have questions or would like to setup a demo. You can also view the existing demo portal. If you would like an account for the existing demo please contact our team."
+          ]
+        }
+      ]
+    },
+    "unsubscribe": {
+      "title": "Unsubscribe From Our Mailing List",
+      "unsubscribe": "Unsubscribe",
+      "sorry": "We're sorry to see you go. Please enter your email address below and we will remove you from our mailing list. Please allow 24h for the change to take effect."
+    },
+    "partners": {
+      "title": "Strategic Partners"
+    }
+  }
+}
