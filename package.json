@@ -1,5 +1,4 @@
 {
-  "homepage": "http://shuke0327.github.io/chintaiTech",
   "name": "chintai-technology-app",
   "version": "0.1.0",
   "private": true,
@@ -87,8 +86,6 @@
     "webpack-manifest-plugin": "2.0.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "node scripts/start.js",
     "build": "GENERATE_SOURCEMAP=false node scripts/build.js",
     "test": "node scripts/test.js",
