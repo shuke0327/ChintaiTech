@@ -7,11 +7,11 @@ import IStoreProps from "lib/Props"
 import { observer, inject } from "mobx-react"
 import styled from "styled-components"
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs"
-import "react-tabs/style/react-tabs.css";
+import "react-tabs/style/react-tabs.css"
 // import Timeline from './Components/Timeline';
-import { FlexColumn, FlexRow, ColorBlue } from "lib/GlobalStyles";
-import bluePointImg from './blue-point.png';
-import pointImg from './point.png';
+import { FlexColumn, FlexRow, ColorBlue } from "lib/GlobalStyles"
+import bluePointImg from "./blue-point.png"
+import pointImg from "./point.png"
 
 
 export interface IRoadmapItem {
@@ -412,49 +412,27 @@ export default class Roadmap extends Component<IStoreProps> {
           <RoadmapContainer>
             <TabsRoadmap defaultIndex={3}>
               <RoadmapTablList>
-                <Tab>2018</Tab>
-                <Tab>2019</Tab>
                 <Tab>2020</Tab>
               </RoadmapTablList>
               <MobileRoadPanel>
-                <ul>{this.getRoadmap('2018')}</ul>
-              </MobileRoadPanel>
-              <MobileRoadPanel>
                 <ul>
-                  {this.getRoadmap('2019')}
-                </ul>
-              </MobileRoadPanel>
-              <MobileRoadPanel>
-                <ul>
-                  {this.getRoadmap('2020')}
+                  {this.getRoadmap("2020")}
                 </ul>
               </MobileRoadPanel>
             </TabsRoadmap>
-          </RoadmapContainer>
+          </RoadmapContainer >
         )
       } else {
         return (
           <RoadmapContainer>
             <TabsRoadmap defaultIndex={3}>
               <RoadmapTablList>
-                <Tab>2018</Tab>
-                <Tab>2019</Tab>
                 <Tab>2020</Tab>
               </RoadmapTablList>
               <RoadmapPanel>
                 <RoadmapTimeline />
-                <ul>{this.getRoadmap('2018')}</ul>
-              </RoadmapPanel>
-              <RoadmapPanel>
-                <RoadmapTimeline />
                 <ul>
-                  {this.getRoadmap('2019')}
-                </ul>
-              </RoadmapPanel>
-              <RoadmapPanel>
-                <RoadmapTimeline />
-                <ul>
-                  {this.getRoadmap('2020')}
+                  {this.getRoadmap("2020")}
                 </ul>
               </RoadmapPanel>
             </TabsRoadmap>

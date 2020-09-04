@@ -20,6 +20,7 @@ const KeyPointContainer = styled(FlexRow)`
     position: relative;
     box-shadow: initial;
     background: initial;
+    margin-top: 5em;
     margin-bottom: 5vw;
     width: 100vw;
     @media (max-width: 1024px) {
@@ -42,23 +43,16 @@ const KeyPointContainer = styled(FlexRow)`
 // `
 
 const KeyPointBox = styled(FlexColumn)`
-  z-index: -3;
-  max-width: 20vw;
-  background-color: transparent;
+  max-width: 19vw;
   color: black;
-  border-radius: 10px;
-  text-align: center;
-
+  border-radius: 50px;
   margin: 0 25px;
   padding: 20px 12px;
   min-height: 23em;
   align-items: flex-start;
-  max-width: 20vw;
   background-color: rgb(255,255,255,0.5);
   border: 1px solid rgb(0,0,0,0.1);
   color: black;
-  border-radius: 10px;
-
   h4 {
     color: #222b2c;
     font-family: PoppinsLight;

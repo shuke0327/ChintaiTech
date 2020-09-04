@@ -13,17 +13,12 @@ import createBrowserHistory from "history/createBrowserHistory"
 import { syncHistoryWithStore } from "mobx-react-router"
 import LandingPage from "Pages/LandingPage"
 import ErrorPage from "Pages/ErrorPage"
-import AuctionPortal from "Pages/AuctionPortal"
-import AuctionPortalDemo from "Pages/AuctionPortalDemo"
 import NanamiBold from "lib/Nanami-Bold.otf"
-import { EAuctionPortalViews } from "lib/GlobalStyles"
 import { ColorDarkGrayText, ColorFont } from "lib/colors"
 import "react-virtualized/styles.css"
 import "react-toggle/style.css"
-import TermsPage from "Pages/TermsPage";
 // import "react-vis/dist/style/legends"
 import ReactGA from "react-ga"
-import UnsubscribePage from "Pages/Unsubscribe"
 
 // Setup Google Analytics. Use another tag in development
 ReactGA.initialize(process.env.NODE_ENV === "production" ? "UA-136680716-2" : "UA-136680716-3", {
@@ -121,25 +116,6 @@ ReactDOM.render(
         <Switch>
           {/* Valid Routes */}
           <Route exact path="/" component={LandingPage} />
-          {/* <Route exact path="/mynt" component={MyntLandingPage} /> */}
-          {/* <Route exact path="/automatedleasing" component={AutomatedLeasing} />
-          <Route exact path="/automatedleasing/portal" render={(props: any) => <LeasingPage {...props} activeView={ELeasingPortalViews.dashboard} />} /> */}
-          <Route exact path="/auction" render={(props: any) => <AuctionPortal {...props} activeView={EAuctionPortalViews.dashboard} />} />
-          <Route exact path="/auction/kyc" render={(props: any) => <AuctionPortal {...props} activeView={EAuctionPortalViews.kyc} />} />
-          <Route exact path="/auction/bid" render={(props: any) => <AuctionPortal {...props} activeView={EAuctionPortalViews.getChex} />} />
-          <Route exact path="/auction/contributions" render={(props: any) => <AuctionPortal {...props} activeView={EAuctionPortalViews.contributions} />} />
-          <Route exact path="/auction/rounds" render={(props: any) => <AuctionPortal {...props} activeView={EAuctionPortalViews.rounds} />} />
-          <Route exact path="/auction/referral" render={(props: any) => <AuctionPortal {...props} activeView={EAuctionPortalViews.referral} />} />
-          {/* Kylin Auction Demo Routes */}
-          <Route exact path="/kylin/auction" render={(props: any) => <AuctionPortalDemo {...props} activeView={EAuctionPortalViews.dashboard} />} />
-          <Route exact path="/kylin/auction/kyc" render={(props: any) => <AuctionPortalDemo {...props} activeView={EAuctionPortalViews.kyc} />} />
-          <Route exact path="/kylin/auction/bid" render={(props: any) => <AuctionPortalDemo {...props} activeView={EAuctionPortalViews.getChex} />} />
-          <Route exact path="/kylin/auction/contributions" render={(props: any) => <AuctionPortalDemo {...props} activeView={EAuctionPortalViews.contributions} />} />
-          <Route exact path="/kylin/auction/rounds" render={(props: any) => <AuctionPortalDemo {...props} activeView={EAuctionPortalViews.rounds} />} />
-          <Route exact path="/kylin/auction/referral" render={(props: any) => <AuctionPortalDemo {...props} activeView={EAuctionPortalViews.referral} />} />
-          {/* ///////////////////// */}
-          <Route exact path="/terms-and-conditions" component={TermsPage} />
-          <Route exact path="/unsubscribe" component={UnsubscribePage} />
           {/* Error Route */}
           <Route path="*" component={() => <ErrorPage />} />
         </Switch>

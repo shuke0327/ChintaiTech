@@ -13,7 +13,7 @@ const BlueWaterContainer = styled.div`
   position: absolute;
   top: 0;
   right: 0;
-  width: 52vw;
+  width: 40vw;
   pointer-events: none;
   opacity: 1;
   display: flex;

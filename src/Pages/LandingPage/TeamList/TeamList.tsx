@@ -5,13 +5,10 @@
 import React, { Component } from "react"
 import IStoreProps from "lib/Props"
 import { observer, inject } from "mobx-react"
-import {
-  FlexRow, FlexColumn,
-  ItemExpandedContainer, ModalBoxRightColumn, XButton, XButtonSection, ModalBoxLeftColumn, ModalBoxInnerContent, ModalBoxMainContent
-} from "lib/GlobalStyles"
+import { FlexRow, FlexColumn } from "lib/GlobalStyles"
 import styled from "styled-components"
-import { FaLinkedin, FaTelegram, FaGithub, FaTwitter, FaExclamationTriangle } from "react-icons/fa"
-import ArrowImg from "./arrow.svg"
+// import { FaLinkedin, FaTelegram, FaGithub, FaTwitter, FaExclamationTriangle } from "react-icons/fa"
+// import ArrowImg from "./arrow.svg"
 interface ITeamSocial {
   type: string
   url: string
@@ -26,9 +23,10 @@ export interface ITeamMember {
 }
 
 const TeamListContainer = styled(FlexRow)`
-  margin-top: 200px;
+  margin-top: 100px;
   flex-wrap: wrap;
-  width: ${(props: { advisors: boolean }) => props.advisors ? "80%" : null};
+  width: ${(props: { advisors: boolean }) => props.advisors ? "100%" : "80%"};
+
 
   @media (max-width: 660px) {
     width: inherit;
@@ -36,7 +34,7 @@ const TeamListContainer = styled(FlexRow)`
     margin-left: 10%;
 
   }
-  max-width: 80%;
+  max-width: 100%;
   justify-content: space-around;
 `
 
@@ -99,9 +97,9 @@ const LeftFlexColumn = styled(FlexColumn)`
 `
 
 
-const RightFlexColumn = styled(FlexColumn)`
-  justify-content: space-around;
-`
+// const RightFlexColumn = styled(FlexColumn)`
+//   justify-content: space-around;
+// `
 
 
 const TeamAvatar = styled(FlexColumn)`
@@ -111,11 +109,6 @@ const TeamAvatar = styled(FlexColumn)`
   // border-radius: 50%;
   margin-bottom: 10px;
   /* transition: 0.3s; */
-
-
-  &:hover {
-    cursor: pointer;
-  }
 
   &:active {
     transform: scale(0.95);
@@ -136,167 +129,167 @@ const TeamAvatar = styled(FlexColumn)`
   }
 `
 
-const TeamSocialIcons = styled(FlexColumn)`
-  flex-grow: 1;
-  margin-top: 5px;
+// const TeamSocialIcons = styled(FlexColumn)`
+//   flex-grow: 1;
+//   margin-top: 5px;
 
-  a {
-    color: inherit;
-  }
-`
+//   a {
+//     color: inherit;
+//   }
+// `
 
-const HorizontalTeamSocialIcons = styled(FlexRow)`
-  flex-grow: 1;
-  margin-top: 5px;
+// const HorizontalTeamSocialIcons = styled(FlexRow)`
+//   flex-grow: 1;
+//   margin-top: 5px;
 
-  a {
-    color: inherit;
-  }
-`
+//   a {
+//     color: inherit;
+//   }
+// `
 
-const SocialIcon = styled(FlexColumn)`
-  margin-left: 5px;
-  color: #0d78ca;
-  font-family: "Font Awesome";
-  font-size: 20px;
-  height: 40px;
-  font-weight: 400;
-`
+// const SocialIcon = styled(FlexColumn)`
+//   margin-left: 5px;
+//   color: #0d78ca;
+//   font-family: "Font Awesome";
+//   font-size: 20px;
+//   height: 40px;
+//   font-weight: 400;
+// `
 
-const ArrowIcon = styled(FlexColumn)`
-/* Style for "item197" */
-margin: 0px;
-padding: 5px 0 5px 0;
-align-items: center;
-justify-content: center;
-cursor: pointer;
-background-image: linear-gradient(42.43deg, #2596e0 0%, #0659a8 100%);
-`
+// const ArrowIcon = styled(FlexColumn)`
+// /* Style for "item197" */
+// margin: 0px;
+// padding: 5px 0 5px 0;
+// align-items: center;
+// justify-content: center;
+// cursor: pointer;
+// background-image: linear-gradient(42.43deg, #2596e0 0%, #0659a8 100%);
+// `
 
-const TeamProfileExpandedContainer = styled(ItemExpandedContainer)`
-  transform: ${(props: { teamLightboxOpen: boolean }) => props.teamLightboxOpen ? "scale(1)" : "scale(0)"};
-`
+// const TeamProfileExpandedContainer = styled(ItemExpandedContainer)`
+//   transform: ${(props: { teamLightboxOpen: boolean }) => props.teamLightboxOpen ? "scale(1)" : "scale(0)"};
+// `
 
-const SocialIconExpanded = styled(SocialIcon)`
-  margin-left: 15px;
-  font-size: 1.5em;
+// const SocialIconExpanded = styled(SocialIcon)`
+//   margin-left: 15px;
+//   font-size: 1.5em;
 
-  &:first-of-type {
-    margin-left: 0;
-  }
-`
+//   &:first-of-type {
+//     margin-left: 0;
+//   }
+// `
 
-const ProfilePhoto = styled.div`
-  justify-content: center;
+// const ProfilePhoto = styled.div`
+//   justify-content: center;
 
-  img {
-    width: 180px;
-    height: 200px;
-  }
+//   img {
+//     width: 180px;
+//     height: 200px;
+//   }
 
-  @media (max-width: 660px) {
-    align-self: center;
-  }
-`
+//   @media (max-width: 660px) {
+//     align-self: center;
+//   }
+// `
 
-const Bio = styled.div`
-  padding: 0 20px;
-  font-size: 1em;
-  line-height: 1.2em;
-  text-align: left;
+// const Bio = styled.div`
+//   padding: 0 20px;
+//   font-size: 1em;
+//   line-height: 1.2em;
+//   text-align: left;
 
-  @media (max-width: 660px) {
-    font-size: 1em;
-    height: 40%;
-    p {
-      margin-left: 5px;
-    }
-  }
-`
+//   @media (max-width: 660px) {
+//     font-size: 1em;
+//     height: 40%;
+//     p {
+//       margin-left: 5px;
+//     }
+//   }
+// `
 
-const LeftColumn = styled(ModalBoxLeftColumn)`
-  @media(max-width: 960px){
-    min-height: 350px;
-    flex-wrap: nowrap;
-  }
-`
+// const LeftColumn = styled(ModalBoxLeftColumn)`
+//   @media(max-width: 960px){
+//     min-height: 350px;
+//     flex-wrap: nowrap;
+//   }
+// `
 
-const GetSocialIcon = (props: { socialType: string }) => {
-  switch (props.socialType) {
-    case "linkedIn":
-      return <FaLinkedin />
+// const GetSocialIcon = (props: { socialType: string }) => {
+//   switch (props.socialType) {
+//     case "linkedIn":
+//       return <FaLinkedin />
 
-    case "telegram":
-      return <FaTelegram />
+//     case "telegram":
+//       return <FaTelegram />
 
-    case "twitter":
-      return <FaTwitter />
+//     case "twitter":
+//       return <FaTwitter />
 
-    case "github":
-      return <FaGithub />
+//     case "github":
+//       return <FaGithub />
 
-    default:
-      return <FaExclamationTriangle />
-  }
-}
+//     default:
+//       return <FaExclamationTriangle />
+//   }
+// }
 
-@inject("stores")
-@observer
-export class TeamViewExpanded extends Component<IStoreProps> {
-  render() {
-    try {
-      const currentSelectedUser = this.props.stores!.appStore.currentSelectedTeamMemberObject!
+// @inject("stores")
+// @observer
+// export class TeamViewExpanded extends Component<IStoreProps> {
+//   render() {
+//     try {
+//       const currentSelectedUser = this.props.stores!.appStore.currentSelectedTeamMemberObject!
 
-      // First figure out if the current selected user is of type team member or advisor
-      const tagName = (this.props.stores!.langStore.safeGetLocalizedString("advisors") as unknown as Array<ITeamMember>).find((e: ITeamMember) => e.name === currentSelectedUser.name) ? "advisors" : "teamMembers"
+//       // First figure out if the current selected user is of type team member or advisor
+//       const tagName = (this.props.stores!.langStore.safeGetLocalizedString("advisors") as unknown as Array<ITeamMember>).find((e: ITeamMember) => e.name === currentSelectedUser.name) ? "advisors" : "teamMembers"
 
-      // Now get that user's data from the lang JSON to parse it out
-      const userData = (this.props.stores!.langStore.safeGetLocalizedString(tagName) as unknown as Array<ITeamMember>).find((f: ITeamMember) => f.name === this.props.stores!.appStore.currentSelectedTeamMember)!
-      if (!userData) { return null } // If user isn't found, don't try to render anything
+//       // Now get that user's data from the lang JSON to parse it out
+//       const userData = (this.props.stores!.langStore.safeGetLocalizedString(tagName) as unknown as Array<ITeamMember>).find((f: ITeamMember) => f.name === this.props.stores!.appStore.currentSelectedTeamMember)!
+//       if (!userData) { return null } // If user isn't found, don't try to render anything
 
-      return (
-        <TeamProfileExpandedContainer teamLightboxOpen={this.props.stores!.appStore.teamLightboxOpen}>
-          <ModalBoxInnerContent>
-            <XButtonSection onClick={() => this.props.stores!.appStore.closeTeamLightbox()}>
-              <XButton>
-                <span>&#x2716;</span>
-              </XButton>
-            </XButtonSection>
-            <ModalBoxMainContent>
-              <LeftColumn>
-                <ProfilePhoto>
-                  <img src={`/images/team/${userData.photo}`} />
-                </ProfilePhoto>
-                <h1>{userData.name}</h1>
-                <h2>{userData.title}</h2>
-                <HorizontalTeamSocialIcons>
-                  {currentSelectedUser.social.map((f: ITeamSocial) => {
-                    return (
-                      <SocialIconExpanded key={currentSelectedUser.name.replace(/\s/g, "").toLowerCase() + currentSelectedUser.social.indexOf(f)}>
-                        <a href={f.url} target={"_blank"}><GetSocialIcon socialType={f.type} /></a>
-                      </SocialIconExpanded>
-                    )
-                  })}
-                </HorizontalTeamSocialIcons>
-              </LeftColumn>
-              <ModalBoxRightColumn>
-                <Bio>
-                  {userData.bio.map((e: string) => {
-                    return (
-                      <p>{e}</p>
-                    )
-                  })}
-                </Bio>
-              </ModalBoxRightColumn>
-            </ModalBoxMainContent>
-          </ModalBoxInnerContent>
-        </TeamProfileExpandedContainer>
-      )
-    } catch (e) {
-      return null
-    }
-  }
-}
+//       return (
+//         <TeamProfileExpandedContainer teamLightboxOpen={this.props.stores!.appStore.teamLightboxOpen}>
+//           <ModalBoxInnerContent>
+//             <XButtonSection onClick={() => this.props.stores!.appStore.closeTeamLightbox()}>
+//               <XButton>
+//                 <span>&#x2716;</span>
+//               </XButton>
+//             </XButtonSection>
+//             <ModalBoxMainContent>
+//               <LeftColumn>
+//                 <ProfilePhoto>
+//                   <img src={`/images/team/${userData.photo}`} />
+//                 </ProfilePhoto>
+//                 <h1>{userData.name}</h1>
+//                 <h2>{userData.title}</h2>
+//                 <HorizontalTeamSocialIcons>
+//                   {currentSelectedUser.social.map((f: ITeamSocial) => {
+//                     return (
+//                       <SocialIconExpanded key={currentSelectedUser.name.replace(/\s/g, "").toLowerCase() + currentSelectedUser.social.indexOf(f)}>
+//                         <a href={f.url} target={"_blank"}><GetSocialIcon socialType={f.type} /></a>
+//                       </SocialIconExpanded>
+//                     )
+//                   })}
+//                 </HorizontalTeamSocialIcons>
+//               </LeftColumn>
+//               <ModalBoxRightColumn>
+//                 <Bio>
+//                   {userData.bio.map((e: string) => {
+//                     return (
+//                       <p>{e}</p>
+//                     )
+//                   })}
+//                 </Bio>
+//               </ModalBoxRightColumn>
+//             </ModalBoxMainContent>
+//           </ModalBoxInnerContent>
+//         </TeamProfileExpandedContainer>
+//       )
+//     } catch (e) {
+//       return null
+//     }
+//   }
+// }
 
 @inject("stores")
 @observer
@@ -309,7 +302,7 @@ export default class TeamList extends Component<IStoreProps & { advisors: boolea
         return (
           <TeamItem key={e.name.replace(/\s/g, "").toLowerCase()} advisors={this.props.advisors}>
             <LeftFlexColumn>
-              <TeamAvatar onClick={() => this.props.stores!.appStore.openTeamLightbox(e.name)}>
+              <TeamAvatar>
                 <img src={`/images/team/${e.photo}`} />
               </TeamAvatar>
               <h3>{e.name}</h3>

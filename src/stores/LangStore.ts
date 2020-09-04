@@ -6,14 +6,12 @@ import { action, computed, observable } from "mobx"
 import { CBaseStore } from "stores/BaseStore"
 import { IRootStore } from "stores/RootStore"
 import langEn from "lib/localization/en.json"
-import langKo from "lib/localization/ko.json"
 import langZh from "lib/localization/zh.json"
 // import langDe from "lib/localization/de.json"
 
 // Make languages available
 const langsJson = {
   ...langEn,
-  ...langKo,
   ...langZh,
 } as any
 type langType = keyof typeof langsJson
@@ -43,7 +41,6 @@ export class CLangStore extends CBaseStore {
     const newLang = Object.prototype.hasOwnProperty.call(langsJson, e) ? e : "en"
     localStorage.setItem("lang", newLang)
     this.currentSelectedLang = newLang
-    this.rootStore.appStore.safeUpdateBidsTableRef()
   }
 
   getAllLangs = (): Array<string> => {

@@ -1,4 +1,3 @@
-declare module 'scatterjs-plugin-lynx'
 
 // Workaround because these modules aren't typed
 declare module "comma-number" {
@@ -14,25 +13,6 @@ declare module 'react-horizontal-timeline';
 
 declare module 'react-player/lib/players/YouTube';
 
-declare module "@scatterjs/core" {
-    const value: any
-    export default value
-}
-
-declare module "@scatterjs/eosjs2" {
-    const value: any
-    export default value
-}
-
-declare module "scatterjs-core" {
-    const value: any
-    export default value
-}
-
-declare module "scatterjs-plugin-eosjs2" {
-    const value: any
-    export default value
-}
 
 declare module "react-vis" {
 

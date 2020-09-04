@@ -40,6 +40,7 @@ const LandingContentContainer = styled(FlexColumn)`
 const LandingButtonsContainer = styled(FlexRow)`
   justify-content: flex-left;
   flex-wrap: wrap;
+  border-radius:30px;
   a {
     padding: 12.5px 35px 12.5px 0;
   }
@@ -111,8 +112,8 @@ export default class LandingContent extends Component<IStoreProps> {
           <h4> {this.props.stores!.langStore.safeGetLocalizedString("landingContent.subtitle")}</h4>
         </LandingContentIsland>
         <LandingButtonsContainer>
-          <a href={"mailto:hello@chintai.io"} target="_blank">
-            <BlueButton>{this.props.stores!.langStore.safeGetLocalizedString("landingContent.requestDemo")}</BlueButton>
+          <a href={"mailto:hello@chintaitech.com"} target="_blank">
+            <BlueButton>{this.props.stores!.langStore.safeGetLocalizedString("landingContent.contactUs")}</BlueButton>
           </a>
           {/* <a href={this.props.stores!.langStore.safeGetLocalizedString("landingContent.link2")} target="_blank">
             <BlueBorderButton>{this.props.stores!.langStore.safeGetLocalizedString("landingContent.viewDemo")}</BlueBorderButton>

@@ -35,8 +35,7 @@ export const ColorWhite = "#fff"
 // export const ColorLeasingPortalTableRowTrim = "#23699e"
 // export const ColorLeasingPortalPanelTrim = "#23699e"
 
-//New Theme Design
-
+// New Theme Design
 export const ColorLeasingPortalBackground = "#F5F7F9"
 export const ColorLeasingPortalPanels = "#ffffff"
 export const ColorLeasingPortalTables = "#4d97cf"
@@ -227,14 +226,14 @@ export const PageRow = styled(FlexRow)`
 `
 
 export const PageRowWhite = styled(PageRow)`
-  padding-top: 80px;
+  padding-top: 20px;
 
   &:last-of-type {
     padding-bottom: 100px;
   }
 
   @media (max-width: 830px) {
-   padding-top: 50px; 
+   padding-top: 50px;
   }
 `
 
@@ -309,15 +308,15 @@ export const TableRowLeasing = styled.div`
 
   /* 1. Dashboard view */
   grid-template-columns: repeat(4, auto);
-  grid-template-rows: repeat(1, 1fr); 
+  grid-template-rows: repeat(1, 1fr);
   grid-template-areas:"payee payFor buffer remove";
                       /* "payFor buffer remove"; */
-                      
+
   @media( max-width: 465px) {
     /* 1. Dashboard view */
-    grid-template-columns: repeat(3, 1fr); 
-    grid-template-rows: 1fr; 
-    grid-template-areas:"payer payee remove"; 
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas:"payer payee remove";
   }
 `
 
@@ -333,7 +332,7 @@ export const TableRowLeasingBlacklist = styled.div`
   background-color: ${ColorLeasingPortalTables};
   border: 1px solid ${ColorWhite};
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(1, 1fr); 
+  grid-template-rows: repeat(1, 1fr);
   grid-template-areas:"payer payee remove";
 `
 
@@ -349,7 +348,7 @@ export const TableRowLeasingTxHistory = styled.div`
   background-color: ${ColorLeasingPortalTables};
   border: 1px solid ${ColorWhite};
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(1, 1fr); 
+  grid-template-rows: repeat(1, 1fr);
   grid-template-areas:"tx date accountColumn event1 event2 event3 event4";
 `
 

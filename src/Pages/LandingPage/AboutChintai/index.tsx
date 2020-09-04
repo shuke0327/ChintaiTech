@@ -8,7 +8,7 @@ import { observer, inject } from "mobx-react"
 import styled from "styled-components"
 import Background from "./background.png"
 import Chintai from "./chintai.svg"
-import Defi from "./defi.svg"
+// import Defi from "./defi.svg"
 
 const FlowBoxContainer = styled.div`
   position: relative;
@@ -76,10 +76,9 @@ const ChintaiContentBox = styled(FlowBoxLeftContainer)`
 
 `
 
-const DefiImgBox = styled(FlowBoxLeftContainer)`
-  grid-area: defiImg;
-
-`
+// const DefiImgBox = styled(FlowBoxLeftContainer)`
+//   grid-area: defiImg;
+// `
 
 const FlowBoxRightContainer = styled(FlowBoxContainer)`
   h1, p {
@@ -96,9 +95,9 @@ const ChintaiImgBox = styled(FlowBoxRightContainer)`
   grid-area: chintaiImg;
 `
 
-const DefiContentBox = styled(FlowBoxRightContainer)`
-  grid-area: defiContent;
-`
+// const DefiContentBox = styled(FlowBoxRightContainer)`
+//   grid-area: defiContent;
+// `
 
 const AboutContent = styled.div`
   justify-content: center;
@@ -106,16 +105,15 @@ const AboutContent = styled.div`
   display: grid;
   grid-gap: 0 6%;
   align-items: center;
-  grid-template-areas: ". chintaiContent chintaiImg ."
-                       ". defiImg defiContent .";
+  grid-template-areas: ". chintaiContent chintaiImg .";
   grid-template-columns: 10% 2fr 2fr 10%;
-  grid-template-rows: 2fr 2fr;
+  grid-template-rows: 1fr;
   position: relative;
   background-image: url(${Background});
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 80px;
+  padding-bottom: 60px;
   height: auto;
   width: 100%;
   color: white;
@@ -129,9 +127,7 @@ const AboutContent = styled.div`
   @media (max-width: 660px) {
     align-items: center;
     grid-template-areas: "chintaiImg"
-                         "chintaiContent"
-                         "defiImg"
-                         "defiContent";
+                         "chintaiContent";
     grid-template-columns: 2fr;
     grid-template-rows: 2fr;
     h2, p {text-align: center;}

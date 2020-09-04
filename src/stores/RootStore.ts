@@ -4,12 +4,8 @@
  *****************/
 // import { configure } from "mobx"
 import { CBaseStore } from "./BaseStore"
-import { CSocketStore } from "./SocketStore"
 import { CAppStore } from "./AppStore"
-import { CWalletStore } from "./WalletStore"
 import { CLangStore } from "./LangStore"
-import { CChartStore } from "./ChartStore"
-import { CProjectsStore } from "./ProjectsStore"
 import * as dotenv from "dotenv"
 import { RouterStore } from "mobx-react-router"
 
@@ -27,12 +23,8 @@ declare global {
 export interface IRootStore {
   // Public members
   langStore: CLangStore
-  socketStore: CSocketStore
   appStore: CAppStore
-  walletStore: CWalletStore
   routerStore: RouterStore
-  chartStore: CChartStore
-  projectsStore: CProjectsStore
 }
 
 // Configure strict mode in MobX
@@ -40,12 +32,8 @@ export interface IRootStore {
 
 export default class CRootStore extends CBaseStore implements IRootStore {
   langStore: CLangStore
-  socketStore: CSocketStore
   appStore: CAppStore
-  walletStore: CWalletStore
   routerStore: RouterStore
-  chartStore: CChartStore
-  projectsStore: CProjectsStore
 
   constructor() {
     // Skip setting the rootStore property as it doesn't apply here (circular reference)
@@ -56,11 +44,7 @@ export default class CRootStore extends CBaseStore implements IRootStore {
 
     // Initialize the rest of the stores
     this.routerStore = routerStore
-    this.socketStore = new CSocketStore(this)
     this.appStore = new CAppStore(this)
     this.langStore = new CLangStore(this)
-    this.walletStore = new CWalletStore(this)
-    this.chartStore = new CChartStore(this)
-    this.projectsStore = new CProjectsStore(this)
   }
 }
